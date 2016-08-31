@@ -18,7 +18,7 @@ Phriky Units
      :alt: Updates
 
 
-Physical unit static analysis tool for C++ +
+Physical unit static analysis tool for C++, especially for ROS
 
 
 * Free software: MIT license
