@@ -28,12 +28,11 @@ Physical unit static analysis tool for C++, especially for ROS
 Install
 -------
 
-* sudo pip install phriky_units
+``sudo pip install phriky_units``
 
 Requires Cppcheck:
-* sudo apt-get install cppcheck
-  or 
-* brew install cppcheck 
+
+``sudo apt-get install cppcheck`` or ``brew install cppcheck``
 
 
 
