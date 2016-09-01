@@ -1,5 +1,5 @@
 ===============================
-Phriky Units  
+Phriky Units - Physical Unit Inconsistency Detection 
 ===============================
 
 
