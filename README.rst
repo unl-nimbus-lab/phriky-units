@@ -56,12 +56,12 @@ Then from that directory run:
 Features
 --------
 
-* Detects physical unit inconsistencies, like adding [meters^2] to [seconds].
+* Detects physical unit inconsistencies, like adding quantities with different units, i.e. ``meters`` + ``seconds``.
 * Lightweight static analysis 
 * Path insensitive
 * Zero annotation
 * Low false positive rate (< 15% for `high-confidence' inconsistencies)
-* Works with ROS
+* Works with ROS_
 
 Credits
 ---------
@@ -73,7 +73,7 @@ This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NI
 Thank you Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
 .. _NIMBUS: http://nimbus.unl.edu 
+.. _ROS: http://www.ros.org
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
