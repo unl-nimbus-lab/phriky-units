@@ -31,10 +31,11 @@ Install  (tested on Ubuntu 16.04 and OSX 10.11.6)
 
 **Requires Cppcheck > 1.75:**
 
-``sudo apt-get install cppcheck`` 
-or 
-``brew install cppcheck``
+``sudo apt-get install cppcheck`` (Ubuntu 16.04)
 
+``brew install cppcheck`` (OSX)
+
+``git clone git://github.com/danmar/cppcheck.git`` (Ubuntu 14.04)
 
 
 Examples:
@@ -55,18 +56,23 @@ Then from that directory run:
 Features
 --------
 
+* Detects physical unit inconsistencies, like adding [meters^2] to [seconds].
 * Lightweight static analysis 
+* Path insensitive
+* Zero annotation
+* Low false positive rate (< 15% for `high-confidence' inconsistencies)
+* Works with ROS
 
 Credits
 ---------
  
-.. _NIMBUS: Lab at the University of Nebraska http://nimbus.unl.edu
+NIMBUS_ Lab at the University of Nebraska
 
 This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NIFA #2013-67021-20947.
 
-
 Thank you Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
+.. _NIMBUS: http://nimbus.unl.edu 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
