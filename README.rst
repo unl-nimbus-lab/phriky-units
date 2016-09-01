@@ -24,7 +24,7 @@ Physical unit static analysis tool for C++, especially for ROS, pronounced *'fre
 .. *Lightweight static analysis Lightweight static analysis  Documentation: https://phriky-units.readthedocs.io
 
 
-Install  
+Install  (tested on Ubuntu 16.04 and OSX 10.11.6)
 -------
 
 ``sudo pip install phriky_units``
