@@ -29,7 +29,7 @@ Install
 
 ``sudo pip install phriky_units``
 
-Requires Cppcheck:
+**Requires Cppcheck:**
 
 ``sudo apt-get install cppcheck`` 
 or 
