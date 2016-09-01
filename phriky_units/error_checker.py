@@ -26,6 +26,7 @@ class ErrorChecker:
         self.source_file_lines = []
         self.prepare_source_file_for_reading()
         self.cps_units_checker           = cps_units_checker
+        self.have_found_addition_error_on_this_line = False
 
 
     def prepare_source_file_for_reading(self):
@@ -101,6 +102,7 @@ class ErrorChecker:
             print 'call to error_check_addition_of_incompatible_units'
         for function_dict in sorted_analysis_unit_dict.values():
             tw = TreeWalker(function_dict)  # ARGUMENT 'FUNCTION DICTIONARY' IS USED BY SYMBOL TABLE
+            self.have_found_addition_error_on_this_line = False
             for root_token in function_dict['root_tokens']:
                 # tw.is_assignment_statement = False
                 # tw.generic_recurse_and_apply_function(root_token, tw.find_assignment_tokens_recursive_target)
@@ -124,25 +126,27 @@ class ErrorChecker:
                 if token.astOperand1.units and token.astOperand2.units:        
                     # BOTH CHILDREN HAVE UNITS
                     if token.astOperand1.units != token.astOperand2.units:
-                        # UNIT MISMATCH ON ADDITION : REPORT ERROR
-                        new_error = UnitError(self.cps_units_checker)
-                        new_error.var_name = '' # NO VAR NAME SINCE ITS A COMPARISON OPERATORS
-                        new_error.ERROR_TYPE = UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS
-                        new_error.is_unit_propagation_based_on_constants = token.is_unit_propagation_based_on_constants
-                        new_error.is_unit_propagation_based_on_unknown_variable = token.is_unit_propagation_based_on_unknown_variable
-                        if token.is_unit_propagation_based_on_constants or token.is_unit_propagation_based_on_unknown_variable:
-                            new_error.is_warning = True
-                        # LINENR 
-                        new_error.linenr = token.linenr
-                        new_error.token_left = left_token
-                        new_error.token_right = right_token
-                        new_error.token = token
-                        # GET LINE FROM ORIGINAL FILE IF IT EXISTS
-                        if self.source_file_exists:
-                            new_error.source_code_at_first_assignment = self.source_file_lines[new_error.linenr_at_first_unit_assignment - 1].strip()
-                            new_error.source_code_when_multiple_units_happened = self.source_file_lines[new_error.linenr_of_multiple_unit_assignment - 1].strip()
-                        # COLLECT ERROR
-                        self.all_errors.append(new_error)
+                        if not self.have_found_addition_error_on_this_line:
+                            # UNIT MISMATCH ON ADDITION : REPORT ERROR
+                            new_error = UnitError(self.cps_units_checker)
+                            new_error.var_name = '' # NO VAR NAME SINCE ITS A COMPARISON OPERATORS
+                            new_error.ERROR_TYPE = UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS
+                            new_error.is_unit_propagation_based_on_constants = token.is_unit_propagation_based_on_constants
+                            new_error.is_unit_propagation_based_on_unknown_variable = token.is_unit_propagation_based_on_unknown_variable
+                            if token.is_unit_propagation_based_on_constants or token.is_unit_propagation_based_on_unknown_variable:
+                                new_error.is_warning = True
+                            # LINENR 
+                            new_error.linenr = token.linenr
+                            new_error.token_left = left_token
+                            new_error.token_right = right_token
+                            new_error.token = token
+                            # GET LINE FROM ORIGINAL FILE IF IT EXISTS
+                            if self.source_file_exists:
+                                new_error.source_code_at_first_assignment = self.source_file_lines[new_error.linenr_at_first_unit_assignment - 1].strip()
+                                new_error.source_code_when_multiple_units_happened = self.source_file_lines[new_error.linenr_of_multiple_unit_assignment - 1].strip()
+                            # COLLECT ERROR
+                            self.all_errors.append(new_error)
+                            self.have_found_addition_error_on_this_line = True
 
 
     def error_check_comparisons(self, sorted_analysis_unit_dict):
@@ -308,12 +312,13 @@ class ErrorChecker:
                             if inner_dict['is_unit_propagation_based_on_constants'] or inner_dict['is_unit_propagation_based_on_unknown_variable']:
                                 new_error.is_warning = True
                             for linenr, units_list in s.var_ordered_dict[var_name].iteritems():
-                                if len(units_list) > 1:
-                                    # LINENR AT ERROR ASSIGNMENT
-                                    new_error.set_primary_line_number(linenr)
-                                    # UNITS AT ERROR ASSIGNMENT
-                                    new_error.units_when_multiple_happened = units_list
-                                    break # REPORT THE FIRST
+                                if 'units' in units_list:
+                                    if len(units_list['units']) > 1:
+                                        # LINENR AT ERROR ASSIGNMENT
+                                        new_error.set_primary_line_number(linenr)
+                                        # UNITS AT ERROR ASSIGNMENT
+                                        new_error.units_when_multiple_happened = units_list
+                                        break # REPORT THE FIRST
                             # GET LINE FROM ORIGINAL FILE IF IT EXISTS
                             if self.source_file_exists:
                                 if new_error.linenr_at_first_unit_assignment <= len(self.source_file_lines):
@@ -332,43 +337,65 @@ class ErrorChecker:
                         # break
 
 
-    def pretty_print(self):
+    def pretty_print(self, show_high_confidence=True, show_low_confidence=False):
         ''' PRINTS ERRORS TO STD OUT, ATTEMPTS TO BE HUMAN READABLE
         '''
         for e in self.all_errors:
+            is_high_confidence = not e.is_warning
+            is_low_confidence = e.is_warning
+
+            if is_high_confidence and not show_high_confidence:
+                continue
+            if is_low_confidence and not show_low_confidence:
+                continue
+
             print '- '*42
-            #print '%s:%s' % (self.file_under_analyais_URI, str(e.linenr_at_first_unit_assignment))
-            # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-            # MUTIPLE UNITS ON VARIABLE
-            # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+            if e.is_warning:
+                confidence = 'low'
+            else:
+                confidence = 'high'
+
             if e.ERROR_TYPE == UnitErrorTypes.VARIABLE_MULTIPLE_UNITS:
+                # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                # MUTIPLE UNITS ON VARIABLE
+                # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                 print UnitErrorTypes().get_err_short_discription(e.ERROR_TYPE)
-                print 'File:  %s' % self.file_under_analyais_URI
-                error_file = e.get_file_where_error_occured()
-                if error_file != self.file_under_analyais_URI:
-                    print 'File:  %s' % self.error_file
-                print 'File:  %s' % self.file_under_analyais_URI
+                # print 'File:  %s' % self.file_under_analyais_URI
+                error_file = e.get_file_URI_where_error_occured()
+                # if error_file != self.file_under_analyais_URI:
+                    # print 'File:  %s' % self.error_file
+                # print 'File:  %s' % self.file_under_analyais_URI
                 linenr_of_multiple_assignment = 0
-                if e.was_assigned_mutiple_units:
-                    print 'UNITS FIRST ASSIGNED LINE %s : %s' % (e.linenr_at_first_unit_assignment, e.units_at_first_assignment)
-                    print 'SOURCE : %s' % e.source_code_at_first_assignment
-                    print 'UNITS BECAME MULTIPLE AT LINE %s : %s' % (e.linenr_of_multiple_unit_assignment, e.units_when_multiple_happened)
-                    print 'SOURCE : %s' % e.source_code_when_multiple_units_happened
-                    linenr_of_multiple_assignment = e.linenr_of_multiple_unit_assignment
-                else:
-                    print 'MULTIPLE UNITS LINE %s : %s' % (e.linenr_at_first_unit_assignment, e.units_at_first_assignment)
-                    print 'SOURCE : %s' % e.source_code_at_first_assignment
-                    linenr_of_multiple_assignment = e.linenr_at_first_unit_assignment
-                print
-                print 'Cause: A variable %s was assigned multiple units on line %s' % (e.var_name, e.linenr_at_first_unit_assignment)
-                print '- '*42
+                # if e.was_assigned_mutiple_units:
+
+                # print "Assignment of multiple units on line %s with %s-confidence. units: %s" % (e.linenr, confidence, e.units_when_multiple_happened)
+                linenr = e.linenr
+                units = []
+                if 'units' in e.units_when_multiple_happened:
+                    units = e.units_when_multiple_happened['units']
+
+                print "Assignment of multiple units on line %s with %s-confidence. units: %s" % (linenr, confidence, units)
+                # print e.all_units_assigned_to_var_as_dict
+                # print 'UNITS FIRST ASSIGNED LINE %s : %s' % (e.linenr_at_first_unit_assignment, e.units_at_first_assignment)
+                # print 'SOURCE : %s' % e.source_code_at_first_assignment
+                # print 'UNITS BECAME MULTIPLE AT LINE %s : %s' % (e.linenr_of_multiple_unit_assignment, e.units_when_multiple_happened)
+                # print 'SOURCE : %s' % e.source_code_when_multiple_units_happened
+                linenr_of_multiple_assignment = e.linenr_of_multiple_unit_assignment
+                # else:
+                    # print 'MULTIPLE UNITS LINE %s : %s' % (e.linenr_at_first_unit_assignment, e.units_at_first_assignment)
+                    # print 'SOURCE : %s' % e.source_code_at_first_assignment
+                    # linenr_of_multiple_assignment = e.linenr_at_first_unit_assignment
+                # print
+                # print 'Cause: A variable %s was assigned multiple units on line %s' % (e.var_name, e.linenr_at_first_unit_assignment)
+                # print '- '*42
             # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
             # FUNCTION CALLED WITH DIFFERENT UNIT ARGUMENTS
             # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
             if e.ERROR_TYPE == UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS:
                 linenr_first = e.linenr_at_first_unit_assignment
                 linenr_second  = e.linenr_of_multiple_unit_assignment
-                print 'File:  %s' % self.file_under_analyais_URI
+                # print 'File:  %s' % self.file_under_analyais_URI
                 print
                 print 'Cause: Function %s invoked with different units:' % e.var_name
                 print 'LINE             UNITS'
@@ -386,6 +413,29 @@ class ErrorChecker:
                 print
                 print '{:5d} {:80s}'.format(linenr_first, e.source_code_at_first_assignment)
                 print '{:5d} {:80s}'.format(linenr_second, e.source_code_when_multiple_units_happened)
-                print '- '*42
+                # print '- '*42
+
+            if e.ERROR_TYPE == UnitErrorTypes.ADDITION_OF_INCOMPATIBLE_UNITS:
+                print UnitErrorTypes().get_err_short_discription(e.ERROR_TYPE)
+                units_left = []
+                if e.token_left and e.token_left.units:
+                    units_left = e.token_left.units
+                units_right = []
+                if e.token_right and e.token_right.units:
+                    units_right = e.token_right.units
+                print "Addition of inconsistent units on line %s with %s-confidence. Attempting to add %s to %s." % (e.linenr, confidence, units_left, units_right)
+            if e.ERROR_TYPE == UnitErrorTypes.COMPARISON_INCOMPATIBLE_UNITS:
+                print UnitErrorTypes().get_err_short_discription(e.ERROR_TYPE)
+                units_left = []
+                if e.token_left and e.token_left.units:
+                    units_left = e.token_left.units
+                units_right = []
+                if e.token_right and e.token_right.units:
+                    units_right = e.token_right.units
+                print "Comparison of inconsistent units on line %s with %s-confidence. Attempting to compare %s to %s." % (e.linenr, confidence, units_left, units_right)
+
+
+
+
 
 
