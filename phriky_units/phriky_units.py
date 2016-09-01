@@ -33,7 +33,12 @@ def main(target_cpp_file, include_dir, debug_print_ast, show_high_confidence, sh
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
     if not spawn.find_executable('cppcheck'):
-        eprint( 'cppcheck not installed...') #todo
+        # CPPCHECK NOT GLOBALLY INSTALLED, CHECK BIN DIRECTORY
+        if not os.path.exists('bin/cppcheck'):
+            eprint( 'Could not find required program Cppcheck') #todo
+            eprint( 'two options: ')
+            eprint( '  1.  install CppCheck from http://cppcheck.sourceforge.net/')  #todo
+            eprint( '  2.  git clone https://github.com/unl-nimbus-lab/phriky-units-dependencies-and-examples and run setup.py')  #todo
         sys.exit(1)
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -99,7 +104,6 @@ def main(target_cpp_file, include_dir, debug_print_ast, show_high_confidence, sh
         pass
 
 
-
     # for e in cps_unit_checker.errors:
     cps_unit_checker.error_checker.pretty_print(show_high_confidence, show_low_confidence)
         # eprint( "%s" % e.get_error_desc())
@@ -107,7 +111,7 @@ def main(target_cpp_file, include_dir, debug_print_ast, show_high_confidence, sh
         # eprint( "%s" % e.units_at_first_assignment)
         # eprint( "%s" % e.all_units_assigned_to_var)
         # eprint( "%s" % e.units_when_multiple_happened)
-    eprint("Total errors: %i" % len(cps_unit_checker.errors))
+    # eprint("Total errors: %i" % len(cps_unit_checker.errors))
 
 
 
