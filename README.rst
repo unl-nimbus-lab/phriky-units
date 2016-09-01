@@ -29,7 +29,7 @@ Install  (tested on Ubuntu 16.04 and OSX 10.11.6)
 
 ``sudo pip install phriky_units``
 
-**Requires Cppcheck:**
+**Requires Cppcheck > 1.75:**
 
 ``sudo apt-get install cppcheck`` 
 or 
