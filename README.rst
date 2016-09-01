@@ -21,7 +21,7 @@ Phriky Units
 Physical unit static analysis tool for C++, especially for ROS, pronounced *'freaky'* for the Greek work Phriki meaning 'horror'.
 
 * Free software: MIT license
-* Documentation: https://phriky-units.readthedocs.io.
+.. *Lightweight static analysis Lightweight static analysis  Documentation: https://phriky-units.readthedocs.io
 
 
 Install
@@ -55,16 +55,19 @@ Then run:
 Features
 --------
 
-* TODO
+* Lightweight static analysis 
 
 Credits
 ---------
  
+.. _NIMBUS: Lab at the University of Nebraska http://nimbus.unl.edu
 
 This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NIFA #2013-67021-20947.
 
 
 Thank you Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
