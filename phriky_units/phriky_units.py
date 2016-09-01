@@ -37,8 +37,8 @@ def main(target_cpp_file, include_dir, debug_print_ast, show_high_confidence, sh
         if not os.path.exists('bin/cppcheck'):
             eprint( 'Could not find required program Cppcheck') #todo
             eprint( 'two options: ')
-            eprint( '  1.  install CppCheck from http://cppcheck.sourceforge.net/')  #todo
-            eprint( '  2.  git clone https://github.com/unl-nimbus-lab/phriky-units-dependencies-and-examples.git and run setup.py')  #todo
+            eprint( '  1.  sudo apt-get install cppcheck')  #todo
+            eprint( '  2.  brew install cppcheck')  #todo
         sys.exit(1)
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
