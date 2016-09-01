@@ -12,6 +12,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     # TODO: put package requirements here
+    'networkx'
 ]
 
 test_requirements = [
@@ -20,7 +21,7 @@ test_requirements = [
 
 setup(
     name='phriky_units',
-    version='0.1.0',
+    version='0.1.0a25',
     description="Physical unit static analysis tool for C++ +",
     long_description=readme + '\n\n' + history,
     author="John-Paul Ore",
@@ -29,11 +30,12 @@ setup(
     packages=[
         'phriky_units',
     ],
+    package_data={'phriky_units': ['resources/cppcheck/std.cfg']},
     package_dir={'phriky_units':
                  'phriky_units'},
     entry_points={
         'console_scripts': [
-            'phriky_units=phriky_units.cli:main'
+            'phriky_units=phriky_units.phriky_units:main'
         ]
     },
     include_package_data=True,
@@ -46,13 +48,11 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        # 'Programming Language :: Python :: 3',
+        # 'Programming Language :: Python :: 3.3',
+        # 'Programming Language :: Python :: 3.4',
+        # 'Programming Language :: Python :: 3.5',
     ],
     test_suite='tests',
     tests_require=test_requirements
