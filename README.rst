@@ -1,5 +1,5 @@
 ===============================
-Phriky Units  *('freaky')*
+Phriky Units  
 ===============================
 
 
@@ -18,8 +18,7 @@ Phriky Units  *('freaky')*
      :alt: Updates
 
 
-Physical unit static analysis tool for C++, especially for ROS
-
+Physical unit static analysis tool for C++, especially for ROS, pronounced *'freaky'* for the Greek work Phriki meaning 'horror'.
 
 * Free software: MIT license
 * Documentation: https://phriky-units.readthedocs.io.
@@ -41,13 +40,12 @@ or
 Examples:
 ---------
 You can run examples by checking out:
-git clone https://github.com/unl-nimbus-lab/phriky-units.git  
 
-phriky_units ./examples/addition/src/action.cpp
-phriky_units ./examples/assignment/src/trajectory_planner_ros.cpp
-phriky_units ./examples/comparison/src/twist_marker.cpp
+``git clone https://github.com/unl-nimbus-lab/phriky-units.git``
 
-
+``phriky_units ./examples/addition/src/action.cpp``
+``phriky_units ./examples/assignment/src/trajectory_planner_ros.cpp``
+``phriky_units ./examples/comparison/src/twist_marker.cpp``
 
 
 Features
@@ -58,7 +56,6 @@ Features
 Credits
 ---------
  
-Phriki is the Greek word for 'horror'.
 
 This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NIFA #2013-67021-20947.
 
