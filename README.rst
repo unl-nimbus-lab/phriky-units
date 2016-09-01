@@ -43,8 +43,12 @@ You can run examples by checking out:
 
 ``git clone https://github.com/unl-nimbus-lab/phriky-units.git``
 
+Then run:
+
 ``phriky_units ./examples/addition/src/action.cpp``
+
 ``phriky_units ./examples/assignment/src/trajectory_planner_ros.cpp``
+
 ``phriky_units ./examples/comparison/src/twist_marker.cpp``
 
 
