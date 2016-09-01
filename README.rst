@@ -1,5 +1,5 @@
 ===============================
-Phriky Units
+Phriky Units  *('freaky')*
 ===============================
 
 
@@ -32,7 +32,9 @@ Install
 
 Requires Cppcheck:
 
-``sudo apt-get install cppcheck`` or ``brew install cppcheck``
+``sudo apt-get install cppcheck`` 
+or 
+``brew install cppcheck``
 
 
 
@@ -55,6 +57,8 @@ Features
 
 Credits
 ---------
+ 
+Phriki is the Greek word for 'horror'.
 
 This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NIFA #2013-67021-20947.
 
