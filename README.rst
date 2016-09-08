@@ -66,7 +66,7 @@ Features
 Credits
 ---------
  
-NIMBUS_ Lab at the University of Nebraska
+NIMBUS_ Lab at the University of Nebraska, Lincoln
 
 This work was supported in part by NSF awards #1638099 and #1526652, and USDA-NIFA #2013-67021-20947.
 
