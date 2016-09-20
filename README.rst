@@ -57,9 +57,9 @@ Features
 --------
 
 * Detects physical unit inconsistencies, like adding quantities with different units, i.e. ``meters`` + ``seconds``.
-* Lightweight static analysis 
+* Lightweight static analysis  
 * Path insensitive
-* Zero annotation
+* No annotation burden
 * Low false positive rate (< 15% for `high-confidence' inconsistencies)
 * Works with ROS_
 
