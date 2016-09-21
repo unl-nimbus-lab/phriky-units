@@ -9,10 +9,6 @@ Phriky Units - Physical Unit Inconsistency Detection
 .. image:: https://img.shields.io/travis/jpwco/phriky_units.svg
         :target: https://travis-ci.org/jpwco/phriky_units
 
-.. image:: https://readthedocs.org/projects/phriky-units/badge/?version=latest
-        :target: https://phriky-units.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://pyup.io/repos/github/jpwco/phriky_units/shield.svg
      :target: https://pyup.io/repos/github/jpwco/phriky_units/
      :alt: Updates
