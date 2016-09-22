@@ -1,12 +1,10 @@
-
 from unit_error_types import UnitErrorTypes
-
 import re
+
 
 class UnitError:
     """ HELPS FIND DEFINITIONS OF SYMBOLS AND DECORATES CPPCHECK SYMBOL TABLE
     """
-    #warnings = [] 
 
     def __init__(self, cps_units_checker=None):
         self.ERROR_TYPE = None  # NOT ASSIGNED BY DEFAULT
@@ -33,7 +31,7 @@ class UnitError:
         # UNITS WHEN COMPARISON ON INCOMPATIBLE UNITS
         self.token_left = None
         self.token_right = None
-        self.token = None 
+        self.token = None
         # UNIT INFERENCE STRENGTH
         self.is_warning = False
         self.is_unit_propagation_based_on_unknown_variable = False
@@ -47,30 +45,27 @@ class UnitError:
             '''
         my_linenr = int(linenr)
         self.linenr = my_linenr
-        if self.ERROR_TYPE in [UnitErrorTypes.VARIABLE_MULTIPLE_UNITS, UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS]:
-            self.linenr_at_first_unit_assignment = my_linenr     
+        if self.ERROR_TYPE in \
+            [UnitErrorTypes.VARIABLE_MULTIPLE_UNITS,
+             UnitErrorTypes.FUNCTION_CALLED_WITH_DIFFERENT_UNIT_ARGUMENTS]:
+            self.linenr_at_first_unit_assignment = my_linenr
 
     def get_file_URI_where_error_occured(self):
         ''' GETS THE BEST URI POSSIBLE OF THE FILE CONTAINING THE ERROR
             input: None
             returns: string representing URI of file with error
             '''
-        if not self.token or not self.cps_units_checker or not self.cps_units_checker.current_file_under_analysis:
+        if not self.token \
+                or not self.cps_units_checker \
+                or not self.cps_units_checker.current_file_under_analysis:
             return ''
         # REMOVE FILENAME FROM END
-        base_path = re.sub('(\w|\.)*$', '', self.cps_units_checker.current_file_under_analysis)
-        # APPEND FILE NAME - MIGHT INCLUDE SOMETHING LIKE "../include/laser_transform_core.h"
+        base_path = re.sub('(\w|\.)*$',
+                           '',
+                           self.cps_units_checker.current_file_under_analysis)
+        # APPEND FILE NAME - MIGHT INCLUDE SOMETHING LIKE
+        # "../include/laser_transform_core.h"
         return base_path + self.token.file
 
     def get_error_desc(self):
         return UnitErrorTypes().get_err_short_discription(self.ERROR_TYPE)
-
-
-
-
-
-        
-
-         
-        
-    
