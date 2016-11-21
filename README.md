@@ -12,7 +12,7 @@ Physical unit static analysis tool for C++, especially for ROS, pronounced *‘f
 
 ## Demonstration
 
-[![Phriky-Units](.youtube.png)](https://youtu.be/cc-Bubopml4 "Phriky-Units")
+<img src="./.youtube.png" width="420" alt="youtbe screenshot for Phriky-Units">
 
 \* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis Documentation: <https://phriky-units.readthedocs.io>
 
