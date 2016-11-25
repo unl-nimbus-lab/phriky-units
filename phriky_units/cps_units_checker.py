@@ -39,8 +39,6 @@ import os
 import cppcheckdata                 # http://cppcheck.sourceforge.net/
 from tree_walker import TreeWalker
 import fileinput
-# egg_path='./networkx/networkx-1.11-py2.7.egg'
-# sys.path.append(egg_path)
 import networkx as nx
 from collections import OrderedDict
 import inspect
@@ -49,7 +47,6 @@ from error_checker import ErrorChecker
 from unit_error_types import UnitErrorTypes
 
 
-#messages = []
 
 
 class CPSUnitsChecker:
@@ -110,7 +107,6 @@ class CPSUnitsChecker:
             self.all_classes_and_units_for_this_file_as_dict[class_name] = units
         else:
             pass  # WE DON'T CASE BECAUSE WE'RE ONLY TRACKING UNIQUE UNITS, NOT COUNTS
-
 
 
 
