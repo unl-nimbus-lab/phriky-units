@@ -1,6 +1,6 @@
-## @mainpage cppcheckdata
+# @mainpage cppcheckdata
 #
-# @brief This is a Python module that helps you access Cppcheck dump data.<br><br>
+# @brief This is a Python module that helps you access Cppcheck dump data.
 #
 # License: No restrictions, use this as you need.<br><br>
 #
@@ -8,7 +8,8 @@
 import xml.etree.ElementTree as ET
 import argparse
 
-## Directive class. Contains information about each preprocessor directive in the source code.
+# Directive class. Contains information about each preprocessor directive
+# in the source code.
 #
 # file and linenr denote the location where the directive is defined.
 #
@@ -23,11 +24,11 @@ import argparse
 
 
 class Directive:
-    ## The directive line, with all C or C++ comments removed
+    # The directive line, with all C or C++ comments removed
     str = None
-    ## name of (possibly included) file where directive is defined
+    # name of (possibly included) file where directive is defined
     file = None
-    ## line number in (possibly included) file where directive is defined
+    # line number in (possibly included) file where directive is defined
     linenr = None
 
     def __init__(self, element):
@@ -36,7 +37,7 @@ class Directive:
         self.linenr = element.get('linenr')
 
 
-## Token class. Contains information about each token in the source code.
+# Token class. Contains information about each token in the source code.
 #
 # The CppcheckData.tokenlist is a list of Token items
 #
@@ -56,48 +57,48 @@ class Directive:
 
 class Token:
     Id = None
-    ## Token string
+    # Token string
     str = None
-    ## Next token in tokenlist. For last token, next is None.
+    # Next token in tokenlist. For last token, next is None.
     next = None
-    ## Previous token in tokenlist. For first token, previous is None,
+    # Previous token in tokenlist. For first token, previous is None,
     previous = None
     linkId = None
-    ## Linked token in tokenlist. Each '(', '[' and '{' are linked to the
+    # Linked token in tokenlist. Each '(', '[' and '{' are linked to the
     # corresponding '}', ']' and ')'. For templates, the '<' is linked to
     # the corresponding '>'.
     link = None
     scopeId = None
-    ## Scope information for this token. See the Scope class.
+    # Scope information for this token. See the Scope class.
     scope = None
-    ## Is this token a symbol name
+    # Is this token a symbol name
     isName = False
-    ## Is this token a number, for example 123, 12.34
+    # Is this token a number, for example 123, 12.34
     isNumber = False
-    ## Is this token a int value such as 1234
+    # Is this token a int value such as 1234
     isInt = False
-    ## Is this token a int value such as 12.34
+    # Is this token a int value such as 12.34
     isFloat = False
-    ## Is this token a string literal such as "hello"
+    # Is this token a string literal such as "hello"
     isString = False
-    ## string length for string literal
+    # string length for string literal
     strlen = None
-    ## Is this token a char literal such as 'x'
+    # Is this token a char literal such as 'x'
     isChar = False
-    ## Is this token a operator
+    # Is this token a operator
     isOp = False
-    ## Is this token a arithmetic operator
+    # Is this token a arithmetic operator
     isArithmeticalOp = False
-    ## Is this token a assignment operator
+    # Is this token a assignment operator
     isAssignmentOp = False
-    ## Is this token a comparison operator
+    # Is this token a comparison operator
     isComparisonOp = False
-    ## Is this token a logical operator: && ||
+    # Is this token a logical operator: && ||
     isLogicalOp = False
-    ## varId for token, each variable has a unique non-zero id
+    # varId for token, each variable has a unique non-zero id
     varId = None
     variableId = None
-    ## Variable information for this token. See the Variable class.
+    # Variable information for this token. See the Variable class.
     #
     # Example code:
     # @code
@@ -115,11 +116,11 @@ class Token:
     # @endcode
     variable = None
     functionId = None
-    ## If this token points at a function call, this attribute has the Function
+    # If this token points at a function call, this attribute has the Function
     # information. See the Function class.
     function = None
     valuesId = None
-    ## Possible values of token
+    # Possible values of token
     #
     # Example code:
     # @code
@@ -140,14 +141,14 @@ class Token:
     values = None
 
     typeScopeId = None
-    ## type scope (token->type()->classScope)
+    # type scope (token->type()->classScope)
     typeScope = None
 
     astParentId = None
-    ## syntax tree parent
+    # syntax tree parent
     astParent = None
     astOperand1Id = None
-    ## syntax tree operand1
+    # syntax tree operand1
     #
     # Example code:
     # @code
@@ -163,7 +164,7 @@ class Token:
     # @endcode
     astOperand1 = None
     astOperand2Id = None
-    ## syntax tree operand2
+    # syntax tree operand2
     #
     # Example code:
     # @code
@@ -179,9 +180,9 @@ class Token:
     # @endcode
     astOperand2 = None
 
-    ## file name
+    # file name
     file = None
-    ## line number
+    # line number
     linenr = None
 
     def __init__(self, element):
@@ -248,7 +249,7 @@ class Token:
         self.astOperand1 = IdMap[self.astOperand1Id]
         self.astOperand2 = IdMap[self.astOperand2Id]
 
-    ## Get value if it exists
+    # Get value if it exists
     # Returns None if it doesn't exist
     def getValue(self, v):
         if not self.values:
@@ -258,24 +259,26 @@ class Token:
                 return value
         return None
 
-## Scope. Information about global scope, function scopes, class scopes, inner scopes, etc.
-# C++ class: http://cppcheck.sourceforge.net/devinfo/doxyoutput/classScope.html
+# Scope. Information about global scope, function scopes,
+# class scopes, inner scopes, etc.
+# C++ class:
+# http://cppcheck.sourceforge.net/devinfo/doxyoutput/classScope.html
 
 
 class Scope:
     Id = None
     classStartId = None
 
-    ## The { Token for this scope
+    # The { Token for this scope
     classStart = None
     classEndId = None
-    ## The } Token for this scope
+    # The } Token for this scope
     classEnd = None
-    ## Name of this scope.
+    # Name of this scope.
     # For a function scope, this is the function name;
     # for a class scope, this is the class name.
     className = None
-    ## Type of scope: Global, Function, Class, If, While
+    # Type of scope: Global, Function, Class, If, While
     type = None
 
     def __init__(self, element):
@@ -285,13 +288,10 @@ class Scope:
         self.classStart = None
         self.classEndId = element.get('classEnd')
         self.classEnd = None
-        # JPO 2016 03 27 -- CPPCHECK BUG
-        #self.nestedInId = element.get('nestedId')
-        self.nestedInId = element.get('nestedIn')
+        self.nestedInId = element.get('nestedId')
         self.nestedIn = None
         self.type = element.get('type')
         self.functionId = element.get('function')
-        #self.function = element.get('function')
 
     def setId(self, IdMap):
         self.classStart = IdMap[self.classStartId]
@@ -303,7 +303,7 @@ class Scope:
         else:
             self.bar = self.nestedInId
 
-## Information about a function
+# Information about a function
 # C++ class:
 # http://cppcheck.sourceforge.net/devinfo/doxyoutput/classFunction.html
 
@@ -330,7 +330,7 @@ class Function:
             self.argument[argnr] = IdMap[argid]
         self.tokenDef = IdMap[self.tokenDefId]
 
-## Information about a variable
+# Information about a variable
 # C++ class:
 # http://cppcheck.sourceforge.net/devinfo/doxyoutput/classVariable.html
 
@@ -338,27 +338,27 @@ class Function:
 class Variable:
     Id = None
     nameTokenId = None
-    ## name token in variable declaration
+    # name token in variable declaration
     nameToken = None
     typeStartTokenId = None
-    ## start token of variable declaration
+    # start token of variable declaration
     typeStartToken = None
     typeEndTokenId = None
-    ## end token of variable declaration
+    # end token of variable declaration
     typeEndToken = None
-    ## Is this variable a function argument?
+    # Is this variable a function argument?
     isArgument = False
-    ## Is this variable an array?
+    # Is this variable an array?
     isArray = False
-    ## Is this variable a class or struct?
+    # Is this variable a class or struct?
     isClass = False
-    ## Is this variable a local variable?
+    # Is this variable a local variable?
     isLocal = False
-    ## Is this variable a pointer
+    # Is this variable a pointer
     isPointer = False
-    ## Is this variable a reference
+    # Is this variable a reference
     isReference = False
-    ## Is this variable static?
+    # Is this variable static?
     isStatic = False
 
     def __init__(self, element):
@@ -382,22 +382,23 @@ class Variable:
         self.typeStartToken = IdMap[self.typeStartTokenId]
         self.typeEndToken = IdMap[self.typeEndTokenId]
 
-## ValueFlow class
+# ValueFlow class
 
 
 class ValueFlow:
-    ## ValueFlow::Value class
+    # ValueFlow::Value class
     # Each possible value has a ValueFlow::Value item.
     # Each ValueFlow::Value either has a intvalue or tokvalue
     # C++ class:
-    # http://cppcheck.sourceforge.net/devinfo/doxyoutput/classValueFlow_1_1Value.html
+    # http://cppcheck.sourceforge.net/
+    #      devinfo/doxyoutput/classValueFlow_1_1Value.html
 
     class Value:
-        ## integer value
+        # integer value
         intvalue = None
-        ## token value
+        # token value
         tokvalue = None
-        ## condition where this Value comes from
+        # condition where this Value comes from
         condition = None
 
         def __init__(self, element):
@@ -411,7 +412,7 @@ class ValueFlow:
 
     Id = None
 
-    ## Possible values
+    # Possible values
     values = None
 
     def __init__(self, element):
@@ -420,25 +421,25 @@ class ValueFlow:
         for value in element:
             self.values.append(ValueFlow.Value(value))
 
-## Configuration class
+# Configuration class
 # This class contains the directives, tokens, scopes, functions,
 # variables and value flows for one configuration.
 
 
 class Configuration:
-    ## Name of the configuration, "" for default
+    # Name of the configuration, "" for default
     name = ''
-    ## List of Directive items
+    # List of Directive items
     directives = []
-    ## List of Token items
+    # List of Token items
     tokenlist = []
-    ## List of Scope items
+    # List of Scope items
     scopes = []
-    ## List of Function items
+    # List of Function items
     functions = []
-    ## List of Variable items
+    # List of Variable items
     variables = []
-    ## List of ValueFlow values
+    # List of ValueFlow values
     valueflow = []
 
     def __init__(self, confignode):
@@ -503,7 +504,7 @@ class Configuration:
         for variable in self.variables:
             variable.setId(IdMap)
 
-## Class that makes cppcheck dump data available
+# Class that makes cppcheck dump data available
 # Contains a list of Configuration instances
 #
 # To iterate through all configurations use such code:
@@ -537,7 +538,7 @@ class Configuration:
 
 
 class CppcheckData:
-    ## List of Configurations
+    # List of Configurations
     configurations = []
 
     def __init__(self, filename):
@@ -548,13 +549,13 @@ class CppcheckData:
         for cfgnode in data.getroot():
             self.configurations.append(Configuration(cfgnode))
 
-## parse a cppcheck dump file
+# parse a cppcheck dump file
 
 
 def parsedump(filename):
     return CppcheckData(filename)
 
-## Check if type of ast node is float/double
+# Check if type of ast node is float/double
 
 
 def astIsFloat(token):
@@ -563,7 +564,7 @@ def astIsFloat(token):
     if token.str == '.':
         return astIsFloat(token.astOperand2)
     if '+-*/%'.find(token.str) == 0:
-        if True == astIsFloat(token.astOperand1):
+        if astIsFloat(token.astOperand1):
             return True
         return astIsFloat(token.astOperand2)
     if not token.variable:
@@ -583,7 +584,6 @@ def astIsFloat(token):
         return True
     return False
 
-# Create a cppcheck parser
 
 class CppCheckFormatter(argparse.HelpFormatter):
     '''
@@ -592,8 +592,9 @@ class CppCheckFormatter(argparse.HelpFormatter):
     def _split_lines(self, text, width):
         # this is the RawTextHelpFormatter._split_lines
         if text.startswith('R|'):
-            return text[2:].splitlines()  
+            return text[2:].splitlines()
         return argparse.HelpFormatter._split_lines(self, text, width)
+
 
 def ArgumentParser():
     '''
@@ -602,20 +603,19 @@ def ArgumentParser():
     '''
     parser = argparse.ArgumentParser(formatter_class=CppCheckFormatter)
     parser.add_argument('-t', '--template', metavar='<text>',
-        default='{callstack}: ({severity}) {message}',
-        help="R|Format the error messages. E.g.\n" \
-             "'{file}:{line},{severity},{id},{message}' or\n" \
-             "'{file}({line}):({severity}) {message}' or\n" \
-             "'{callstack} {message}'\n" \
-             "Pre-defined templates: gcc, vs, edit")
+                        default='{callstack}: ({severity}) {message}',
+                        help="R|Format the error messages. E.g.\n"
+                        "'{file}:{line},{severity},{id},{message}' or\n"
+                        "'{file}({line}):({severity}) {message}' or\n"
+                        "'{callstack} {message}'\n"
+                        "Pre-defined templates: gcc, vs, edit")
     return parser
 
-# Format an error message.
- 
+
 def reportError(template, callstack=[], severity='', message='', id=''):
     '''
         Format an error message according to the template.
-        
+
         :param template: format string, or 'gcc', 'vs' or 'edit'.
         :param callstack: e.g. [['file1.cpp',10],['file2.h','20'], ... ]
         :param severity: e.g. 'error', 'warning' ...
@@ -630,9 +630,9 @@ def reportError(template, callstack=[], severity='', message='', id=''):
     elif template == 'edit':
         template = '{file} +{line}: {severity}: {message}'
     # compute 'callstack}, {file} and {line} replacements
-    stack = ' -> '.join(['['+f+':'+str(l)+']' for (f,l) in callstack])
+    stack = ' -> '.join(['['+f+':'+str(l)+']' for (f, l) in callstack])
     file = callstack[-1][0]
     line = str(callstack[-1][1])
     # format message
     return template.format(callstack=stack, file=file, line=line,
-        severity=severity, message=message, id=id)
+                           severity=severity, message=message, id=id)
