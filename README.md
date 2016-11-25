@@ -1,22 +1,12 @@
-|                                                      |
-|------------------------------------------------------|
-| Phriky Units - Physical Unit Inconsistency Detection |
-
-[![image]]
-
-[![image][1]]
-
-[![Updates]]
+## Phriky Units - Physical Unit Inconsistency Detection
 
 Physical unit static analysis tool for C++, especially for ROS, pronounced *‘freaky’* for the Greek work Phriki meaning ‘horror’.
 
-## Demonstration
+<a href="https://youtu.be/cc-Bubopml4" target="_blank"><img src="./.youtube.png" width="420" alt="youtbe screenshot for Phriky-Units"></a>
 
-[![Phriky-Units](.youtube.png)](https://youtu.be/cc-Bubopml4 "Phriky-Units")
+\* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis 
 
-\* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis Documentation: <https://phriky-units.readthedocs.io>
-
-Install (tested on Ubuntu 16.04 and OSX 10.11.6) ——-
+## Install (tested on Ubuntu 16.04 and OSX 10.11.6)
 
 `sudo pip install phriky_units`
 
@@ -60,14 +50,5 @@ Credits
 
 This work was supported in part by NSF awards \#1638099 and \#1526652, and USDA-NIFA \#2013-67021-20947.
 
-Thank you [Cookiecutter] and the [audreyr/cookiecutter-pypackage] project template.
-
-  [image]: https://img.shields.io/pypi/v/phriky_units.svg
-  [![image]]: https://pypi.python.org/pypi/phriky_units
-  [1]: https://img.shields.io/travis/jpwco/phriky_units.svg
-  [![image][1]]: https://travis-ci.org/jpwco/phriky_units
-  [Updates]: https://pyup.io/repos/github/jpwco/phriky_units/shield.svg
-  [![Updates]]: https://pyup.io/repos/github/jpwco/phriky_units/
   [ROS]: http://www.ros.org
   [NIMBUS]: http://nimbus.unl.edu
-  [Cookiecutter]: https://github.com/audreyr/cookiecutter
