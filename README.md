@@ -9,11 +9,11 @@ Physical unit static analysis tool for C++, especially for ROS, pronounced *‘f
 
 ## Install (tested on Ubuntu 16.04 and OSX 10.11.6)
 
-`sudo pip install phriky_units`
+`pip install phriky_units`
 
 **Requires Cppcheck &gt; 1.75:**
 
-`sudo apt-get install cppcheck` (Ubuntu 16.04)
+`apt-get install cppcheck` (Ubuntu 16.04)
 
 `brew install cppcheck` (OSX)
 
