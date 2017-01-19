@@ -2,7 +2,8 @@
 
 Physical unit static analysis tool for C++, especially for ROS, pronounced *‘freaky’* for the Greek work Phriki meaning ‘horror’.
 
-<a href="https://youtu.be/cc-Bubopml4" target="_blank"><img src="./.youtube.png" width="420" alt="youtbe screenshot for Phriky-Units"></a>
+
+<!--<a href="https://youtu.be/cc-Bubopml4" target="_blank"><img src="./.youtube.png" width="420" alt="youtbe screenshot for Phriky-Units"></a>-->
 
 \* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis 
 
