@@ -2,7 +2,7 @@
 
 Physical unit static analysis tool for C++, especially for <a href='http://www.ros.org'>ROS</a>
 
-<a href='https://unl.box.com/shared/static/83mnbe7ez73z5az7ct5gbabo1wm9htfl.ova'>Download Ubuntu 16.04 Virtual Machine (3GB ova) with Phriky-Units pre-installed.</a>
+<a href='https://unl.box.com/shared/static/83mnbe7ez73z5az7ct5gbabo1wm9htfl.ova'>Download Ubuntu 16.04 VM (3 GB .ova) with Phriky-Units pre-installed.</a>
 
 <a href="https://youtu.be/cc-Bubopml4" target="_blank"><img src="./.youtube.png" width="420" alt="youtbe screenshot for Phriky-Units"></a>
 
