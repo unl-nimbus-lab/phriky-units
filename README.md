@@ -8,7 +8,7 @@ Physical unit static analysis tool for C++, especially for <a href='http://www.r
 
 \* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis 
 
-## Install (tested on Ubuntu 16.04 and OSX 10.11.6)
+## Install (tested on Ubuntu 16.04 and OSX 10.12.6)
 
 `pip install phriky_units`
 
