@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="1" str="#include &quot;sensor_msgs/Range.h&quot;"/>
+    <directive file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="2" str="#include &quot;math.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7f7f68409180" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="int" scope="0x7f7f68600470" type="name"/>
+    <token id="0x7f7f6840c820" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="main" scope="0x7f7f68600470" type="name" function="0x7f7f68600340" astParent="0x7f7f6840c8c0"/>
+    <token id="0x7f7f6840c8c0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="(" scope="0x7f7f68600470" link="0x7f7f68429380" astOperand1="0x7f7f6840c820" astOperand2="0x7f7f68429060"/>
+    <token id="0x7f7f6840c960" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="int" scope="0x7f7f68600470" type="name"/>
+    <token id="0x7f7f6840ca00" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="argc" scope="0x7f7f68600470" type="name" varId="1" variable="0x7f7f686007f0" astParent="0x7f7f68429060"/>
+    <token id="0x7f7f68429060" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="," scope="0x7f7f68600470" astParent="0x7f7f6840c8c0" astOperand1="0x7f7f6840ca00" astOperand2="0x7f7f684291a0"/>
+    <token id="0x7f7f68429100" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="char" scope="0x7f7f68600470" type="name" astParent="0x7f7f684291a0"/>
+    <token id="0x7f7f684291a0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="*" scope="0x7f7f68600470" type="op" isArithmeticalOp="True" astParent="0x7f7f68429060" astOperand1="0x7f7f68429100" astOperand2="0x7f7f68429240"/>
+    <token id="0x7f7f68429240" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="*" scope="0x7f7f68600470" type="op" isArithmeticalOp="True" astParent="0x7f7f684291a0" astOperand1="0x7f7f684292e0"/>
+    <token id="0x7f7f684292e0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str="argv" scope="0x7f7f68600470" type="name" varId="2" variable="0x7f7f68600850" astParent="0x7f7f68429240"/>
+    <token id="0x7f7f68429380" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="5" str=")" scope="0x7f7f68600470" link="0x7f7f6840c8c0"/>
+    <token id="0x7f7f68429420" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="6" str="{" scope="0x7f7f686005a0" link="0x7f7f6842a3c0"/>
+    <token id="0x7f7f684294c0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="8" str="sensor_msgs" scope="0x7f7f686005a0" type="name" astParent="0x7f7f68429560"/>
+    <token id="0x7f7f68429560" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="8" str="::" scope="0x7f7f686005a0" astOperand1="0x7f7f684294c0" astOperand2="0x7f7f684296a0"/>
+    <token id="0x7f7f68429600" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="8" str="Range" scope="0x7f7f686005a0" type="name"/>
+    <token id="0x7f7f684296a0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="8" str="r" scope="0x7f7f686005a0" type="name" varId="3" variable="0x7f7f686006d0" astParent="0x7f7f68429560"/>
+    <token id="0x7f7f68429740" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="8" str=";" scope="0x7f7f686005a0"/>
+    <token id="0x7f7f684297e0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str="float" scope="0x7f7f686005a0" type="name"/>
+    <token id="0x7f7f68429880" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str="y" scope="0x7f7f686005a0" type="name" varId="4" variable="0x7f7f68600730"/>
+    <token id="0x7f7f68429920" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str=";" scope="0x7f7f686005a0"/>
+    <token id="0x7f7f68600000" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str="y" scope="0x7f7f686005a0" type="name" varId="4" variable="0x7f7f68600730" astParent="0x7f7f686000a0"/>
+    <token id="0x7f7f686000a0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str="=" scope="0x7f7f686005a0" type="op" isAssignmentOp="True" astOperand1="0x7f7f68600000" astOperand2="0x7f7f684299c0"/>
+    <token id="0x7f7f684299c0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str="3.14" scope="0x7f7f686005a0" type="number" isFloat="True" astParent="0x7f7f686000a0"/>
+    <token id="0x7f7f68429a60" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="9" str=";" scope="0x7f7f686005a0"/>
+    <token id="0x7f7f68429b00" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="float" scope="0x7f7f686005a0" type="name"/>
+    <token id="0x7f7f68429ba0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="x" scope="0x7f7f686005a0" type="name" varId="5" variable="0x7f7f68600790"/>
+    <token id="0x7f7f68429c40" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str=";" scope="0x7f7f686005a0"/>
+    <token id="0x7f7f68600140" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="x" scope="0x7f7f686005a0" type="name" varId="5" variable="0x7f7f68600790" astParent="0x7f7f686001e0"/>
+    <token id="0x7f7f686001e0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="=" scope="0x7f7f686005a0" type="op" isAssignmentOp="True" astOperand1="0x7f7f68600140" astOperand2="0x7f7f6842a1e0"/>
+    <token id="0x7f7f68429ce0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="acos" scope="0x7f7f686005a0" type="name" astParent="0x7f7f68429d80"/>
+    <token id="0x7f7f68429d80" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="(" scope="0x7f7f686005a0" link="0x7f7f6842a000" astParent="0x7f7f6842a0a0" astOperand1="0x7f7f68429ce0" astOperand2="0x7f7f68429ec0"/>
+    <token id="0x7f7f68429e20" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="r" scope="0x7f7f686005a0" type="name" varId="3" variable="0x7f7f686006d0" astParent="0x7f7f68429ec0"/>
+    <token id="0x7f7f68429ec0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="." scope="0x7f7f686005a0" astParent="0x7f7f68429d80" astOperand1="0x7f7f68429e20" astOperand2="0x7f7f68429f60"/>
+    <token id="0x7f7f68429f60" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="range" scope="0x7f7f686005a0" type="name" varId="6" astParent="0x7f7f68429ec0"/>
+    <token id="0x7f7f6842a000" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str=")" scope="0x7f7f686005a0" link="0x7f7f68429d80"/>
+    <token id="0x7f7f6842a0a0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="*" scope="0x7f7f686005a0" type="op" isArithmeticalOp="True" astParent="0x7f7f6842a1e0" astOperand1="0x7f7f68429d80" astOperand2="0x7f7f6842a140"/>
+    <token id="0x7f7f6842a140" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="360" scope="0x7f7f686005a0" type="number" isInt="True" values="0x7f7f6842a148" astParent="0x7f7f6842a0a0"/>
+    <token id="0x7f7f6842a1e0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="/" scope="0x7f7f686005a0" type="op" isArithmeticalOp="True" astParent="0x7f7f686001e0" astOperand1="0x7f7f6842a0a0" astOperand2="0x7f7f6842a280"/>
+    <token id="0x7f7f6842a280" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str="y" scope="0x7f7f686005a0" type="name" varId="4" variable="0x7f7f68600730" astParent="0x7f7f6842a1e0"/>
+    <token id="0x7f7f6842a320" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="10" str=";" scope="0x7f7f686005a0"/>
+    <token id="0x7f7f6842a3c0" file="test_it_constant_heuristics_12_degree_360_and_pi.cpp" linenr="12" str="}" scope="0x7f7f686005a0" link="0x7f7f68429420"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7f7f68600470" type="Global">
+      <functionList>
+        <function id="0x7f7f68600340" tokenDef="0x7f7f6840c820" name="main">
+          <arg nr="1" variable="0x7f7f686007f0"/>
+          <arg nr="2" variable="0x7f7f68600850"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7f7f686005a0" type="Function" className="main" classStart="0x7f7f68429420" classEnd="0x7f7f6842a3c0" nestedIn="0x7f7f68600470" function="0x7f7f68600340">
+      <varlist>
+        <var id="0x7f7f686006d0"/>
+        <var id="0x7f7f68600730"/>
+        <var id="0x7f7f68600790"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7f7f686007f0" nameToken="0x7f7f6840ca00" typeStartToken="0x7f7f6840c960" typeEndToken="0x7f7f6840c960" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f7f68600850" nameToken="0x7f7f684292e0" typeStartToken="0x7f7f68429100" typeEndToken="0x7f7f68429240" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7f7f686006d0" nameToken="0x7f7f684296a0" typeStartToken="0x7f7f684294c0" typeEndToken="0x7f7f68429600" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f7f68600730" nameToken="0x7f7f68429880" typeStartToken="0x7f7f684297e0" typeEndToken="0x7f7f684297e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f7f68600790" nameToken="0x7f7f68429ba0" typeStartToken="0x7f7f68429b00" typeEndToken="0x7f7f68429b00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7f7f6842a148">
+      <value intvalue="360" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

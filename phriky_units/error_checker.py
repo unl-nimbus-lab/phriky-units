@@ -356,6 +356,8 @@ class ErrorChecker:
             else:
                 confidence = 'high'
 
+            file_path = os.path.dirname(os.path.abspath(self.cps_units_checker.current_file_under_analysis))
+            file_with_error = os.path.join(file_path, e.file)
             if e.ERROR_TYPE == UnitErrorTypes.VARIABLE_MULTIPLE_UNITS:
                 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                 # MUTIPLE UNITS ON VARIABLE

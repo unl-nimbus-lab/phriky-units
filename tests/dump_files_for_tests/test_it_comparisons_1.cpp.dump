@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x15f2870" file="test_it_comparisons_1.cpp" linenr="4" str="int" scope="0x15f6150" type="name"/>
+    <token id="0x15f2e10" file="test_it_comparisons_1.cpp" linenr="4" str="main" scope="0x15f6150" type="name" function="0x15f62d0" astParent="0x15f2ec0"/>
+    <token id="0x15f2ec0" file="test_it_comparisons_1.cpp" linenr="4" str="(" scope="0x15f6150" link="0x15f2680" astOperand1="0x15f2e10" astOperand2="0x15ecbe0"/>
+    <token id="0x15f2f70" file="test_it_comparisons_1.cpp" linenr="4" str="int" scope="0x15f6150" type="name"/>
+    <token id="0x15ecb00" file="test_it_comparisons_1.cpp" linenr="4" str="argc" scope="0x15f6150" type="name" varId="1" variable="0x15f6f00" astParent="0x15ecbe0"/>
+    <token id="0x15ecbe0" file="test_it_comparisons_1.cpp" linenr="4" str="," scope="0x15f6150" astParent="0x15f2ec0" astOperand1="0x15ecb00" astOperand2="0x15f23e0"/>
+    <token id="0x15eccc0" file="test_it_comparisons_1.cpp" linenr="4" str="char" scope="0x15f6150" type="name" astParent="0x15f23e0"/>
+    <token id="0x15f23e0" file="test_it_comparisons_1.cpp" linenr="4" str="*" scope="0x15f6150" type="op" isArithmeticalOp="True" astParent="0x15ecbe0" astOperand1="0x15eccc0" astOperand2="0x15f24c0"/>
+    <token id="0x15f24c0" file="test_it_comparisons_1.cpp" linenr="4" str="*" scope="0x15f6150" type="op" isArithmeticalOp="True" astParent="0x15f23e0" astOperand1="0x15f25a0"/>
+    <token id="0x15f25a0" file="test_it_comparisons_1.cpp" linenr="4" str="argv" scope="0x15f6150" type="name" varId="2" variable="0x15f6f90" astParent="0x15f24c0"/>
+    <token id="0x15f2680" file="test_it_comparisons_1.cpp" linenr="4" str=")" scope="0x15f6150" link="0x15f2ec0"/>
+    <token id="0x15f3150" file="test_it_comparisons_1.cpp" linenr="5" str="{" scope="0x15f6380" link="0x15f5ee0"/>
+    <token id="0x15f32a0" file="test_it_comparisons_1.cpp" linenr="6" str="sensor_msgs" scope="0x15f6380" type="name" astParent="0x15f3350"/>
+    <token id="0x15f3350" file="test_it_comparisons_1.cpp" linenr="6" str="::" scope="0x15f6380" astOperand1="0x15f32a0" astOperand2="0x15f34e0"/>
+    <token id="0x15f3400" file="test_it_comparisons_1.cpp" linenr="6" str="Range" scope="0x15f6380" type="name"/>
+    <token id="0x15f34e0" file="test_it_comparisons_1.cpp" linenr="6" str="a_range" scope="0x15f6380" type="name" varId="3" variable="0x15f6de0" astParent="0x15f3350"/>
+    <token id="0x15f35c0" file="test_it_comparisons_1.cpp" linenr="6" str=";" scope="0x15f6380"/>
+    <token id="0x15f36a0" file="test_it_comparisons_1.cpp" linenr="7" str="geometry_msgs" scope="0x15f6380" type="name" astParent="0x15f3780"/>
+    <token id="0x15f3780" file="test_it_comparisons_1.cpp" linenr="7" str="::" scope="0x15f6380" astOperand1="0x15f36a0" astOperand2="0x15f3940"/>
+    <token id="0x15f3860" file="test_it_comparisons_1.cpp" linenr="7" str="TwistStamped" scope="0x15f6380" type="name"/>
+    <token id="0x15f3940" file="test_it_comparisons_1.cpp" linenr="7" str="a_twist" scope="0x15f6380" type="name" varId="4" variable="0x15f6e70" astParent="0x15f3780"/>
+    <token id="0x15f3a20" file="test_it_comparisons_1.cpp" linenr="7" str=";" scope="0x15f6380"/>
+    <token id="0x15f3b30" file="test_it_comparisons_1.cpp" linenr="8" str="a_range" scope="0x15f6380" type="name" varId="3" variable="0x15f6de0" astParent="0x15f3c10"/>
+    <token id="0x15f3c10" file="test_it_comparisons_1.cpp" linenr="8" str="." scope="0x15f6380" astParent="0x15f3da0" astOperand1="0x15f3b30" astOperand2="0x15f3cc0"/>
+    <token id="0x15f3cc0" file="test_it_comparisons_1.cpp" linenr="8" str="range" scope="0x15f6380" type="name" varId="5" astParent="0x15f3c10"/>
+    <token id="0x15f3da0" file="test_it_comparisons_1.cpp" linenr="8" str="=" scope="0x15f6380" type="op" isAssignmentOp="True" astOperand1="0x15f3c10" astOperand2="0x15f3e80"/>
+    <token id="0x15f3e80" file="test_it_comparisons_1.cpp" linenr="8" str="1" scope="0x15f6380" type="number" isInt="True" values="0x15f3e88" astParent="0x15f3da0"/>
+    <token id="0x15f3f60" file="test_it_comparisons_1.cpp" linenr="8" str=";" scope="0x15f6380"/>
+    <token id="0x15f4070" file="test_it_comparisons_1.cpp" linenr="9" str="a_twist" scope="0x15f6380" type="name" varId="4" variable="0x15f6e70" astParent="0x15f4150"/>
+    <token id="0x15f4150" file="test_it_comparisons_1.cpp" linenr="9" str="." scope="0x15f6380" astParent="0x15f4310" astOperand1="0x15f4070" astOperand2="0x15f4230"/>
+    <token id="0x15f4230" file="test_it_comparisons_1.cpp" linenr="9" str="twist" scope="0x15f6380" type="name" varId="6" astParent="0x15f4150"/>
+    <token id="0x15f4310" file="test_it_comparisons_1.cpp" linenr="9" str="." scope="0x15f6380" astParent="0x15f44d0" astOperand1="0x15f4150" astOperand2="0x15f43f0"/>
+    <token id="0x15f43f0" file="test_it_comparisons_1.cpp" linenr="9" str="linear" scope="0x15f6380" type="name" varId="7" astParent="0x15f4310"/>
+    <token id="0x15f44d0" file="test_it_comparisons_1.cpp" linenr="9" str="." scope="0x15f6380" astParent="0x15f4660" astOperand1="0x15f4310" astOperand2="0x15f4580"/>
+    <token id="0x15f4580" file="test_it_comparisons_1.cpp" linenr="9" str="x" scope="0x15f6380" type="name" varId="8" astParent="0x15f44d0"/>
+    <token id="0x15f4660" file="test_it_comparisons_1.cpp" linenr="9" str="=" scope="0x15f6380" type="op" isAssignmentOp="True" astOperand1="0x15f44d0" astOperand2="0x15f4740"/>
+    <token id="0x15f4740" file="test_it_comparisons_1.cpp" linenr="9" str="1" scope="0x15f6380" type="number" isInt="True" values="0x15f4748" astParent="0x15f4660"/>
+    <token id="0x15f4820" file="test_it_comparisons_1.cpp" linenr="9" str=";" scope="0x15f6380"/>
+    <token id="0x15f4900" file="test_it_comparisons_1.cpp" linenr="11" str="if" scope="0x15f6380" type="name" astParent="0x15f49e0"/>
+    <token id="0x15f49e0" file="test_it_comparisons_1.cpp" linenr="11" str="(" scope="0x15f6380" link="0x15f5460" astOperand1="0x15f4900" astOperand2="0x15f4d60"/>
+    <token id="0x15f4af0" file="test_it_comparisons_1.cpp" linenr="11" str="a_range" scope="0x15f6380" type="name" varId="3" variable="0x15f6de0" astParent="0x15f4bd0"/>
+    <token id="0x15f4bd0" file="test_it_comparisons_1.cpp" linenr="11" str="." scope="0x15f6380" astParent="0x15f4d60" astOperand1="0x15f4af0" astOperand2="0x15f4c80"/>
+    <token id="0x15f4c80" file="test_it_comparisons_1.cpp" linenr="11" str="range" scope="0x15f6380" type="name" varId="5" astParent="0x15f4bd0"/>
+    <token id="0x15f4d60" file="test_it_comparisons_1.cpp" linenr="11" str="&gt;" scope="0x15f6380" type="op" isComparisonOp="True" astParent="0x15f49e0" astOperand1="0x15f4bd0" astOperand2="0x15f52d0"/>
+    <token id="0x15f4e70" file="test_it_comparisons_1.cpp" linenr="11" str="a_twist" scope="0x15f6380" type="name" varId="4" variable="0x15f6e70" astParent="0x15f4f50"/>
+    <token id="0x15f4f50" file="test_it_comparisons_1.cpp" linenr="11" str="." scope="0x15f6380" astParent="0x15f5110" astOperand1="0x15f4e70" astOperand2="0x15f5030"/>
+    <token id="0x15f5030" file="test_it_comparisons_1.cpp" linenr="11" str="twist" scope="0x15f6380" type="name" varId="6" astParent="0x15f4f50"/>
+    <token id="0x15f5110" file="test_it_comparisons_1.cpp" linenr="11" str="." scope="0x15f6380" astParent="0x15f52d0" astOperand1="0x15f4f50" astOperand2="0x15f51f0"/>
+    <token id="0x15f51f0" file="test_it_comparisons_1.cpp" linenr="11" str="linear" scope="0x15f6380" type="name" varId="7" astParent="0x15f5110"/>
+    <token id="0x15f52d0" file="test_it_comparisons_1.cpp" linenr="11" str="." scope="0x15f6380" astParent="0x15f4d60" astOperand1="0x15f5110" astOperand2="0x15f5380"/>
+    <token id="0x15f5380" file="test_it_comparisons_1.cpp" linenr="11" str="x" scope="0x15f6380" type="name" varId="8" astParent="0x15f52d0"/>
+    <token id="0x15f5460" file="test_it_comparisons_1.cpp" linenr="11" str=")" scope="0x15f6380" link="0x15f49e0"/>
+    <token id="0x15f5540" file="test_it_comparisons_1.cpp" linenr="12" str="{" scope="0x15f6c60" link="0x15f5b60"/>
+    <token id="0x15f5650" file="test_it_comparisons_1.cpp" linenr="13" str="a_range" scope="0x15f6c60" type="name" varId="3" variable="0x15f6de0" astParent="0x15f5730"/>
+    <token id="0x15f5730" file="test_it_comparisons_1.cpp" linenr="13" str="." scope="0x15f6c60" astParent="0x15f58c0" astOperand1="0x15f5650" astOperand2="0x15f57e0"/>
+    <token id="0x15f57e0" file="test_it_comparisons_1.cpp" linenr="13" str="range" scope="0x15f6c60" type="name" varId="5" astParent="0x15f5730"/>
+    <token id="0x15f58c0" file="test_it_comparisons_1.cpp" linenr="13" str="=" scope="0x15f6c60" type="op" isAssignmentOp="True" astOperand1="0x15f5730" astOperand2="0x15f59a0"/>
+    <token id="0x15f59a0" file="test_it_comparisons_1.cpp" linenr="13" str="2" scope="0x15f6c60" type="number" isInt="True" values="0x15f59a8" astParent="0x15f58c0"/>
+    <token id="0x15f5a80" file="test_it_comparisons_1.cpp" linenr="13" str=";" scope="0x15f6c60"/>
+    <token id="0x15f5b60" file="test_it_comparisons_1.cpp" linenr="14" str="}" scope="0x15f6c60" link="0x15f5540"/>
+    <token id="0x15f5c40" file="test_it_comparisons_1.cpp" linenr="15" str="return" scope="0x15f6380" type="name" astOperand1="0x15f5d20"/>
+    <token id="0x15f5d20" file="test_it_comparisons_1.cpp" linenr="15" str="0" scope="0x15f6380" type="number" isInt="True" values="0x15f5d28" astParent="0x15f5c40"/>
+    <token id="0x15f5e00" file="test_it_comparisons_1.cpp" linenr="15" str=";" scope="0x15f6380"/>
+    <token id="0x15f5ee0" file="test_it_comparisons_1.cpp" linenr="16" str="}" scope="0x15f6380" link="0x15f3150"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x15f6150" type="Global">
+      <functionList>
+        <function id="0x15f62d0" tokenDef="0x15f2e10" name="main">
+          <arg nr="1" variable="0x15f6f00"/>
+          <arg nr="2" variable="0x15f6f90"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x15f6380" type="Function" className="main" classStart="0x15f3150" classEnd="0x15f5ee0" nestedIn="0x15f6150" function="0x15f62d0">
+      <varlist>
+        <var id="0x15f6de0"/>
+        <var id="0x15f6e70"/>
+      </varlist>
+    </scope>
+    <scope id="0x15f6c60" type="If" classStart="0x15f5540" classEnd="0x15f5b60" nestedIn="0x15f6380"/>
+  </scopes>
+  <variables>
+    <var id="0x15f6f00" nameToken="0x15ecb00" typeStartToken="0x15f2f70" typeEndToken="0x15f2f70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x15f6f90" nameToken="0x15f25a0" typeStartToken="0x15eccc0" typeEndToken="0x15f24c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x15f6de0" nameToken="0x15f34e0" typeStartToken="0x15f32a0" typeEndToken="0x15f3400" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x15f6e70" nameToken="0x15f3940" typeStartToken="0x15f36a0" typeEndToken="0x15f3860" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x15f3e88">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x15f4748">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x15f59a8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x15f5d28">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x2b062e0" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="int" scope="0x2b08390" type="name"/>
+    <token id="0x2b06390" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="main" scope="0x2b08390" type="name" function="0x2b08510" astParent="0x2b06440"/>
+    <token id="0x2b06440" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="(" scope="0x2b08390" link="0x2b07050" astOperand1="0x2b06390" astOperand2="0x2b06540"/>
+    <token id="0x2b06b00" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="int" scope="0x2b08390" type="name"/>
+    <token id="0x2b06be0" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="argc" scope="0x2b08390" type="name" varId="1" variable="0x2b089d0" astParent="0x2b06540"/>
+    <token id="0x2b06540" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="," scope="0x2b08390" astParent="0x2b06440" astOperand1="0x2b06be0" astOperand2="0x2b06db0"/>
+    <token id="0x2b06620" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="char" scope="0x2b08390" type="name" astParent="0x2b06db0"/>
+    <token id="0x2b06db0" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="*" scope="0x2b08390" type="op" isArithmeticalOp="True" astParent="0x2b06540" astOperand1="0x2b06620" astOperand2="0x2b06e90"/>
+    <token id="0x2b06e90" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="*" scope="0x2b08390" type="op" isArithmeticalOp="True" astParent="0x2b06db0" astOperand1="0x2b06f70"/>
+    <token id="0x2b06f70" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str="argv" scope="0x2b08390" type="name" varId="2" variable="0x2b08a60" astParent="0x2b06e90"/>
+    <token id="0x2b07050" file="test_it_laser_scan_range_count_2.cpp" linenr="3" str=")" scope="0x2b08390" link="0x2b06440"/>
+    <token id="0x2b07130" file="test_it_laser_scan_range_count_2.cpp" linenr="4" str="{" scope="0x2b085c0" link="0x2b07f00"/>
+    <token id="0x2b07240" file="test_it_laser_scan_range_count_2.cpp" linenr="5" str="sensor_msgs" scope="0x2b085c0" type="name" astParent="0x2b072f0"/>
+    <token id="0x2b072f0" file="test_it_laser_scan_range_count_2.cpp" linenr="5" str="::" scope="0x2b085c0" astOperand1="0x2b07240" astOperand2="0x2b07480"/>
+    <token id="0x2b073a0" file="test_it_laser_scan_range_count_2.cpp" linenr="5" str="LaserScan" scope="0x2b085c0" type="name"/>
+    <token id="0x2b07480" file="test_it_laser_scan_range_count_2.cpp" linenr="5" str="ls" scope="0x2b085c0" type="name" varId="3" variable="0x2b08130" astParent="0x2b072f0"/>
+    <token id="0x2b07560" file="test_it_laser_scan_range_count_2.cpp" linenr="5" str=";" scope="0x2b085c0"/>
+    <token id="0x2b07640" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="int" scope="0x2b085c0" type="name"/>
+    <token id="0x2b07720" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="x" scope="0x2b085c0" type="name" varId="4" variable="0x2b08940"/>
+    <token id="0x2b07800" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str=";" scope="0x2b085c0"/>
+    <token id="0x2b081f0" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="x" scope="0x2b085c0" type="name" varId="4" variable="0x2b08940" astParent="0x2b082a0"/>
+    <token id="0x2b082a0" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="=" scope="0x2b085c0" type="op" isAssignmentOp="True" astOperand1="0x2b081f0" astOperand2="0x2b07b80"/>
+    <token id="0x2b07910" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="ls" scope="0x2b085c0" type="name" varId="3" variable="0x2b08130" astParent="0x2b079f0"/>
+    <token id="0x2b079f0" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="." scope="0x2b085c0" astParent="0x2b07b80" astOperand1="0x2b07910" astOperand2="0x2b07aa0"/>
+    <token id="0x2b07aa0" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="ranges" scope="0x2b085c0" type="name" varId="5" astParent="0x2b079f0"/>
+    <token id="0x2b07b80" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="[" scope="0x2b085c0" link="0x2b07d40" astParent="0x2b082a0" astOperand1="0x2b079f0" astOperand2="0x2b07c60"/>
+    <token id="0x2b07c60" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="0" scope="0x2b085c0" type="number" isInt="True" values="0x2b07c68" astParent="0x2b07b80"/>
+    <token id="0x2b07d40" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str="]" scope="0x2b085c0" link="0x2b07b80"/>
+    <token id="0x2b07e20" file="test_it_laser_scan_range_count_2.cpp" linenr="7" str=";" scope="0x2b085c0"/>
+    <token id="0x2b07f00" file="test_it_laser_scan_range_count_2.cpp" linenr="8" str="}" scope="0x2b085c0" link="0x2b07130"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2b08390" type="Global">
+      <functionList>
+        <function id="0x2b08510" tokenDef="0x2b06390" name="main">
+          <arg nr="1" variable="0x2b089d0"/>
+          <arg nr="2" variable="0x2b08a60"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x2b085c0" type="Function" className="main" classStart="0x2b07130" classEnd="0x2b07f00" nestedIn="0x2b08390" function="0x2b08510">
+      <varlist>
+        <var id="0x2b08130"/>
+        <var id="0x2b08940"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x2b089d0" nameToken="0x2b06be0" typeStartToken="0x2b06b00" typeEndToken="0x2b06b00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2b08a60" nameToken="0x2b06f70" typeStartToken="0x2b06620" typeEndToken="0x2b06e90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x2b08130" nameToken="0x2b07480" typeStartToken="0x2b07240" typeEndToken="0x2b073a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2b08940" nameToken="0x2b07720" typeStartToken="0x2b07640" typeEndToken="0x2b07640" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2b07c68">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

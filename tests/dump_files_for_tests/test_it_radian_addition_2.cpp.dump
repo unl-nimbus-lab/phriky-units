@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x11dbdd0" file="test_it_radian_addition_2.cpp" linenr="5" str="int" scope="0x11e0af0" type="name"/>
+    <token id="0x11de440" file="test_it_radian_addition_2.cpp" linenr="5" str="main" scope="0x11e0af0" type="name" function="0x11e0c70" astParent="0x11de4f0"/>
+    <token id="0x11de4f0" file="test_it_radian_addition_2.cpp" linenr="5" str="(" scope="0x11e0af0" link="0x11dee50" astOperand1="0x11de440" astOperand2="0x11deb90"/>
+    <token id="0x11de5a0" file="test_it_radian_addition_2.cpp" linenr="5" str="int" scope="0x11e0af0" type="name"/>
+    <token id="0x11deab0" file="test_it_radian_addition_2.cpp" linenr="5" str="argc" scope="0x11e0af0" type="name" varId="1" variable="0x11e12c0" astParent="0x11deb90"/>
+    <token id="0x11deb90" file="test_it_radian_addition_2.cpp" linenr="5" str="," scope="0x11e0af0" astParent="0x11de4f0" astOperand1="0x11deab0" astOperand2="0x11de790"/>
+    <token id="0x11de6b0" file="test_it_radian_addition_2.cpp" linenr="5" str="char" scope="0x11e0af0" type="name" astParent="0x11de790"/>
+    <token id="0x11de790" file="test_it_radian_addition_2.cpp" linenr="5" str="*" scope="0x11e0af0" type="op" isArithmeticalOp="True" astParent="0x11deb90" astOperand1="0x11de6b0" astOperand2="0x11de870"/>
+    <token id="0x11de870" file="test_it_radian_addition_2.cpp" linenr="5" str="*" scope="0x11e0af0" type="op" isArithmeticalOp="True" astParent="0x11de790" astOperand1="0x11ded70"/>
+    <token id="0x11ded70" file="test_it_radian_addition_2.cpp" linenr="5" str="argv" scope="0x11e0af0" type="name" varId="2" variable="0x11e1350" astParent="0x11de870"/>
+    <token id="0x11dee50" file="test_it_radian_addition_2.cpp" linenr="5" str=")" scope="0x11e0af0" link="0x11de4f0"/>
+    <token id="0x11def30" file="test_it_radian_addition_2.cpp" linenr="6" str="{" scope="0x11e0d20" link="0x11e05c0"/>
+    <token id="0x11df040" file="test_it_radian_addition_2.cpp" linenr="7" str="float" scope="0x11e0d20" type="name"/>
+    <token id="0x11df0f0" file="test_it_radian_addition_2.cpp" linenr="7" str="f" scope="0x11e0d20" type="name" varId="3" variable="0x11e0890"/>
+    <token id="0x11df1d0" file="test_it_radian_addition_2.cpp" linenr="7" str=";" scope="0x11e0d20"/>
+    <token id="0x11e0980" file="test_it_radian_addition_2.cpp" linenr="7" str="f" scope="0x11e0d20" type="name" varId="3" variable="0x11e0890" astParent="0x11e0a30"/>
+    <token id="0x11e0a30" file="test_it_radian_addition_2.cpp" linenr="7" str="=" scope="0x11e0d20" type="op" isAssignmentOp="True" astOperand1="0x11e0980" astOperand2="0x11df550"/>
+    <token id="0x11df2b0" file="test_it_radian_addition_2.cpp" linenr="7" str="std" scope="0x11e0d20" type="name" astParent="0x11df390"/>
+    <token id="0x11df390" file="test_it_radian_addition_2.cpp" linenr="7" str="::" scope="0x11e0d20" astParent="0x11df550" astOperand1="0x11df2b0" astOperand2="0x11df470"/>
+    <token id="0x11df470" file="test_it_radian_addition_2.cpp" linenr="7" str="atan" scope="0x11e0d20" type="name" astParent="0x11df390"/>
+    <token id="0x11df550" file="test_it_radian_addition_2.cpp" linenr="7" str="(" scope="0x11e0d20" link="0x11df710" astParent="0x11e0a30" astOperand1="0x11df390" astOperand2="0x11df630"/>
+    <token id="0x11df630" file="test_it_radian_addition_2.cpp" linenr="7" str="10" scope="0x11e0d20" type="number" isInt="True" values="0x11df638" astParent="0x11df550"/>
+    <token id="0x11df710" file="test_it_radian_addition_2.cpp" linenr="7" str=")" scope="0x11e0d20" link="0x11df550"/>
+    <token id="0x11df7f0" file="test_it_radian_addition_2.cpp" linenr="7" str=";" scope="0x11e0d20"/>
+    <token id="0x11df8d0" file="test_it_radian_addition_2.cpp" linenr="8" str="geometry_msgs" scope="0x11e0d20" type="name" astParent="0x11df980"/>
+    <token id="0x11df980" file="test_it_radian_addition_2.cpp" linenr="8" str="::" scope="0x11e0d20" astOperand1="0x11df8d0" astOperand2="0x11dfb40"/>
+    <token id="0x11dfa60" file="test_it_radian_addition_2.cpp" linenr="8" str="Twist" scope="0x11e0d20" type="name"/>
+    <token id="0x11dfb40" file="test_it_radian_addition_2.cpp" linenr="8" str="tw" scope="0x11e0d20" type="name" varId="4" variable="0x11e1230" astParent="0x11df980"/>
+    <token id="0x11dfc20" file="test_it_radian_addition_2.cpp" linenr="8" str=";" scope="0x11e0d20"/>
+    <token id="0x11dfd30" file="test_it_radian_addition_2.cpp" linenr="9" str="tw" scope="0x11e0d20" type="name" varId="4" variable="0x11e1230" astParent="0x11dfe10"/>
+    <token id="0x11dfe10" file="test_it_radian_addition_2.cpp" linenr="9" str="." scope="0x11e0d20" astParent="0x11dffd0" astOperand1="0x11dfd30" astOperand2="0x11dfef0"/>
+    <token id="0x11dfef0" file="test_it_radian_addition_2.cpp" linenr="9" str="linear" scope="0x11e0d20" type="name" varId="5" astParent="0x11dfe10"/>
+    <token id="0x11dffd0" file="test_it_radian_addition_2.cpp" linenr="9" str="." scope="0x11e0d20" astParent="0x11e0160" astOperand1="0x11dfe10" astOperand2="0x11e0080"/>
+    <token id="0x11e0080" file="test_it_radian_addition_2.cpp" linenr="9" str="x" scope="0x11e0d20" type="name" varId="6" astParent="0x11dffd0"/>
+    <token id="0x11e0160" file="test_it_radian_addition_2.cpp" linenr="9" str="=" scope="0x11e0d20" type="op" isAssignmentOp="True" astOperand1="0x11dffd0" astOperand2="0x11e0320"/>
+    <token id="0x11e0240" file="test_it_radian_addition_2.cpp" linenr="9" str="f" scope="0x11e0d20" type="name" varId="3" variable="0x11e0890" astParent="0x11e0320"/>
+    <token id="0x11e0320" file="test_it_radian_addition_2.cpp" linenr="9" str="+" scope="0x11e0d20" type="op" isArithmeticalOp="True" astParent="0x11e0160" astOperand1="0x11e0240" astOperand2="0x11e0400"/>
+    <token id="0x11e0400" file="test_it_radian_addition_2.cpp" linenr="9" str="f" scope="0x11e0d20" type="name" varId="3" variable="0x11e0890" astParent="0x11e0320"/>
+    <token id="0x11e04e0" file="test_it_radian_addition_2.cpp" linenr="9" str=";" scope="0x11e0d20"/>
+    <token id="0x11e05c0" file="test_it_radian_addition_2.cpp" linenr="10" str="}" scope="0x11e0d20" link="0x11def30"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x11e0af0" type="Global">
+      <functionList>
+        <function id="0x11e0c70" tokenDef="0x11de440" name="main">
+          <arg nr="1" variable="0x11e12c0"/>
+          <arg nr="2" variable="0x11e1350"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x11e0d20" type="Function" className="main" classStart="0x11def30" classEnd="0x11e05c0" nestedIn="0x11e0af0" function="0x11e0c70">
+      <varlist>
+        <var id="0x11e0890"/>
+        <var id="0x11e1230"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x11e12c0" nameToken="0x11deab0" typeStartToken="0x11de5a0" typeEndToken="0x11de5a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x11e1350" nameToken="0x11ded70" typeStartToken="0x11de6b0" typeEndToken="0x11de870" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x11e0890" nameToken="0x11df0f0" typeStartToken="0x11df040" typeEndToken="0x11df040" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x11e1230" nameToken="0x11dfb40" typeStartToken="0x11df8d0" typeEndToken="0x11dfa60" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x11df638">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

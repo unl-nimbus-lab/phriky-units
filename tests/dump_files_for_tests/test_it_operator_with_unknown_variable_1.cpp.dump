@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1408d20" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="int" scope="0x140dd50" type="name"/>
+    <token id="0x1408dd0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="main" scope="0x140dd50" type="name" function="0x140ded0" astParent="0x1408e80"/>
+    <token id="0x1408e80" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="(" scope="0x140dd50" link="0x140c000" astOperand1="0x1408dd0" astOperand2="0x140b4c0"/>
+    <token id="0x140bba0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="int" scope="0x140dd50" type="name"/>
+    <token id="0x140bc50" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="argc" scope="0x140dd50" type="name" varId="1" variable="0x140e5e0" astParent="0x140b4c0"/>
+    <token id="0x140b4c0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="," scope="0x140dd50" astParent="0x1408e80" astOperand1="0x140bc50" astOperand2="0x140b680"/>
+    <token id="0x140b5a0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="char" scope="0x140dd50" type="name" astParent="0x140b680"/>
+    <token id="0x140b680" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="*" scope="0x140dd50" type="op" isArithmeticalOp="True" astParent="0x140b4c0" astOperand1="0x140b5a0" astOperand2="0x140be70"/>
+    <token id="0x140be70" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="*" scope="0x140dd50" type="op" isArithmeticalOp="True" astParent="0x140b680" astOperand1="0x140bf20"/>
+    <token id="0x140bf20" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str="argv" scope="0x140dd50" type="name" varId="2" variable="0x140e670" astParent="0x140be70"/>
+    <token id="0x140c000" file="test_it_operator_with_unknown_variable_1.cpp" linenr="3" str=")" scope="0x140dd50" link="0x1408e80"/>
+    <token id="0x140c0e0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="4" str="{" scope="0x140df80" link="0x140d850"/>
+    <token id="0x140c1f0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="6" str="geometry_msgs" scope="0x140df80" type="name" astParent="0x140c2a0"/>
+    <token id="0x140c2a0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="6" str="::" scope="0x140df80" astOperand1="0x140c1f0" astOperand2="0x140c430"/>
+    <token id="0x140c350" file="test_it_operator_with_unknown_variable_1.cpp" linenr="6" str="Twist" scope="0x140df80" type="name"/>
+    <token id="0x140c430" file="test_it_operator_with_unknown_variable_1.cpp" linenr="6" str="t" scope="0x140df80" type="name" varId="3" variable="0x140dac0" astParent="0x140c2a0"/>
+    <token id="0x140c510" file="test_it_operator_with_unknown_variable_1.cpp" linenr="6" str=";" scope="0x140df80"/>
+    <token id="0x140c5f0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="7" str="float" scope="0x140df80" type="name"/>
+    <token id="0x140c6d0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="7" str="f" scope="0x140df80" type="name" varId="4" variable="0x140e4c0"/>
+    <token id="0x140c7b0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="7" str=";" scope="0x140df80"/>
+    <token id="0x140c890" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str="float" scope="0x140df80" type="name"/>
+    <token id="0x140c970" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str="z" scope="0x140df80" type="name" varId="5" variable="0x140e550"/>
+    <token id="0x140ca50" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str=";" scope="0x140df80"/>
+    <token id="0x140db80" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str="z" scope="0x140df80" type="name" varId="5" variable="0x140e550" astParent="0x140dc60"/>
+    <token id="0x140dc60" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str="=" scope="0x140df80" type="op" isAssignmentOp="True" astOperand1="0x140db80" astOperand2="0x140cb30"/>
+    <token id="0x140cb30" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str="11." scope="0x140df80" type="number" isFloat="True" astParent="0x140dc60"/>
+    <token id="0x140cc10" file="test_it_operator_with_unknown_variable_1.cpp" linenr="8" str=";" scope="0x140df80"/>
+    <token id="0x140ccf0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="f" scope="0x140df80" type="name" varId="4" variable="0x140e4c0" astParent="0x140cdd0"/>
+    <token id="0x140cdd0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="=" scope="0x140df80" type="op" isAssignmentOp="True" astOperand1="0x140ccf0" astOperand2="0x140d310"/>
+    <token id="0x140cee0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="t" scope="0x140df80" type="name" varId="3" variable="0x140dac0" astParent="0x140cfc0"/>
+    <token id="0x140cfc0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="." scope="0x140df80" astParent="0x140d180" astOperand1="0x140cee0" astOperand2="0x140d0a0"/>
+    <token id="0x140d0a0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="angular" scope="0x140df80" type="name" varId="6" astParent="0x140cfc0"/>
+    <token id="0x140d180" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="." scope="0x140df80" astParent="0x140d310" astOperand1="0x140cfc0" astOperand2="0x140d230"/>
+    <token id="0x140d230" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="x" scope="0x140df80" type="name" varId="7" astParent="0x140d180"/>
+    <token id="0x140d310" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="*" scope="0x140df80" type="op" isArithmeticalOp="True" astParent="0x140cdd0" astOperand1="0x140d180" astOperand2="0x140d3f0"/>
+    <token id="0x140d3f0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str="z" scope="0x140df80" type="name" varId="5" variable="0x140e550" astParent="0x140d310"/>
+    <token id="0x140d4d0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="10" str=";" scope="0x140df80"/>
+    <token id="0x140d5b0" file="test_it_operator_with_unknown_variable_1.cpp" linenr="12" str="return" scope="0x140df80" type="name" astOperand1="0x140d690"/>
+    <token id="0x140d690" file="test_it_operator_with_unknown_variable_1.cpp" linenr="12" str="0" scope="0x140df80" type="number" isInt="True" values="0x140d698" astParent="0x140d5b0"/>
+    <token id="0x140d770" file="test_it_operator_with_unknown_variable_1.cpp" linenr="12" str=";" scope="0x140df80"/>
+    <token id="0x140d850" file="test_it_operator_with_unknown_variable_1.cpp" linenr="13" str="}" scope="0x140df80" link="0x140c0e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x140dd50" type="Global">
+      <functionList>
+        <function id="0x140ded0" tokenDef="0x1408dd0" name="main">
+          <arg nr="1" variable="0x140e5e0"/>
+          <arg nr="2" variable="0x140e670"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x140df80" type="Function" className="main" classStart="0x140c0e0" classEnd="0x140d850" nestedIn="0x140dd50" function="0x140ded0">
+      <varlist>
+        <var id="0x140dac0"/>
+        <var id="0x140e4c0"/>
+        <var id="0x140e550"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x140e5e0" nameToken="0x140bc50" typeStartToken="0x140bba0" typeEndToken="0x140bba0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x140e670" nameToken="0x140bf20" typeStartToken="0x140b5a0" typeEndToken="0x140be70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x140dac0" nameToken="0x140c430" typeStartToken="0x140c1f0" typeEndToken="0x140c350" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x140e4c0" nameToken="0x140c6d0" typeStartToken="0x140c5f0" typeEndToken="0x140c5f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x140e550" nameToken="0x140c970" typeStartToken="0x140c890" typeEndToken="0x140c890" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x140d698">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

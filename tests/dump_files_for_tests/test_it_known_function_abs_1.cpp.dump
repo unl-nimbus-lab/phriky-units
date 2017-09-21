@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xd8ae80" file="test_it_known_function_abs_1.cpp" linenr="4" str="int" scope="0xd99590" type="name"/>
+    <token id="0xd91170" file="test_it_known_function_abs_1.cpp" linenr="4" str="main" scope="0xd99590" type="name" function="0xd99710" astParent="0xd91220"/>
+    <token id="0xd91220" file="test_it_known_function_abs_1.cpp" linenr="4" str="(" scope="0xd99590" link="0xd90a90" astOperand1="0xd91170" astOperand2="0xd90630"/>
+    <token id="0xd912d0" file="test_it_known_function_abs_1.cpp" linenr="4" str="int" scope="0xd99590" type="name"/>
+    <token id="0xd91380" file="test_it_known_function_abs_1.cpp" linenr="4" str="argc" scope="0xd99590" type="name" varId="1" variable="0xd9aa50" astParent="0xd90630"/>
+    <token id="0xd90630" file="test_it_known_function_abs_1.cpp" linenr="4" str="," scope="0xd99590" astParent="0xd91220" astOperand1="0xd91380" astOperand2="0xd907f0"/>
+    <token id="0xd90710" file="test_it_known_function_abs_1.cpp" linenr="4" str="char" scope="0xd99590" type="name" astParent="0xd907f0"/>
+    <token id="0xd907f0" file="test_it_known_function_abs_1.cpp" linenr="4" str="*" scope="0xd99590" type="op" isArithmeticalOp="True" astParent="0xd90630" astOperand1="0xd90710" astOperand2="0xd908d0"/>
+    <token id="0xd908d0" file="test_it_known_function_abs_1.cpp" linenr="4" str="*" scope="0xd99590" type="op" isArithmeticalOp="True" astParent="0xd907f0" astOperand1="0xd909b0"/>
+    <token id="0xd909b0" file="test_it_known_function_abs_1.cpp" linenr="4" str="argv" scope="0xd99590" type="name" varId="2" variable="0xd9aae0" astParent="0xd908d0"/>
+    <token id="0xd90a90" file="test_it_known_function_abs_1.cpp" linenr="4" str=")" scope="0xd99590" link="0xd91220"/>
+    <token id="0xd90b70" file="test_it_known_function_abs_1.cpp" linenr="5" str="{" scope="0xd997c0" link="0xd99120"/>
+    <token id="0xd90c50" file="test_it_known_function_abs_1.cpp" linenr="7" str="ros" scope="0xd997c0" type="name" astParent="0xd90d30"/>
+    <token id="0xd90d30" file="test_it_known_function_abs_1.cpp" linenr="7" str="::" scope="0xd997c0" astParent="0xd91780" astOperand1="0xd90c50" astOperand2="0xd916a0"/>
+    <token id="0xd915f0" file="test_it_known_function_abs_1.cpp" linenr="7" str="Duration" scope="0xd997c0" type="name"/>
+    <token id="0xd916a0" file="test_it_known_function_abs_1.cpp" linenr="7" str="d1" scope="0xd997c0" type="name" varId="3" variable="0xd9a780" astParent="0xd90d30"/>
+    <token id="0xd91780" file="test_it_known_function_abs_1.cpp" linenr="7" str="(" scope="0xd997c0" link="0xd91940" astOperand1="0xd90d30" astOperand2="0xd91860"/>
+    <token id="0xd91860" file="test_it_known_function_abs_1.cpp" linenr="7" str="0.1" scope="0xd997c0" type="number" isFloat="True" astParent="0xd91780"/>
+    <token id="0xd91940" file="test_it_known_function_abs_1.cpp" linenr="7" str=")" scope="0xd997c0" link="0xd91780"/>
+    <token id="0xd91a20" file="test_it_known_function_abs_1.cpp" linenr="7" str=";" scope="0xd997c0"/>
+    <token id="0xd91b00" file="test_it_known_function_abs_1.cpp" linenr="8" str="float" scope="0xd997c0" type="name"/>
+    <token id="0xd91be0" file="test_it_known_function_abs_1.cpp" linenr="8" str="s" scope="0xd997c0" type="name" varId="4" variable="0xd9a810"/>
+    <token id="0xd91cc0" file="test_it_known_function_abs_1.cpp" linenr="8" str=";" scope="0xd997c0"/>
+    <token id="0xd999b0" file="test_it_known_function_abs_1.cpp" linenr="8" str="s" scope="0xd997c0" type="name" varId="4" variable="0xd9a810" astParent="0xd99a60"/>
+    <token id="0xd99a60" file="test_it_known_function_abs_1.cpp" linenr="8" str="=" scope="0xd997c0" type="op" isAssignmentOp="True" astOperand1="0xd999b0" astOperand2="0xd92040"/>
+    <token id="0xd91da0" file="test_it_known_function_abs_1.cpp" linenr="8" str="std" scope="0xd997c0" type="name" astParent="0xd91e80"/>
+    <token id="0xd91e80" file="test_it_known_function_abs_1.cpp" linenr="8" str="::" scope="0xd997c0" astParent="0xd92040" astOperand1="0xd91da0" astOperand2="0xd91f60"/>
+    <token id="0xd91f60" file="test_it_known_function_abs_1.cpp" linenr="8" str="abs" scope="0xd997c0" type="name" astParent="0xd91e80"/>
+    <token id="0xd92040" file="test_it_known_function_abs_1.cpp" linenr="8" str="(" scope="0xd997c0" link="0xd92580" astParent="0xd99a60" astOperand1="0xd91e80" astOperand2="0xd923c0"/>
+    <token id="0xd92150" file="test_it_known_function_abs_1.cpp" linenr="8" str="d1" scope="0xd997c0" type="name" varId="3" variable="0xd9a780" astParent="0xd92230"/>
+    <token id="0xd92230" file="test_it_known_function_abs_1.cpp" linenr="8" str="." scope="0xd997c0" astParent="0xd923c0" astOperand1="0xd92150" astOperand2="0xd922e0"/>
+    <token id="0xd922e0" file="test_it_known_function_abs_1.cpp" linenr="8" str="toSec" scope="0xd997c0" type="name" astParent="0xd92230"/>
+    <token id="0xd923c0" file="test_it_known_function_abs_1.cpp" linenr="8" str="(" scope="0xd997c0" link="0xd924a0" astParent="0xd92040" astOperand1="0xd92230"/>
+    <token id="0xd924a0" file="test_it_known_function_abs_1.cpp" linenr="8" str=")" scope="0xd997c0" link="0xd923c0"/>
+    <token id="0xd92580" file="test_it_known_function_abs_1.cpp" linenr="8" str=")" scope="0xd997c0" link="0xd92040"/>
+    <token id="0xd92660" file="test_it_known_function_abs_1.cpp" linenr="8" str=";" scope="0xd997c0"/>
+    <token id="0xd92740" file="test_it_known_function_abs_1.cpp" linenr="9" str="float" scope="0xd997c0" type="name"/>
+    <token id="0xd92820" file="test_it_known_function_abs_1.cpp" linenr="9" str="t" scope="0xd997c0" type="name" varId="5" variable="0xd9a8a0"/>
+    <token id="0xd92900" file="test_it_known_function_abs_1.cpp" linenr="9" str=";" scope="0xd997c0"/>
+    <token id="0xd99b10" file="test_it_known_function_abs_1.cpp" linenr="9" str="t" scope="0xd997c0" type="name" varId="5" variable="0xd9a8a0" astParent="0xd992e0"/>
+    <token id="0xd992e0" file="test_it_known_function_abs_1.cpp" linenr="9" str="=" scope="0xd997c0" type="op" isAssignmentOp="True" astOperand1="0xd99b10" astOperand2="0xd92c80"/>
+    <token id="0xd929e0" file="test_it_known_function_abs_1.cpp" linenr="9" str="std" scope="0xd997c0" type="name" astParent="0xd92ac0"/>
+    <token id="0xd92ac0" file="test_it_known_function_abs_1.cpp" linenr="9" str="::" scope="0xd997c0" astParent="0xd92c80" astOperand1="0xd929e0" astOperand2="0xd92ba0"/>
+    <token id="0xd92ba0" file="test_it_known_function_abs_1.cpp" linenr="9" str="fabs" scope="0xd997c0" type="name" astParent="0xd92ac0"/>
+    <token id="0xd92c80" file="test_it_known_function_abs_1.cpp" linenr="9" str="(" scope="0xd997c0" link="0xd931c0" astParent="0xd992e0" astOperand1="0xd92ac0" astOperand2="0xd93000"/>
+    <token id="0xd92d90" file="test_it_known_function_abs_1.cpp" linenr="9" str="d1" scope="0xd997c0" type="name" varId="3" variable="0xd9a780" astParent="0xd92e70"/>
+    <token id="0xd92e70" file="test_it_known_function_abs_1.cpp" linenr="9" str="." scope="0xd997c0" astParent="0xd93000" astOperand1="0xd92d90" astOperand2="0xd92f20"/>
+    <token id="0xd92f20" file="test_it_known_function_abs_1.cpp" linenr="9" str="toSec" scope="0xd997c0" type="name" astParent="0xd92e70"/>
+    <token id="0xd93000" file="test_it_known_function_abs_1.cpp" linenr="9" str="(" scope="0xd997c0" link="0xd930e0" astParent="0xd92c80" astOperand1="0xd92e70"/>
+    <token id="0xd930e0" file="test_it_known_function_abs_1.cpp" linenr="9" str=")" scope="0xd997c0" link="0xd93000"/>
+    <token id="0xd931c0" file="test_it_known_function_abs_1.cpp" linenr="9" str=")" scope="0xd997c0" link="0xd92c80"/>
+    <token id="0xd932a0" file="test_it_known_function_abs_1.cpp" linenr="9" str=";" scope="0xd997c0"/>
+    <token id="0xd93380" file="test_it_known_function_abs_1.cpp" linenr="10" str="int" scope="0xd997c0" type="name"/>
+    <token id="0xd93460" file="test_it_known_function_abs_1.cpp" linenr="10" str="error" scope="0xd997c0" type="name" varId="6" variable="0xd9a930" astParent="0xd93540"/>
+    <token id="0xd93540" file="test_it_known_function_abs_1.cpp" linenr="10" str="[" scope="0xd997c0" link="0xd93700" astOperand1="0xd93460" astOperand2="0xd93620"/>
+    <token id="0xd93620" file="test_it_known_function_abs_1.cpp" linenr="10" str="3" scope="0xd997c0" type="number" isInt="True" values="0xd93628" astParent="0xd93540"/>
+    <token id="0xd93700" file="test_it_known_function_abs_1.cpp" linenr="10" str="]" scope="0xd997c0" link="0xd93540"/>
+    <token id="0xd937e0" file="test_it_known_function_abs_1.cpp" linenr="10" str=";" scope="0xd997c0"/>
+    <token id="0xd938c0" file="test_it_known_function_abs_1.cpp" linenr="12" str="for" scope="0xd997c0" type="name" astParent="0xd939a0"/>
+    <token id="0xd939a0" file="test_it_known_function_abs_1.cpp" linenr="12" str="(" scope="0xd997c0" link="0xd94420" astOperand1="0xd938c0" astOperand2="0xd93e00"/>
+    <token id="0xd93a80" file="test_it_known_function_abs_1.cpp" linenr="12" str="int" scope="0xd997c0" type="name"/>
+    <token id="0xd93b60" file="test_it_known_function_abs_1.cpp" linenr="12" str="i" scope="0xd997c0" type="name" varId="7" variable="0xd9a3f0" astParent="0xd93c40"/>
+    <token id="0xd93c40" file="test_it_known_function_abs_1.cpp" linenr="12" str="=" scope="0xd997c0" type="op" isAssignmentOp="True" astParent="0xd93e00" astOperand1="0xd93b60" astOperand2="0xd93d20"/>
+    <token id="0xd93d20" file="test_it_known_function_abs_1.cpp" linenr="12" str="0" scope="0xd997c0" type="number" isInt="True" values="0xd93d28" astParent="0xd93c40"/>
+    <token id="0xd93e00" file="test_it_known_function_abs_1.cpp" linenr="12" str=";" scope="0xd997c0" astParent="0xd939a0" astOperand1="0xd93c40" astOperand2="0xd94180"/>
+    <token id="0xd93ee0" file="test_it_known_function_abs_1.cpp" linenr="12" str="i" scope="0xd997c0" type="name" varId="7" variable="0xd9a3f0" astParent="0xd93fc0"/>
+    <token id="0xd93fc0" file="test_it_known_function_abs_1.cpp" linenr="12" str="&lt;" scope="0xd997c0" type="op" isComparisonOp="True" astParent="0xd94180" astOperand1="0xd93ee0" astOperand2="0xd940a0"/>
+    <token id="0xd940a0" file="test_it_known_function_abs_1.cpp" linenr="12" str="3" scope="0xd997c0" type="number" isInt="True" values="0xd940a8" astParent="0xd93fc0"/>
+    <token id="0xd94180" file="test_it_known_function_abs_1.cpp" linenr="12" str=";" scope="0xd997c0" astParent="0xd93e00" astOperand1="0xd93fc0" astOperand2="0xd94370"/>
+    <token id="0xd94290" file="test_it_known_function_abs_1.cpp" linenr="12" str="i" scope="0xd997c0" type="name" varId="7" variable="0xd9a3f0" astParent="0xd94370"/>
+    <token id="0xd94370" file="test_it_known_function_abs_1.cpp" linenr="12" str="++" scope="0xd997c0" type="op" astParent="0xd94180" astOperand1="0xd94290"/>
+    <token id="0xd94420" file="test_it_known_function_abs_1.cpp" linenr="12" str=")" scope="0xd997c0" link="0xd939a0"/>
+    <token id="0xd94500" file="test_it_known_function_abs_1.cpp" linenr="12" str="{" scope="0xd9a270" link="0xd94c00"/>
+    <token id="0xd945e0" file="test_it_known_function_abs_1.cpp" linenr="12" str="error" scope="0xd9a270" type="name" varId="6" variable="0xd9a930" astParent="0xd946c0"/>
+    <token id="0xd946c0" file="test_it_known_function_abs_1.cpp" linenr="12" str="[" scope="0xd9a270" link="0xd94880" astParent="0xd94960" astOperand1="0xd945e0" astOperand2="0xd947a0"/>
+    <token id="0xd947a0" file="test_it_known_function_abs_1.cpp" linenr="12" str="i" scope="0xd9a270" type="name" varId="7" variable="0xd9a3f0" values="0xd947a8" astParent="0xd946c0"/>
+    <token id="0xd94880" file="test_it_known_function_abs_1.cpp" linenr="12" str="]" scope="0xd9a270" link="0xd946c0"/>
+    <token id="0xd94960" file="test_it_known_function_abs_1.cpp" linenr="12" str="=" scope="0xd9a270" type="op" isAssignmentOp="True" astOperand1="0xd946c0" astOperand2="0xd94a40"/>
+    <token id="0xd94a40" file="test_it_known_function_abs_1.cpp" linenr="12" str="0" scope="0xd9a270" type="number" isInt="True" values="0xd94a48" astParent="0xd94960"/>
+    <token id="0xd94b20" file="test_it_known_function_abs_1.cpp" linenr="12" str=";" scope="0xd9a270"/>
+    <token id="0xd94c00" file="test_it_known_function_abs_1.cpp" linenr="12" str="}" scope="0xd9a270" link="0xd94500"/>
+    <token id="0xd94ce0" file="test_it_known_function_abs_1.cpp" linenr="14" str="if" scope="0xd997c0" type="name" astParent="0xd94dc0"/>
+    <token id="0xd94dc0" file="test_it_known_function_abs_1.cpp" linenr="14" str="(" scope="0xd997c0" link="0xd969c0" astOperand1="0xd94ce0" astOperand2="0xd95bc0"/>
+    <token id="0xd94ea0" file="test_it_known_function_abs_1.cpp" linenr="14" str="fabs" scope="0xd997c0" type="name" astParent="0xd94f80"/>
+    <token id="0xd94f80" file="test_it_known_function_abs_1.cpp" linenr="14" str="(" scope="0xd997c0" link="0xd953e0" astParent="0xd954c0" astOperand1="0xd94ea0" astOperand2="0xd95140"/>
+    <token id="0xd95060" file="test_it_known_function_abs_1.cpp" linenr="14" str="error" scope="0xd997c0" type="name" varId="6" variable="0xd9a930" astParent="0xd95140"/>
+    <token id="0xd95140" file="test_it_known_function_abs_1.cpp" linenr="14" str="[" scope="0xd997c0" link="0xd95300" astParent="0xd94f80" astOperand1="0xd95060" astOperand2="0xd95220"/>
+    <token id="0xd95220" file="test_it_known_function_abs_1.cpp" linenr="14" str="0" scope="0xd997c0" type="number" isInt="True" values="0xd95228" astParent="0xd95140"/>
+    <token id="0xd95300" file="test_it_known_function_abs_1.cpp" linenr="14" str="]" scope="0xd997c0" link="0xd95140"/>
+    <token id="0xd953e0" file="test_it_known_function_abs_1.cpp" linenr="14" str=")" scope="0xd997c0" link="0xd94f80"/>
+    <token id="0xd954c0" file="test_it_known_function_abs_1.cpp" linenr="14" str="&gt;" scope="0xd997c0" type="op" isComparisonOp="True" astParent="0xd95bc0" astOperand1="0xd94f80" astOperand2="0xd95680"/>
+    <token id="0xd955a0" file="test_it_known_function_abs_1.cpp" linenr="14" str="fabs" scope="0xd997c0" type="name" astParent="0xd95680"/>
+    <token id="0xd95680" file="test_it_known_function_abs_1.cpp" linenr="14" str="(" scope="0xd997c0" link="0xd95ae0" astParent="0xd954c0" astOperand1="0xd955a0" astOperand2="0xd95840"/>
+    <token id="0xd95760" file="test_it_known_function_abs_1.cpp" linenr="14" str="error" scope="0xd997c0" type="name" varId="6" variable="0xd9a930" astParent="0xd95840"/>
+    <token id="0xd95840" file="test_it_known_function_abs_1.cpp" linenr="14" str="[" scope="0xd997c0" link="0xd95a00" astParent="0xd95680" astOperand1="0xd95760" astOperand2="0xd95920"/>
+    <token id="0xd95920" file="test_it_known_function_abs_1.cpp" linenr="14" str="1" scope="0xd997c0" type="number" isInt="True" values="0xd95928" astParent="0xd95840"/>
+    <token id="0xd95a00" file="test_it_known_function_abs_1.cpp" linenr="14" str="]" scope="0xd997c0" link="0xd95840"/>
+    <token id="0xd95ae0" file="test_it_known_function_abs_1.cpp" linenr="14" str=")" scope="0xd997c0" link="0xd95680"/>
+    <token id="0xd95bc0" file="test_it_known_function_abs_1.cpp" linenr="14" str="&amp;&amp;" scope="0xd997c0" type="op" isLogicalOp="True" astParent="0xd94dc0" astOperand1="0xd954c0" astOperand2="0xd962c0"/>
+    <token id="0xd95ca0" file="test_it_known_function_abs_1.cpp" linenr="14" str="fabs" scope="0xd997c0" type="name" astParent="0xd95d80"/>
+    <token id="0xd95d80" file="test_it_known_function_abs_1.cpp" linenr="14" str="(" scope="0xd997c0" link="0xd961e0" astParent="0xd962c0" astOperand1="0xd95ca0" astOperand2="0xd95f40"/>
+    <token id="0xd95e60" file="test_it_known_function_abs_1.cpp" linenr="14" str="error" scope="0xd997c0" type="name" varId="6" variable="0xd9a930" astParent="0xd95f40"/>
+    <token id="0xd95f40" file="test_it_known_function_abs_1.cpp" linenr="14" str="[" scope="0xd997c0" link="0xd96100" astParent="0xd95d80" astOperand1="0xd95e60" astOperand2="0xd96020"/>
+    <token id="0xd96020" file="test_it_known_function_abs_1.cpp" linenr="14" str="0" scope="0xd997c0" type="number" isInt="True" values="0xd96028" astParent="0xd95f40"/>
+    <token id="0xd96100" file="test_it_known_function_abs_1.cpp" linenr="14" str="]" scope="0xd997c0" link="0xd95f40"/>
+    <token id="0xd961e0" file="test_it_known_function_abs_1.cpp" linenr="14" str=")" scope="0xd997c0" link="0xd95d80"/>
+    <token id="0xd962c0" file="test_it_known_function_abs_1.cpp" linenr="14" str="&gt;" scope="0xd997c0" type="op" isComparisonOp="True" astParent="0xd95bc0" astOperand1="0xd95d80" astOperand2="0xd96480"/>
+    <token id="0xd963a0" file="test_it_known_function_abs_1.cpp" linenr="14" str="fabs" scope="0xd997c0" type="name" astParent="0xd96480"/>
+    <token id="0xd96480" file="test_it_known_function_abs_1.cpp" linenr="14" str="(" scope="0xd997c0" link="0xd968e0" astParent="0xd962c0" astOperand1="0xd963a0" astOperand2="0xd96640"/>
+    <token id="0xd96560" file="test_it_known_function_abs_1.cpp" linenr="14" str="error" scope="0xd997c0" type="name" varId="6" variable="0xd9a930" astParent="0xd96640"/>
+    <token id="0xd96640" file="test_it_known_function_abs_1.cpp" linenr="14" str="[" scope="0xd997c0" link="0xd96800" astParent="0xd96480" astOperand1="0xd96560" astOperand2="0xd96720"/>
+    <token id="0xd96720" file="test_it_known_function_abs_1.cpp" linenr="14" str="2" scope="0xd997c0" type="number" isInt="True" values="0xd96728" astParent="0xd96640"/>
+    <token id="0xd96800" file="test_it_known_function_abs_1.cpp" linenr="14" str="]" scope="0xd997c0" link="0xd96640"/>
+    <token id="0xd968e0" file="test_it_known_function_abs_1.cpp" linenr="14" str=")" scope="0xd997c0" link="0xd96480"/>
+    <token id="0xd969c0" file="test_it_known_function_abs_1.cpp" linenr="14" str=")" scope="0xd997c0" link="0xd94dc0"/>
+    <token id="0xd96aa0" file="test_it_known_function_abs_1.cpp" linenr="15" str="{" scope="0xd9a480" link="0xd96f00"/>
+    <token id="0xd96b80" file="test_it_known_function_abs_1.cpp" linenr="16" str="t" scope="0xd9a480" type="name" varId="5" variable="0xd9a8a0" astParent="0xd96c60"/>
+    <token id="0xd96c60" file="test_it_known_function_abs_1.cpp" linenr="16" str="=" scope="0xd9a480" type="op" isAssignmentOp="True" astOperand1="0xd96b80" astOperand2="0xd96d40"/>
+    <token id="0xd96d40" file="test_it_known_function_abs_1.cpp" linenr="16" str="42.0" scope="0xd9a480" type="number" isFloat="True" astParent="0xd96c60"/>
+    <token id="0xd96e20" file="test_it_known_function_abs_1.cpp" linenr="16" str=";" scope="0xd9a480"/>
+    <token id="0xd96f00" file="test_it_known_function_abs_1.cpp" linenr="17" str="}" scope="0xd9a480" link="0xd96aa0"/>
+    <token id="0xd96fe0" file="test_it_known_function_abs_1.cpp" linenr="19" str="ros" scope="0xd997c0" type="name" astParent="0xd970c0"/>
+    <token id="0xd970c0" file="test_it_known_function_abs_1.cpp" linenr="19" str="::" scope="0xd997c0" astOperand1="0xd96fe0" astOperand2="0xd97280"/>
+    <token id="0xd971a0" file="test_it_known_function_abs_1.cpp" linenr="19" str="Time" scope="0xd997c0" type="name"/>
+    <token id="0xd97280" file="test_it_known_function_abs_1.cpp" linenr="19" str="my_time" scope="0xd997c0" type="name" varId="8" variable="0xd9a9c0" astParent="0xd970c0"/>
+    <token id="0xd97360" file="test_it_known_function_abs_1.cpp" linenr="19" str=";" scope="0xd997c0"/>
+    <token id="0xd993c0" file="test_it_known_function_abs_1.cpp" linenr="19" str="my_time" scope="0xd997c0" type="name" varId="8" variable="0xd9a9c0" astParent="0xd994a0"/>
+    <token id="0xd994a0" file="test_it_known_function_abs_1.cpp" linenr="19" str="=" scope="0xd997c0" type="op" isAssignmentOp="True" astOperand1="0xd993c0" astOperand2="0xd978a0"/>
+    <token id="0xd97440" file="test_it_known_function_abs_1.cpp" linenr="19" str="ros" scope="0xd997c0" type="name" astParent="0xd97520"/>
+    <token id="0xd97520" file="test_it_known_function_abs_1.cpp" linenr="19" str="::" scope="0xd997c0" astParent="0xd976e0" astOperand1="0xd97440" astOperand2="0xd97600"/>
+    <token id="0xd97600" file="test_it_known_function_abs_1.cpp" linenr="19" str="Time" scope="0xd997c0" type="name" astParent="0xd97520"/>
+    <token id="0xd976e0" file="test_it_known_function_abs_1.cpp" linenr="19" str="::" scope="0xd997c0" astParent="0xd978a0" astOperand1="0xd97520" astOperand2="0xd977c0"/>
+    <token id="0xd977c0" file="test_it_known_function_abs_1.cpp" linenr="19" str="now" scope="0xd997c0" type="name" astParent="0xd976e0"/>
+    <token id="0xd978a0" file="test_it_known_function_abs_1.cpp" linenr="19" str="(" scope="0xd997c0" link="0xd97980" astParent="0xd994a0" astOperand1="0xd976e0"/>
+    <token id="0xd97980" file="test_it_known_function_abs_1.cpp" linenr="19" str=")" scope="0xd997c0" link="0xd978a0"/>
+    <token id="0xd97a60" file="test_it_known_function_abs_1.cpp" linenr="19" str=";" scope="0xd997c0"/>
+    <token id="0xd97b40" file="test_it_known_function_abs_1.cpp" linenr="20" str="if" scope="0xd997c0" type="name" astParent="0xd97c20"/>
+    <token id="0xd97c20" file="test_it_known_function_abs_1.cpp" linenr="20" str="(" scope="0xd997c0" link="0xd98b00" astOperand1="0xd97b40" astOperand2="0xd98940"/>
+    <token id="0xd97d00" file="test_it_known_function_abs_1.cpp" linenr="20" str="std" scope="0xd997c0" type="name" astParent="0xd97de0"/>
+    <token id="0xd97de0" file="test_it_known_function_abs_1.cpp" linenr="20" str="::" scope="0xd997c0" astParent="0xd97fa0" astOperand1="0xd97d00" astOperand2="0xd97ec0"/>
+    <token id="0xd97ec0" file="test_it_known_function_abs_1.cpp" linenr="20" str="abs" scope="0xd997c0" type="name" astParent="0xd97de0"/>
+    <token id="0xd97fa0" file="test_it_known_function_abs_1.cpp" linenr="20" str="(" scope="0xd997c0" link="0xd98860" astParent="0xd98940" astOperand1="0xd97de0" astOperand2="0xd986a0"/>
+    <token id="0xd98080" file="test_it_known_function_abs_1.cpp" linenr="20" str="(" scope="0xd997c0" link="0xd98400"/>
+    <token id="0xd98160" file="test_it_known_function_abs_1.cpp" linenr="20" str="my_time" scope="0xd997c0" type="name" varId="8" variable="0xd9a9c0" astParent="0xd98240"/>
+    <token id="0xd98240" file="test_it_known_function_abs_1.cpp" linenr="20" str="-" scope="0xd997c0" type="op" isArithmeticalOp="True" astParent="0xd984e0" astOperand1="0xd98160" astOperand2="0xd98320"/>
+    <token id="0xd98320" file="test_it_known_function_abs_1.cpp" linenr="20" str="d1" scope="0xd997c0" type="name" varId="3" variable="0xd9a780" astParent="0xd98240"/>
+    <token id="0xd98400" file="test_it_known_function_abs_1.cpp" linenr="20" str=")" scope="0xd997c0" link="0xd98080"/>
+    <token id="0xd984e0" file="test_it_known_function_abs_1.cpp" linenr="20" str="." scope="0xd997c0" astParent="0xd986a0" astOperand1="0xd98240" astOperand2="0xd985c0"/>
+    <token id="0xd985c0" file="test_it_known_function_abs_1.cpp" linenr="20" str="toSec" scope="0xd997c0" type="name" astParent="0xd984e0"/>
+    <token id="0xd986a0" file="test_it_known_function_abs_1.cpp" linenr="20" str="(" scope="0xd997c0" link="0xd98780" astParent="0xd97fa0" astOperand1="0xd984e0"/>
+    <token id="0xd98780" file="test_it_known_function_abs_1.cpp" linenr="20" str=")" scope="0xd997c0" link="0xd986a0"/>
+    <token id="0xd98860" file="test_it_known_function_abs_1.cpp" linenr="20" str=")" scope="0xd997c0" link="0xd97fa0"/>
+    <token id="0xd98940" file="test_it_known_function_abs_1.cpp" linenr="20" str="&gt;" scope="0xd997c0" type="op" isComparisonOp="True" astParent="0xd97c20" astOperand1="0xd97fa0" astOperand2="0xd98a20"/>
+    <token id="0xd98a20" file="test_it_known_function_abs_1.cpp" linenr="20" str="37.2" scope="0xd997c0" type="number" isFloat="True" astParent="0xd98940"/>
+    <token id="0xd98b00" file="test_it_known_function_abs_1.cpp" linenr="20" str=")" scope="0xd997c0" link="0xd97c20"/>
+    <token id="0xd98be0" file="test_it_known_function_abs_1.cpp" linenr="20" str="{" scope="0xd9a600" link="0xd99040"/>
+    <token id="0xd98cc0" file="test_it_known_function_abs_1.cpp" linenr="21" str="t" scope="0xd9a600" type="name" varId="5" variable="0xd9a8a0" astParent="0xd98da0"/>
+    <token id="0xd98da0" file="test_it_known_function_abs_1.cpp" linenr="21" str="=" scope="0xd9a600" type="op" isAssignmentOp="True" astOperand1="0xd98cc0" astOperand2="0xd98e80"/>
+    <token id="0xd98e80" file="test_it_known_function_abs_1.cpp" linenr="21" str="1.618033" scope="0xd9a600" type="number" isFloat="True" astParent="0xd98da0"/>
+    <token id="0xd98f60" file="test_it_known_function_abs_1.cpp" linenr="21" str=";" scope="0xd9a600"/>
+    <token id="0xd99040" file="test_it_known_function_abs_1.cpp" linenr="22" str="}" scope="0xd9a600" link="0xd98be0"/>
+    <token id="0xd99120" file="test_it_known_function_abs_1.cpp" linenr="25" str="}" scope="0xd997c0" link="0xd90b70"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd99590" type="Global">
+      <functionList>
+        <function id="0xd99710" tokenDef="0xd91170" name="main">
+          <arg nr="1" variable="0xd9aa50"/>
+          <arg nr="2" variable="0xd9aae0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xd997c0" type="Function" className="main" classStart="0xd90b70" classEnd="0xd99120" nestedIn="0xd99590" function="0xd99710">
+      <varlist>
+        <var id="0xd9a780"/>
+        <var id="0xd9a810"/>
+        <var id="0xd9a8a0"/>
+        <var id="0xd9a930"/>
+        <var id="0xd9a9c0"/>
+      </varlist>
+    </scope>
+    <scope id="0xd9a270" type="For" classStart="0xd94500" classEnd="0xd94c00" nestedIn="0xd997c0">
+      <varlist>
+        <var id="0xd9a3f0"/>
+      </varlist>
+    </scope>
+    <scope id="0xd9a480" type="If" classStart="0xd96aa0" classEnd="0xd96f00" nestedIn="0xd997c0"/>
+    <scope id="0xd9a600" type="If" classStart="0xd98be0" classEnd="0xd99040" nestedIn="0xd997c0"/>
+  </scopes>
+  <variables>
+    <var id="0xd9aa50" nameToken="0xd91380" typeStartToken="0xd912d0" typeEndToken="0xd912d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9aae0" nameToken="0xd909b0" typeStartToken="0xd90710" typeEndToken="0xd908d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xd9a780" nameToken="0xd916a0" typeStartToken="0xd90c50" typeEndToken="0xd915f0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9a810" nameToken="0xd91be0" typeStartToken="0xd91b00" typeEndToken="0xd91b00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9a8a0" nameToken="0xd92820" typeStartToken="0xd92740" typeEndToken="0xd92740" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9a930" nameToken="0xd93460" typeStartToken="0xd93380" typeEndToken="0xd93380" isArgument="false" isArray="true" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9a3f0" nameToken="0xd93b60" typeStartToken="0xd93a80" typeEndToken="0xd93a80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd9a9c0" nameToken="0xd97280" typeStartToken="0xd96fe0" typeEndToken="0xd971a0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xd93628">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0xd93d28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd940a8">
+      <value intvalue="3" known="true"/>
+    </values>
+    <values id="0xd947a8">
+      <value intvalue="0" possible="true"/>
+      <value intvalue="2" possible="true"/>
+    </values>
+    <values id="0xd94a48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd95228">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd95928">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0xd96028">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xd96728">
+      <value intvalue="2" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

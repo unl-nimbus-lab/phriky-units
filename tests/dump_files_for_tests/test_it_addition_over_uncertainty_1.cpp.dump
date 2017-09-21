@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_addition_over_uncertainty_1.cpp" linenr="1" str="#include &quot;geometry_msgs/Accel.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7f8b74474db0" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="int" scope="0x7f8b74477090" type="name"/>
+    <token id="0x7f8b74474e50" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="main" scope="0x7f8b74477090" type="name" function="0x7f8b744771c0" astParent="0x7f8b74474ef0"/>
+    <token id="0x7f8b74474ef0" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="(" scope="0x7f8b74477090" link="0x7f8b74475730" astOperand1="0x7f8b74474e50" astOperand2="0x7f8b74475410"/>
+    <token id="0x7f8b74474f90" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="int" scope="0x7f8b74477090" type="name"/>
+    <token id="0x7f8b74475370" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="argc" scope="0x7f8b74477090" type="name" varId="1" variable="0x7f8b744774f0" astParent="0x7f8b74475410"/>
+    <token id="0x7f8b74475410" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="," scope="0x7f8b74477090" astParent="0x7f8b74474ef0" astOperand1="0x7f8b74475370" astOperand2="0x7f8b74475550"/>
+    <token id="0x7f8b744754b0" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="char" scope="0x7f8b74477090" type="name" astParent="0x7f8b74475550"/>
+    <token id="0x7f8b74475550" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="*" scope="0x7f8b74477090" type="op" isArithmeticalOp="True" astParent="0x7f8b74475410" astOperand1="0x7f8b744754b0" astOperand2="0x7f8b744755f0"/>
+    <token id="0x7f8b744755f0" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="*" scope="0x7f8b74477090" type="op" isArithmeticalOp="True" astParent="0x7f8b74475550" astOperand1="0x7f8b74475690"/>
+    <token id="0x7f8b74475690" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str="argv" scope="0x7f8b74477090" type="name" varId="2" variable="0x7f8b74477550" astParent="0x7f8b744755f0"/>
+    <token id="0x7f8b74475730" file="test_it_addition_over_uncertainty_1.cpp" linenr="3" str=")" scope="0x7f8b74477090" link="0x7f8b74474ef0"/>
+    <token id="0x7f8b744757d0" file="test_it_addition_over_uncertainty_1.cpp" linenr="4" str="{" scope="0x7f8b74477300" link="0x7f8b74476bd0"/>
+    <token id="0x7f8b74475870" file="test_it_addition_over_uncertainty_1.cpp" linenr="6" str="geometry_msgs" scope="0x7f8b74477300" type="name" astParent="0x7f8b74475910"/>
+    <token id="0x7f8b74475910" file="test_it_addition_over_uncertainty_1.cpp" linenr="6" str="::" scope="0x7f8b74477300" astOperand1="0x7f8b74475870" astOperand2="0x7f8b74475a50"/>
+    <token id="0x7f8b744759b0" file="test_it_addition_over_uncertainty_1.cpp" linenr="6" str="Accel" scope="0x7f8b74477300" type="name"/>
+    <token id="0x7f8b74475a50" file="test_it_addition_over_uncertainty_1.cpp" linenr="6" str="a_geometry_msgs_Accel" scope="0x7f8b74477300" type="name" varId="3" variable="0x7f8b74477430" astParent="0x7f8b74475910"/>
+    <token id="0x7f8b74475af0" file="test_it_addition_over_uncertainty_1.cpp" linenr="6" str=";" scope="0x7f8b74477300"/>
+    <token id="0x7f8b74475b90" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="a_geometry_msgs_Accel" scope="0x7f8b74477300" type="name" varId="3" variable="0x7f8b74477430" astParent="0x7f8b74475c30"/>
+    <token id="0x7f8b74475c30" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="." scope="0x7f8b74477300" astParent="0x7f8b74475d70" astOperand1="0x7f8b74475b90" astOperand2="0x7f8b74475cd0"/>
+    <token id="0x7f8b74475cd0" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="linear" scope="0x7f8b74477300" type="name" varId="4" astParent="0x7f8b74475c30"/>
+    <token id="0x7f8b74475d70" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="." scope="0x7f8b74477300" astParent="0x7f8b74475eb0" astOperand1="0x7f8b74475c30" astOperand2="0x7f8b74475e10"/>
+    <token id="0x7f8b74475e10" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="x" scope="0x7f8b74477300" type="name" varId="5" astParent="0x7f8b74475d70"/>
+    <token id="0x7f8b74475eb0" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="=" scope="0x7f8b74477300" type="op" isAssignmentOp="True" astOperand1="0x7f8b74475d70" astOperand2="0x7f8b74475f50"/>
+    <token id="0x7f8b74475f50" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str="0" scope="0x7f8b74477300" type="number" isInt="True" values="0x7f8b74475f58" astParent="0x7f8b74475eb0"/>
+    <token id="0x7f8b74475ff0" file="test_it_addition_over_uncertainty_1.cpp" linenr="7" str=";" scope="0x7f8b74477300"/>
+    <token id="0x7f8b74476090" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="float" scope="0x7f8b74477300" type="name"/>
+    <token id="0x7f8b74476130" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="x" scope="0x7f8b74477300" type="name" varId="6" variable="0x7f8b74477490"/>
+    <token id="0x7f8b744761d0" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str=";" scope="0x7f8b74477300"/>
+    <token id="0x7f8b74476e90" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="x" scope="0x7f8b74477300" type="name" varId="6" variable="0x7f8b74477490" astParent="0x7f8b74476f30"/>
+    <token id="0x7f8b74476f30" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="=" scope="0x7f8b74477300" type="op" isAssignmentOp="True" astOperand1="0x7f8b74476e90" astOperand2="0x7f8b74476590"/>
+    <token id="0x7f8b74476270" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="a_geometry_msgs_Accel" scope="0x7f8b74477300" type="name" varId="3" variable="0x7f8b74477430" astParent="0x7f8b74476310"/>
+    <token id="0x7f8b74476310" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="." scope="0x7f8b74477300" astParent="0x7f8b74476450" astOperand1="0x7f8b74476270" astOperand2="0x7f8b744763b0"/>
+    <token id="0x7f8b744763b0" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="linear" scope="0x7f8b74477300" type="name" varId="4" astParent="0x7f8b74476310"/>
+    <token id="0x7f8b74476450" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="." scope="0x7f8b74477300" astParent="0x7f8b74476590" astOperand1="0x7f8b74476310" astOperand2="0x7f8b744764f0"/>
+    <token id="0x7f8b744764f0" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="x" scope="0x7f8b74477300" type="name" varId="5" astParent="0x7f8b74476450"/>
+    <token id="0x7f8b74476590" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="+" scope="0x7f8b74477300" type="op" isArithmeticalOp="True" astParent="0x7f8b74476f30" astOperand1="0x7f8b74476450" astOperand2="0x7f8b74476810"/>
+    <token id="0x7f8b74476630" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="a_geometry_msgs_Accel" scope="0x7f8b74477300" type="name" varId="3" variable="0x7f8b74477430" astParent="0x7f8b744766d0"/>
+    <token id="0x7f8b744766d0" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="." scope="0x7f8b74477300" astParent="0x7f8b74476810" astOperand1="0x7f8b74476630" astOperand2="0x7f8b74476770"/>
+    <token id="0x7f8b74476770" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="linear" scope="0x7f8b74477300" type="name" varId="4" astParent="0x7f8b744766d0"/>
+    <token id="0x7f8b74476810" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="." scope="0x7f8b74477300" astParent="0x7f8b74476590" astOperand1="0x7f8b744766d0" astOperand2="0x7f8b744768b0"/>
+    <token id="0x7f8b744768b0" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str="x" scope="0x7f8b74477300" type="name" varId="5" astParent="0x7f8b74476810"/>
+    <token id="0x7f8b74476950" file="test_it_addition_over_uncertainty_1.cpp" linenr="10" str=";" scope="0x7f8b74477300"/>
+    <token id="0x7f8b744769f0" file="test_it_addition_over_uncertainty_1.cpp" linenr="12" str="return" scope="0x7f8b74477300" type="name" astOperand1="0x7f8b74476a90"/>
+    <token id="0x7f8b74476a90" file="test_it_addition_over_uncertainty_1.cpp" linenr="12" str="0" scope="0x7f8b74477300" type="number" isInt="True" values="0x7f8b74476a98" astParent="0x7f8b744769f0"/>
+    <token id="0x7f8b74476b30" file="test_it_addition_over_uncertainty_1.cpp" linenr="12" str=";" scope="0x7f8b74477300"/>
+    <token id="0x7f8b74476bd0" file="test_it_addition_over_uncertainty_1.cpp" linenr="13" str="}" scope="0x7f8b74477300" link="0x7f8b744757d0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7f8b74477090" type="Global">
+      <functionList>
+        <function id="0x7f8b744771c0" tokenDef="0x7f8b74474e50" name="main">
+          <arg nr="1" variable="0x7f8b744774f0"/>
+          <arg nr="2" variable="0x7f8b74477550"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7f8b74477300" type="Function" className="main" classStart="0x7f8b744757d0" classEnd="0x7f8b74476bd0" nestedIn="0x7f8b74477090" function="0x7f8b744771c0">
+      <varlist>
+        <var id="0x7f8b74477430"/>
+        <var id="0x7f8b74477490"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7f8b744774f0" nameToken="0x7f8b74475370" typeStartToken="0x7f8b74474f90" typeEndToken="0x7f8b74474f90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f8b74477550" nameToken="0x7f8b74475690" typeStartToken="0x7f8b744754b0" typeEndToken="0x7f8b744755f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7f8b74477430" nameToken="0x7f8b74475a50" typeStartToken="0x7f8b74475870" typeEndToken="0x7f8b744759b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f8b74477490" nameToken="0x7f8b74476130" typeStartToken="0x7f8b74476090" typeEndToken="0x7f8b74476090" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7f8b74475f58">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7f8b74476a98">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

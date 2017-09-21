@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x200dd60" file="test_it_casting_0.cpp" linenr="4" str="int" scope="0x2012720" type="name"/>
+    <token id="0x20101c0" file="test_it_casting_0.cpp" linenr="4" str="main" scope="0x2012720" type="name" function="0x20128a0" astParent="0x2010270"/>
+    <token id="0x2010270" file="test_it_casting_0.cpp" linenr="4" str="(" scope="0x2012720" link="0x2010ea0" astOperand1="0x20101c0" astOperand2="0x2010b00"/>
+    <token id="0x2010320" file="test_it_casting_0.cpp" linenr="4" str="int" scope="0x2012720" type="name"/>
+    <token id="0x2010a20" file="test_it_casting_0.cpp" linenr="4" str="argc" scope="0x2012720" type="name" varId="1" variable="0x2012e60" astParent="0x2010b00"/>
+    <token id="0x2010b00" file="test_it_casting_0.cpp" linenr="4" str="," scope="0x2012720" astParent="0x2010270" astOperand1="0x2010a20" astOperand2="0x2010500"/>
+    <token id="0x2010420" file="test_it_casting_0.cpp" linenr="4" str="char" scope="0x2012720" type="name" astParent="0x2010500"/>
+    <token id="0x2010500" file="test_it_casting_0.cpp" linenr="4" str="*" scope="0x2012720" type="op" isArithmeticalOp="True" astParent="0x2010b00" astOperand1="0x2010420" astOperand2="0x2010ce0"/>
+    <token id="0x2010ce0" file="test_it_casting_0.cpp" linenr="4" str="*" scope="0x2012720" type="op" isArithmeticalOp="True" astParent="0x2010500" astOperand1="0x2010dc0"/>
+    <token id="0x2010dc0" file="test_it_casting_0.cpp" linenr="4" str="argv" scope="0x2012720" type="name" varId="2" variable="0x2012ef0" astParent="0x2010ce0"/>
+    <token id="0x2010ea0" file="test_it_casting_0.cpp" linenr="4" str=")" scope="0x2012720" link="0x2010270"/>
+    <token id="0x2010f80" file="test_it_casting_0.cpp" linenr="5" str="{" scope="0x2012950" link="0x2012290"/>
+    <token id="0x2011090" file="test_it_casting_0.cpp" linenr="7" str="sensor_msgs" scope="0x2012950" type="name" astParent="0x2011140"/>
+    <token id="0x2011140" file="test_it_casting_0.cpp" linenr="7" str="::" scope="0x2012950" astOperand1="0x2011090" astOperand2="0x20112d0"/>
+    <token id="0x20111f0" file="test_it_casting_0.cpp" linenr="7" str="Range" scope="0x2012950" type="name"/>
+    <token id="0x20112d0" file="test_it_casting_0.cpp" linenr="7" str="r" scope="0x2012950" type="name" varId="3" variable="0x20124c0" astParent="0x2011140"/>
+    <token id="0x20113b0" file="test_it_casting_0.cpp" linenr="7" str=";" scope="0x2012950"/>
+    <token id="0x20114c0" file="test_it_casting_0.cpp" linenr="8" str="r" scope="0x2012950" type="name" varId="3" variable="0x20124c0" astParent="0x20115a0"/>
+    <token id="0x20115a0" file="test_it_casting_0.cpp" linenr="8" str="." scope="0x2012950" astParent="0x2011730" astOperand1="0x20114c0" astOperand2="0x2011650"/>
+    <token id="0x2011650" file="test_it_casting_0.cpp" linenr="8" str="range" scope="0x2012950" type="name" varId="4" astParent="0x20115a0"/>
+    <token id="0x2011730" file="test_it_casting_0.cpp" linenr="8" str="=" scope="0x2012950" type="op" isAssignmentOp="True" astOperand1="0x20115a0" astOperand2="0x2011810"/>
+    <token id="0x2011810" file="test_it_casting_0.cpp" linenr="8" str="0" scope="0x2012950" type="number" isInt="True" values="0x2011818" astParent="0x2011730"/>
+    <token id="0x20118f0" file="test_it_casting_0.cpp" linenr="8" str=";" scope="0x2012950"/>
+    <token id="0x20119d0" file="test_it_casting_0.cpp" linenr="10" str="float" scope="0x2012950" type="name"/>
+    <token id="0x2011ab0" file="test_it_casting_0.cpp" linenr="10" str="f" scope="0x2012950" type="name" varId="5" variable="0x2012dd0"/>
+    <token id="0x2011b90" file="test_it_casting_0.cpp" linenr="10" str=";" scope="0x2012950"/>
+    <token id="0x2012580" file="test_it_casting_0.cpp" linenr="10" str="f" scope="0x2012950" type="name" varId="5" variable="0x2012dd0" astParent="0x2012630"/>
+    <token id="0x2012630" file="test_it_casting_0.cpp" linenr="10" str="=" scope="0x2012950" type="op" isAssignmentOp="True" astOperand1="0x2012580" astOperand2="0x2011c70"/>
+    <token id="0x2011c70" file="test_it_casting_0.cpp" linenr="10" str="(" scope="0x2012950" link="0x2011e30" astParent="0x2012630" astOperand1="0x2012020"/>
+    <token id="0x2011d50" file="test_it_casting_0.cpp" linenr="10" str="float" scope="0x2012950" type="name"/>
+    <token id="0x2011e30" file="test_it_casting_0.cpp" linenr="10" str=")" scope="0x2012950" link="0x2011c70"/>
+    <token id="0x2011f40" file="test_it_casting_0.cpp" linenr="10" str="r" scope="0x2012950" type="name" varId="3" variable="0x20124c0" astParent="0x2012020"/>
+    <token id="0x2012020" file="test_it_casting_0.cpp" linenr="10" str="." scope="0x2012950" astParent="0x2011c70" astOperand1="0x2011f40" astOperand2="0x20120d0"/>
+    <token id="0x20120d0" file="test_it_casting_0.cpp" linenr="10" str="range" scope="0x2012950" type="name" varId="4" astParent="0x2012020"/>
+    <token id="0x20121b0" file="test_it_casting_0.cpp" linenr="10" str=";" scope="0x2012950"/>
+    <token id="0x2012290" file="test_it_casting_0.cpp" linenr="13" str="}" scope="0x2012950" link="0x2010f80"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2012720" type="Global">
+      <functionList>
+        <function id="0x20128a0" tokenDef="0x20101c0" name="main">
+          <arg nr="1" variable="0x2012e60"/>
+          <arg nr="2" variable="0x2012ef0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x2012950" type="Function" className="main" classStart="0x2010f80" classEnd="0x2012290" nestedIn="0x2012720" function="0x20128a0">
+      <varlist>
+        <var id="0x20124c0"/>
+        <var id="0x2012dd0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x2012e60" nameToken="0x2010a20" typeStartToken="0x2010320" typeEndToken="0x2010320" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2012ef0" nameToken="0x2010dc0" typeStartToken="0x2010420" typeEndToken="0x2010ce0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x20124c0" nameToken="0x20112d0" typeStartToken="0x2011090" typeEndToken="0x20111f0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2012dd0" nameToken="0x2011ab0" typeStartToken="0x20119d0" typeEndToken="0x20119d0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x2011818">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

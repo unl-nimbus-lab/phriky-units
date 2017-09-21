@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x22a3230" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="int" scope="0x22a55e0" type="name"/>
+    <token id="0x22a32e0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="main" scope="0x22a55e0" type="name" function="0x22a5760" astParent="0x22a3390"/>
+    <token id="0x22a3390" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="(" scope="0x22a55e0" link="0x22a4180" astOperand1="0x22a32e0" astOperand2="0x22a3d20"/>
+    <token id="0x22a3440" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="int" scope="0x22a55e0" type="name"/>
+    <token id="0x22a3520" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="argc" scope="0x22a55e0" type="name" varId="1" variable="0x22a5bb0" astParent="0x22a3d20"/>
+    <token id="0x22a3d20" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="," scope="0x22a55e0" astParent="0x22a3390" astOperand1="0x22a3520" astOperand2="0x22a3ee0"/>
+    <token id="0x22a3e00" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="char" scope="0x22a55e0" type="name" astParent="0x22a3ee0"/>
+    <token id="0x22a3ee0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="*" scope="0x22a55e0" type="op" isArithmeticalOp="True" astParent="0x22a3d20" astOperand1="0x22a3e00" astOperand2="0x22a3fc0"/>
+    <token id="0x22a3fc0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="*" scope="0x22a55e0" type="op" isArithmeticalOp="True" astParent="0x22a3ee0" astOperand1="0x22a40a0"/>
+    <token id="0x22a40a0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str="argv" scope="0x22a55e0" type="name" varId="2" variable="0x22a5c40" astParent="0x22a3fc0"/>
+    <token id="0x22a4180" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="4" str=")" scope="0x22a55e0" link="0x22a3390"/>
+    <token id="0x22a4260" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="5" str="{" scope="0x22a5810" link="0x22a5220"/>
+    <token id="0x22a4370" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="float" scope="0x22a5810" type="name"/>
+    <token id="0x22a4420" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="f" scope="0x22a5810" type="name" varId="3" variable="0x22a5990"/>
+    <token id="0x22a4500" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str=";" scope="0x22a5810"/>
+    <token id="0x22a3720" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="f" scope="0x22a5810" type="name" varId="3" variable="0x22a5990" astParent="0x22a37d0"/>
+    <token id="0x22a37d0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="=" scope="0x22a5810" type="op" isAssignmentOp="True" astOperand1="0x22a3720" astOperand2="0x22a4880"/>
+    <token id="0x22a45e0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="std" scope="0x22a5810" type="name" astParent="0x22a46c0"/>
+    <token id="0x22a46c0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="::" scope="0x22a5810" astParent="0x22a4880" astOperand1="0x22a45e0" astOperand2="0x22a47a0"/>
+    <token id="0x22a47a0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="atan" scope="0x22a5810" type="name" astParent="0x22a46c0"/>
+    <token id="0x22a4880" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="(" scope="0x22a5810" link="0x22a4a40" astParent="0x22a37d0" astOperand1="0x22a46c0" astOperand2="0x22a4960"/>
+    <token id="0x22a4960" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str="10" scope="0x22a5810" type="number" isInt="True" values="0x22a4968" astParent="0x22a4880"/>
+    <token id="0x22a4a40" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str=")" scope="0x22a5810" link="0x22a4880"/>
+    <token id="0x22a4b20" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="6" str=";" scope="0x22a5810"/>
+    <token id="0x22a4c00" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="float" scope="0x22a5810" type="name"/>
+    <token id="0x22a4ce0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="x" scope="0x22a5810" type="name" varId="4" variable="0x22a5a20"/>
+    <token id="0x22a4dc0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str=";" scope="0x22a5810"/>
+    <token id="0x22a5300" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="x" scope="0x22a5810" type="name" varId="4" variable="0x22a5a20" astParent="0x22a53b0"/>
+    <token id="0x22a53b0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="=" scope="0x22a5810" type="op" isAssignmentOp="True" astOperand1="0x22a5300" astOperand2="0x22a4f80"/>
+    <token id="0x22a4ea0" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="f" scope="0x22a5810" type="name" varId="3" variable="0x22a5990" astParent="0x22a4f80"/>
+    <token id="0x22a4f80" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="*" scope="0x22a5810" type="op" isArithmeticalOp="True" astParent="0x22a53b0" astOperand1="0x22a4ea0" astOperand2="0x22a5060"/>
+    <token id="0x22a5060" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str="f" scope="0x22a5810" type="name" varId="3" variable="0x22a5990" astParent="0x22a4f80"/>
+    <token id="0x22a5140" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="7" str=";" scope="0x22a5810"/>
+    <token id="0x22a5220" file="test_it_radian_closed_under_multiplication_1.cpp" linenr="8" str="}" scope="0x22a5810" link="0x22a4260"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x22a55e0" type="Global">
+      <functionList>
+        <function id="0x22a5760" tokenDef="0x22a32e0" name="main">
+          <arg nr="1" variable="0x22a5bb0"/>
+          <arg nr="2" variable="0x22a5c40"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x22a5810" type="Function" className="main" classStart="0x22a4260" classEnd="0x22a5220" nestedIn="0x22a55e0" function="0x22a5760">
+      <varlist>
+        <var id="0x22a5990"/>
+        <var id="0x22a5a20"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x22a5bb0" nameToken="0x22a3520" typeStartToken="0x22a3440" typeEndToken="0x22a3440" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x22a5c40" nameToken="0x22a40a0" typeStartToken="0x22a3e00" typeEndToken="0x22a3fc0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x22a5990" nameToken="0x22a4420" typeStartToken="0x22a4370" typeEndToken="0x22a4370" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x22a5a20" nameToken="0x22a4ce0" typeStartToken="0x22a4c00" typeEndToken="0x22a4c00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x22a4968">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

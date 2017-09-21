@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1d57aa0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="int" scope="0x1d610e0" type="name"/>
+    <token id="0x1d57b50" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="main" scope="0x1d610e0" type="name" function="0x1d61260" astParent="0x1d5e020"/>
+    <token id="0x1d5e020" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="(" scope="0x1d610e0" link="0x1d5dcc0" astOperand1="0x1d57b50" astOperand2="0x1d5d860"/>
+    <token id="0x1d5e0d0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="int" scope="0x1d610e0" type="name"/>
+    <token id="0x1d5d780" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="argc" scope="0x1d610e0" type="name" varId="1" variable="0x1d61f10" astParent="0x1d5d860"/>
+    <token id="0x1d5d860" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="," scope="0x1d610e0" astParent="0x1d5e020" astOperand1="0x1d5d780" astOperand2="0x1d5da20"/>
+    <token id="0x1d5d940" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="char" scope="0x1d610e0" type="name" astParent="0x1d5da20"/>
+    <token id="0x1d5da20" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="*" scope="0x1d610e0" type="op" isArithmeticalOp="True" astParent="0x1d5d860" astOperand1="0x1d5d940" astOperand2="0x1d5db00"/>
+    <token id="0x1d5db00" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="*" scope="0x1d610e0" type="op" isArithmeticalOp="True" astParent="0x1d5da20" astOperand1="0x1d5dbe0"/>
+    <token id="0x1d5dbe0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str="argv" scope="0x1d610e0" type="name" varId="2" variable="0x1d61fa0" astParent="0x1d5db00"/>
+    <token id="0x1d5dcc0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="4" str=")" scope="0x1d610e0" link="0x1d5e020"/>
+    <token id="0x1d5e470" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="5" str="{" scope="0x1d61310" link="0x1d60f80"/>
+    <token id="0x1d5e580" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="7" str="geometry_msgs" scope="0x1d61310" type="name" astParent="0x1d5e630"/>
+    <token id="0x1d5e630" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="7" str="::" scope="0x1d61310" astOperand1="0x1d5e580" astOperand2="0x1d5e7c0"/>
+    <token id="0x1d5e6e0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="7" str="Accel" scope="0x1d61310" type="name"/>
+    <token id="0x1d5e7c0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="7" str="a_geometry_msgs_Accel" scope="0x1d61310" type="name" varId="3" variable="0x1d61690" astParent="0x1d5e630"/>
+    <token id="0x1d5e870" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="7" str=";" scope="0x1d61310"/>
+    <token id="0x1d5e950" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="8" str="geometry_msgs" scope="0x1d61310" type="name" astParent="0x1d5ea30"/>
+    <token id="0x1d5ea30" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="8" str="::" scope="0x1d61310" astOperand1="0x1d5e950" astOperand2="0x1d5ebf0"/>
+    <token id="0x1d5eb10" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="8" str="AccelStamped" scope="0x1d61310" type="name"/>
+    <token id="0x1d5ebf0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="8" str="a_geometry_msgs_AccelStamped" scope="0x1d61310" type="name" varId="4" variable="0x1d61df0" astParent="0x1d5ea30"/>
+    <token id="0x1d5ece0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="8" str=";" scope="0x1d61310"/>
+    <token id="0x1d5ee00" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="a_geometry_msgs_AccelStamped" scope="0x1d61310" type="name" varId="4" variable="0x1d61df0" astParent="0x1d5eef0"/>
+    <token id="0x1d5eef0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="." scope="0x1d61310" astParent="0x1d5f0e0" astOperand1="0x1d5ee00" astOperand2="0x1d5f000"/>
+    <token id="0x1d5f000" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="accel" scope="0x1d61310" type="name" varId="5" astParent="0x1d5eef0"/>
+    <token id="0x1d5f0e0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="." scope="0x1d61310" astParent="0x1d5f2a0" astOperand1="0x1d5eef0" astOperand2="0x1d5f1c0"/>
+    <token id="0x1d5f1c0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="linear" scope="0x1d61310" type="name" varId="6" astParent="0x1d5f0e0"/>
+    <token id="0x1d5f2a0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="." scope="0x1d61310" astParent="0x1d5f430" astOperand1="0x1d5f0e0" astOperand2="0x1d5f350"/>
+    <token id="0x1d5f350" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="x" scope="0x1d61310" type="name" varId="7" astParent="0x1d5f2a0"/>
+    <token id="0x1d5f430" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="=" scope="0x1d61310" type="op" isAssignmentOp="True" astOperand1="0x1d5f2a0" astOperand2="0x1d5f510"/>
+    <token id="0x1d5f510" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str="0" scope="0x1d61310" type="number" isInt="True" values="0x1d5f518" astParent="0x1d5f430"/>
+    <token id="0x1d5f5f0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="10" str=";" scope="0x1d61310"/>
+    <token id="0x1d5f6d0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="a_geometry_msgs_Accel" scope="0x1d61310" type="name" varId="3" variable="0x1d61690" astParent="0x1d5f7c0"/>
+    <token id="0x1d5f7c0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="." scope="0x1d61310" astParent="0x1d5f9b0" astOperand1="0x1d5f6d0" astOperand2="0x1d5f8d0"/>
+    <token id="0x1d5f8d0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="linear" scope="0x1d61310" type="name" varId="8" astParent="0x1d5f7c0"/>
+    <token id="0x1d5f9b0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="." scope="0x1d61310" astParent="0x1d5fb40" astOperand1="0x1d5f7c0" astOperand2="0x1d5fa60"/>
+    <token id="0x1d5fa60" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="x" scope="0x1d61310" type="name" varId="9" astParent="0x1d5f9b0"/>
+    <token id="0x1d5fb40" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="=" scope="0x1d61310" type="op" isAssignmentOp="True" astOperand1="0x1d5f9b0" astOperand2="0x1d5fc20"/>
+    <token id="0x1d5fc20" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str="0" scope="0x1d61310" type="number" isInt="True" values="0x1d5fc28" astParent="0x1d5fb40"/>
+    <token id="0x1d5fd00" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="11" str=";" scope="0x1d61310"/>
+    <token id="0x1d5fde0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="float" scope="0x1d61310" type="name"/>
+    <token id="0x1d5fec0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="f" scope="0x1d61310" type="name" varId="10" variable="0x1d61e80"/>
+    <token id="0x1d5ffa0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str=";" scope="0x1d61310"/>
+    <token id="0x1d57de0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="f" scope="0x1d61310" type="name" varId="10" variable="0x1d61e80" astParent="0x1d617a0"/>
+    <token id="0x1d617a0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="=" scope="0x1d61310" type="op" isAssignmentOp="True" astOperand1="0x1d57de0" astOperand2="0x1d606b0"/>
+    <token id="0x1d60080" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="a_geometry_msgs_AccelStamped" scope="0x1d61310" type="name" varId="4" variable="0x1d61df0" astParent="0x1d60170"/>
+    <token id="0x1d60170" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="." scope="0x1d61310" astParent="0x1d60360" astOperand1="0x1d60080" astOperand2="0x1d60280"/>
+    <token id="0x1d60280" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="accel" scope="0x1d61310" type="name" varId="5" astParent="0x1d60170"/>
+    <token id="0x1d60360" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="." scope="0x1d61310" astParent="0x1d60520" astOperand1="0x1d60170" astOperand2="0x1d60440"/>
+    <token id="0x1d60440" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="linear" scope="0x1d61310" type="name" varId="6" astParent="0x1d60360"/>
+    <token id="0x1d60520" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="." scope="0x1d61310" astParent="0x1d606b0" astOperand1="0x1d60360" astOperand2="0x1d605d0"/>
+    <token id="0x1d605d0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="x" scope="0x1d61310" type="name" varId="7" astParent="0x1d60520"/>
+    <token id="0x1d606b0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="*" scope="0x1d61310" type="op" isArithmeticalOp="True" astParent="0x1d617a0" astOperand1="0x1d60520" astOperand2="0x1d60a70"/>
+    <token id="0x1d60790" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="a_geometry_msgs_Accel" scope="0x1d61310" type="name" varId="3" variable="0x1d61690" astParent="0x1d60880"/>
+    <token id="0x1d60880" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="." scope="0x1d61310" astParent="0x1d60a70" astOperand1="0x1d60790" astOperand2="0x1d60990"/>
+    <token id="0x1d60990" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="linear" scope="0x1d61310" type="name" varId="8" astParent="0x1d60880"/>
+    <token id="0x1d60a70" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="." scope="0x1d61310" astParent="0x1d606b0" astOperand1="0x1d60880" astOperand2="0x1d60b20"/>
+    <token id="0x1d60b20" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str="x" scope="0x1d61310" type="name" varId="9" astParent="0x1d60a70"/>
+    <token id="0x1d60c00" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="14" str=";" scope="0x1d61310"/>
+    <token id="0x1d60ce0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="16" str="return" scope="0x1d61310" type="name" astOperand1="0x1d60dc0"/>
+    <token id="0x1d60dc0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="16" str="0" scope="0x1d61310" type="number" isInt="True" values="0x1d60dc8" astParent="0x1d60ce0"/>
+    <token id="0x1d60ea0" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="16" str=";" scope="0x1d61310"/>
+    <token id="0x1d60f80" file="test_it_unit_propagation_by_multiplication_1.cpp" linenr="17" str="}" scope="0x1d61310" link="0x1d5e470"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1d610e0" type="Global">
+      <functionList>
+        <function id="0x1d61260" tokenDef="0x1d57b50" name="main">
+          <arg nr="1" variable="0x1d61f10"/>
+          <arg nr="2" variable="0x1d61fa0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1d61310" type="Function" className="main" classStart="0x1d5e470" classEnd="0x1d60f80" nestedIn="0x1d610e0" function="0x1d61260">
+      <varlist>
+        <var id="0x1d61690"/>
+        <var id="0x1d61df0"/>
+        <var id="0x1d61e80"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1d61f10" nameToken="0x1d5d780" typeStartToken="0x1d5e0d0" typeEndToken="0x1d5e0d0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d61fa0" nameToken="0x1d5dbe0" typeStartToken="0x1d5d940" typeEndToken="0x1d5db00" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d61690" nameToken="0x1d5e7c0" typeStartToken="0x1d5e580" typeEndToken="0x1d5e6e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d61df0" nameToken="0x1d5ebf0" typeStartToken="0x1d5e950" typeEndToken="0x1d5eb10" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d61e80" nameToken="0x1d5fec0" typeStartToken="0x1d5fde0" typeEndToken="0x1d5fde0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1d5f518">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d5fc28">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1d60dc8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

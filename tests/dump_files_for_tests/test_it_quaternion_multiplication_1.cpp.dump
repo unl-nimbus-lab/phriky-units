@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1babb50" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="int" scope="0x1badae0" type="name"/>
+    <token id="0x1babc00" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="main" scope="0x1badae0" type="name" function="0x1badc60" astParent="0x1babcb0"/>
+    <token id="0x1babcb0" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="(" scope="0x1badae0" link="0x1babfe0" astOperand1="0x1babc00" astOperand2="0x1bab4b0"/>
+    <token id="0x1bab2f0" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="int" scope="0x1badae0" type="name"/>
+    <token id="0x1bab3d0" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="argc" scope="0x1badae0" type="name" varId="1" variable="0x1bae450" astParent="0x1bab4b0"/>
+    <token id="0x1bab4b0" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="," scope="0x1badae0" astParent="0x1babcb0" astOperand1="0x1bab3d0" astOperand2="0x1bab670"/>
+    <token id="0x1bab590" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="char" scope="0x1badae0" type="name" astParent="0x1bab670"/>
+    <token id="0x1bab670" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="*" scope="0x1badae0" type="op" isArithmeticalOp="True" astParent="0x1bab4b0" astOperand1="0x1bab590" astOperand2="0x1babe20"/>
+    <token id="0x1babe20" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="*" scope="0x1badae0" type="op" isArithmeticalOp="True" astParent="0x1bab670" astOperand1="0x1babf00"/>
+    <token id="0x1babf00" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str="argv" scope="0x1badae0" type="name" varId="2" variable="0x1bae4e0" astParent="0x1babe20"/>
+    <token id="0x1babfe0" file="test_it_quaternion_multiplication_1.cpp" linenr="5" str=")" scope="0x1badae0" link="0x1babcb0"/>
+    <token id="0x1bac0c0" file="test_it_quaternion_multiplication_1.cpp" linenr="6" str="{" scope="0x1badd10" link="0x1bad910"/>
+    <token id="0x1bac1a0" file="test_it_quaternion_multiplication_1.cpp" linenr="7" str="tf2" scope="0x1badd10" type="name" astParent="0x1bac280"/>
+    <token id="0x1bac280" file="test_it_quaternion_multiplication_1.cpp" linenr="7" str="::" scope="0x1badd10" astOperand1="0x1bac1a0" astOperand2="0x1bac440"/>
+    <token id="0x1bac390" file="test_it_quaternion_multiplication_1.cpp" linenr="7" str="Transform" scope="0x1badd10" type="name"/>
+    <token id="0x1bac440" file="test_it_quaternion_multiplication_1.cpp" linenr="7" str="tf" scope="0x1badd10" type="name" varId="3" variable="0x1bae2a0" astParent="0x1bac280"/>
+    <token id="0x1bac4f0" file="test_it_quaternion_multiplication_1.cpp" linenr="7" str=";" scope="0x1badd10"/>
+    <token id="0x1bac5d0" file="test_it_quaternion_multiplication_1.cpp" linenr="8" str="geometry_msgs" scope="0x1badd10" type="name" astParent="0x1bac6b0"/>
+    <token id="0x1bac6b0" file="test_it_quaternion_multiplication_1.cpp" linenr="8" str="::" scope="0x1badd10" astOperand1="0x1bac5d0" astOperand2="0x1bac870"/>
+    <token id="0x1bac790" file="test_it_quaternion_multiplication_1.cpp" linenr="8" str="Twist" scope="0x1badd10" type="name"/>
+    <token id="0x1bac870" file="test_it_quaternion_multiplication_1.cpp" linenr="8" str="tw" scope="0x1badd10" type="name" varId="4" variable="0x1bae3c0" astParent="0x1bac6b0"/>
+    <token id="0x1bac950" file="test_it_quaternion_multiplication_1.cpp" linenr="8" str=";" scope="0x1badd10"/>
+    <token id="0x1baca60" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="tw" scope="0x1badd10" type="name" varId="4" variable="0x1bae3c0" astParent="0x1bacb40"/>
+    <token id="0x1bacb40" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="." scope="0x1badd10" astParent="0x1bacd00" astOperand1="0x1baca60" astOperand2="0x1bacc20"/>
+    <token id="0x1bacc20" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="linear" scope="0x1badd10" type="name" varId="5" astParent="0x1bacb40"/>
+    <token id="0x1bacd00" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="." scope="0x1badd10" astParent="0x1bace90" astOperand1="0x1bacb40" astOperand2="0x1bacdb0"/>
+    <token id="0x1bacdb0" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="x" scope="0x1badd10" type="name" varId="6" astParent="0x1bacd00"/>
+    <token id="0x1bace90" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="*=" scope="0x1badd10" type="op" isAssignmentOp="True" astOperand1="0x1bacd00" astOperand2="0x1bad670"/>
+    <token id="0x1bad080" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="tf" scope="0x1badd10" type="name" varId="3" variable="0x1bae2a0" astParent="0x1bad160"/>
+    <token id="0x1bad160" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="." scope="0x1badd10" astParent="0x1bad2f0" astOperand1="0x1bad080" astOperand2="0x1bad210"/>
+    <token id="0x1bad210" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="getRotation" scope="0x1badd10" type="name" astParent="0x1bad160"/>
+    <token id="0x1bad2f0" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="(" scope="0x1badd10" link="0x1bad3d0" astParent="0x1bad4b0" astOperand1="0x1bad160"/>
+    <token id="0x1bad3d0" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str=")" scope="0x1badd10" link="0x1bad2f0"/>
+    <token id="0x1bad4b0" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="." scope="0x1badd10" astParent="0x1bad670" astOperand1="0x1bad2f0" astOperand2="0x1bad590"/>
+    <token id="0x1bad590" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="getW" scope="0x1badd10" type="name" astParent="0x1bad4b0"/>
+    <token id="0x1bad670" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str="(" scope="0x1badd10" link="0x1bad750" astParent="0x1bace90" astOperand1="0x1bad4b0"/>
+    <token id="0x1bad750" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str=")" scope="0x1badd10" link="0x1bad670"/>
+    <token id="0x1bad830" file="test_it_quaternion_multiplication_1.cpp" linenr="9" str=";" scope="0x1badd10"/>
+    <token id="0x1bad910" file="test_it_quaternion_multiplication_1.cpp" linenr="10" str="}" scope="0x1badd10" link="0x1bac0c0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1badae0" type="Global">
+      <functionList>
+        <function id="0x1badc60" tokenDef="0x1babc00" name="main">
+          <arg nr="1" variable="0x1bae450"/>
+          <arg nr="2" variable="0x1bae4e0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1badd10" type="Function" className="main" classStart="0x1bac0c0" classEnd="0x1bad910" nestedIn="0x1badae0" function="0x1badc60">
+      <varlist>
+        <var id="0x1bae2a0"/>
+        <var id="0x1bae3c0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1bae450" nameToken="0x1bab3d0" typeStartToken="0x1bab2f0" typeEndToken="0x1bab2f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1bae4e0" nameToken="0x1babf00" typeStartToken="0x1bab590" typeEndToken="0x1babe20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1bae2a0" nameToken="0x1bac440" typeStartToken="0x1bac1a0" typeEndToken="0x1bac390" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1bae3c0" nameToken="0x1bac870" typeStartToken="0x1bac5d0" typeEndToken="0x1bac790" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

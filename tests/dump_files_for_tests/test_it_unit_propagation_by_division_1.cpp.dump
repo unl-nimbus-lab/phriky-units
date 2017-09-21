@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1c22e30" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="int" scope="0x1c2c190" type="name"/>
+    <token id="0x1c261c0" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="main" scope="0x1c2c190" type="name" function="0x1c2c310" astParent="0x1c26270"/>
+    <token id="0x1c26270" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="(" scope="0x1c2c190" link="0x1c28be0" astOperand1="0x1c261c0" astOperand2="0x1c28780"/>
+    <token id="0x1c285f0" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="int" scope="0x1c2c190" type="name"/>
+    <token id="0x1c286a0" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="argc" scope="0x1c2c190" type="name" varId="1" variable="0x1c2cf10" astParent="0x1c28780"/>
+    <token id="0x1c28780" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="," scope="0x1c2c190" astParent="0x1c26270" astOperand1="0x1c286a0" astOperand2="0x1c28940"/>
+    <token id="0x1c28860" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="char" scope="0x1c2c190" type="name" astParent="0x1c28940"/>
+    <token id="0x1c28940" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="*" scope="0x1c2c190" type="op" isArithmeticalOp="True" astParent="0x1c28780" astOperand1="0x1c28860" astOperand2="0x1c28a20"/>
+    <token id="0x1c28a20" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="*" scope="0x1c2c190" type="op" isArithmeticalOp="True" astParent="0x1c28940" astOperand1="0x1c28b00"/>
+    <token id="0x1c28b00" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str="argv" scope="0x1c2c190" type="name" varId="2" variable="0x1c2cfa0" astParent="0x1c28a20"/>
+    <token id="0x1c28be0" file="test_it_unit_propagation_by_division_1.cpp" linenr="4" str=")" scope="0x1c2c190" link="0x1c26270"/>
+    <token id="0x1c28cc0" file="test_it_unit_propagation_by_division_1.cpp" linenr="5" str="{" scope="0x1c2c3c0" link="0x1c2bf10"/>
+    <token id="0x1c28dd0" file="test_it_unit_propagation_by_division_1.cpp" linenr="7" str="geometry_msgs" scope="0x1c2c3c0" type="name" astParent="0x1c295c0"/>
+    <token id="0x1c295c0" file="test_it_unit_propagation_by_division_1.cpp" linenr="7" str="::" scope="0x1c2c3c0" astOperand1="0x1c28dd0" astOperand2="0x1c29750"/>
+    <token id="0x1c29670" file="test_it_unit_propagation_by_division_1.cpp" linenr="7" str="Accel" scope="0x1c2c3c0" type="name"/>
+    <token id="0x1c29750" file="test_it_unit_propagation_by_division_1.cpp" linenr="7" str="a_geometry_msgs_Accel" scope="0x1c2c3c0" type="name" varId="3" variable="0x1c2c7c0" astParent="0x1c295c0"/>
+    <token id="0x1c29800" file="test_it_unit_propagation_by_division_1.cpp" linenr="7" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c298e0" file="test_it_unit_propagation_by_division_1.cpp" linenr="8" str="geometry_msgs" scope="0x1c2c3c0" type="name" astParent="0x1c299c0"/>
+    <token id="0x1c299c0" file="test_it_unit_propagation_by_division_1.cpp" linenr="8" str="::" scope="0x1c2c3c0" astOperand1="0x1c298e0" astOperand2="0x1c29b80"/>
+    <token id="0x1c29aa0" file="test_it_unit_propagation_by_division_1.cpp" linenr="8" str="AccelStamped" scope="0x1c2c3c0" type="name"/>
+    <token id="0x1c29b80" file="test_it_unit_propagation_by_division_1.cpp" linenr="8" str="a_geometry_msgs_AccelStamped" scope="0x1c2c3c0" type="name" varId="4" variable="0x1c2cdf0" astParent="0x1c299c0"/>
+    <token id="0x1c29c70" file="test_it_unit_propagation_by_division_1.cpp" linenr="8" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c29d90" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="a_geometry_msgs_AccelStamped" scope="0x1c2c3c0" type="name" varId="4" variable="0x1c2cdf0" astParent="0x1c29e80"/>
+    <token id="0x1c29e80" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="." scope="0x1c2c3c0" astParent="0x1c2a070" astOperand1="0x1c29d90" astOperand2="0x1c29f90"/>
+    <token id="0x1c29f90" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="accel" scope="0x1c2c3c0" type="name" varId="5" astParent="0x1c29e80"/>
+    <token id="0x1c2a070" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="." scope="0x1c2c3c0" astParent="0x1c2a230" astOperand1="0x1c29e80" astOperand2="0x1c2a150"/>
+    <token id="0x1c2a150" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="linear" scope="0x1c2c3c0" type="name" varId="6" astParent="0x1c2a070"/>
+    <token id="0x1c2a230" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="." scope="0x1c2c3c0" astParent="0x1c2a3c0" astOperand1="0x1c2a070" astOperand2="0x1c2a2e0"/>
+    <token id="0x1c2a2e0" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="x" scope="0x1c2c3c0" type="name" varId="7" astParent="0x1c2a230"/>
+    <token id="0x1c2a3c0" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="=" scope="0x1c2c3c0" type="op" isAssignmentOp="True" astOperand1="0x1c2a230" astOperand2="0x1c2a4a0"/>
+    <token id="0x1c2a4a0" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str="0" scope="0x1c2c3c0" type="number" isInt="True" values="0x1c2a4a8" astParent="0x1c2a3c0"/>
+    <token id="0x1c2a580" file="test_it_unit_propagation_by_division_1.cpp" linenr="10" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c2a660" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="a_geometry_msgs_Accel" scope="0x1c2c3c0" type="name" varId="3" variable="0x1c2c7c0" astParent="0x1c2a750"/>
+    <token id="0x1c2a750" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="." scope="0x1c2c3c0" astParent="0x1c2a940" astOperand1="0x1c2a660" astOperand2="0x1c2a860"/>
+    <token id="0x1c2a860" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="linear" scope="0x1c2c3c0" type="name" varId="8" astParent="0x1c2a750"/>
+    <token id="0x1c2a940" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="." scope="0x1c2c3c0" astParent="0x1c2aad0" astOperand1="0x1c2a750" astOperand2="0x1c2a9f0"/>
+    <token id="0x1c2a9f0" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="x" scope="0x1c2c3c0" type="name" varId="9" astParent="0x1c2a940"/>
+    <token id="0x1c2aad0" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="=" scope="0x1c2c3c0" type="op" isAssignmentOp="True" astOperand1="0x1c2a940" astOperand2="0x1c2abb0"/>
+    <token id="0x1c2abb0" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str="0" scope="0x1c2c3c0" type="number" isInt="True" values="0x1c2abb8" astParent="0x1c2aad0"/>
+    <token id="0x1c2ac90" file="test_it_unit_propagation_by_division_1.cpp" linenr="11" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c2ad70" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="float" scope="0x1c2c3c0" type="name"/>
+    <token id="0x1c2ae50" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="f" scope="0x1c2c3c0" type="name" varId="10" variable="0x1c2ce80"/>
+    <token id="0x1c2af30" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c2bff0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="f" scope="0x1c2c3c0" type="name" varId="10" variable="0x1c2ce80" astParent="0x1c2c0a0"/>
+    <token id="0x1c2c0a0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="=" scope="0x1c2c3c0" type="op" isAssignmentOp="True" astOperand1="0x1c2bff0" astOperand2="0x1c2b640"/>
+    <token id="0x1c2b010" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="a_geometry_msgs_AccelStamped" scope="0x1c2c3c0" type="name" varId="4" variable="0x1c2cdf0" astParent="0x1c2b100"/>
+    <token id="0x1c2b100" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="." scope="0x1c2c3c0" astParent="0x1c2b2f0" astOperand1="0x1c2b010" astOperand2="0x1c2b210"/>
+    <token id="0x1c2b210" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="accel" scope="0x1c2c3c0" type="name" varId="5" astParent="0x1c2b100"/>
+    <token id="0x1c2b2f0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="." scope="0x1c2c3c0" astParent="0x1c2b4b0" astOperand1="0x1c2b100" astOperand2="0x1c2b3d0"/>
+    <token id="0x1c2b3d0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="linear" scope="0x1c2c3c0" type="name" varId="6" astParent="0x1c2b2f0"/>
+    <token id="0x1c2b4b0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="." scope="0x1c2c3c0" astParent="0x1c2b640" astOperand1="0x1c2b2f0" astOperand2="0x1c2b560"/>
+    <token id="0x1c2b560" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="x" scope="0x1c2c3c0" type="name" varId="7" astParent="0x1c2b4b0"/>
+    <token id="0x1c2b640" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="/" scope="0x1c2c3c0" type="op" isArithmeticalOp="True" astParent="0x1c2c0a0" astOperand1="0x1c2b4b0" astOperand2="0x1c2ba00"/>
+    <token id="0x1c2b720" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="a_geometry_msgs_Accel" scope="0x1c2c3c0" type="name" varId="3" variable="0x1c2c7c0" astParent="0x1c2b810"/>
+    <token id="0x1c2b810" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="." scope="0x1c2c3c0" astParent="0x1c2ba00" astOperand1="0x1c2b720" astOperand2="0x1c2b920"/>
+    <token id="0x1c2b920" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="linear" scope="0x1c2c3c0" type="name" varId="8" astParent="0x1c2b810"/>
+    <token id="0x1c2ba00" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="." scope="0x1c2c3c0" astParent="0x1c2b640" astOperand1="0x1c2b810" astOperand2="0x1c2bab0"/>
+    <token id="0x1c2bab0" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str="x" scope="0x1c2c3c0" type="name" varId="9" astParent="0x1c2ba00"/>
+    <token id="0x1c2bb90" file="test_it_unit_propagation_by_division_1.cpp" linenr="14" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c2bc70" file="test_it_unit_propagation_by_division_1.cpp" linenr="16" str="return" scope="0x1c2c3c0" type="name" astOperand1="0x1c2bd50"/>
+    <token id="0x1c2bd50" file="test_it_unit_propagation_by_division_1.cpp" linenr="16" str="0" scope="0x1c2c3c0" type="number" isInt="True" values="0x1c2bd58" astParent="0x1c2bc70"/>
+    <token id="0x1c2be30" file="test_it_unit_propagation_by_division_1.cpp" linenr="16" str=";" scope="0x1c2c3c0"/>
+    <token id="0x1c2bf10" file="test_it_unit_propagation_by_division_1.cpp" linenr="17" str="}" scope="0x1c2c3c0" link="0x1c28cc0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1c2c190" type="Global">
+      <functionList>
+        <function id="0x1c2c310" tokenDef="0x1c261c0" name="main">
+          <arg nr="1" variable="0x1c2cf10"/>
+          <arg nr="2" variable="0x1c2cfa0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1c2c3c0" type="Function" className="main" classStart="0x1c28cc0" classEnd="0x1c2bf10" nestedIn="0x1c2c190" function="0x1c2c310">
+      <varlist>
+        <var id="0x1c2c7c0"/>
+        <var id="0x1c2cdf0"/>
+        <var id="0x1c2ce80"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1c2cf10" nameToken="0x1c286a0" typeStartToken="0x1c285f0" typeEndToken="0x1c285f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c2cfa0" nameToken="0x1c28b00" typeStartToken="0x1c28860" typeEndToken="0x1c28a20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1c2c7c0" nameToken="0x1c29750" typeStartToken="0x1c28dd0" typeEndToken="0x1c29670" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c2cdf0" nameToken="0x1c29b80" typeStartToken="0x1c298e0" typeEndToken="0x1c29aa0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1c2ce80" nameToken="0x1c2ae50" typeStartToken="0x1c2ad70" typeEndToken="0x1c2ad70" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1c2a4a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c2abb8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x1c2bd58">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

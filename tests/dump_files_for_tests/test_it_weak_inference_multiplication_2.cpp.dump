@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="./tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="1" str="#include &lt;ros/ros.h&gt;"/>
+    <directive file="./tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="2" str="#include &quot;geometry_msgs/Twist.h&quot;"/>
+    <directive file="./tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="3" str="#include &lt;tf2_geometry_msgs/tf2_geometry_msgs.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fd49bc0c600" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="void" scope="0x7fd49bc12130" type="name"/>
+    <token id="0x7fd49bc0c700" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="quatToRPY" scope="0x7fd49bc12130" type="name" function="0x7fd49bc12260" astParent="0x7fd49bc0c810"/>
+    <token id="0x7fd49bc0c810" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="(" scope="0x7fd49bc12130" link="0x7fd49bc0d5f0" astOperand1="0x7fd49bc0c700" astOperand2="0x7fd49bc0d370"/>
+    <token id="0x7fd49bc0c8b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="const" scope="0x7fd49bc12130" type="name"/>
+    <token id="0x7fd49bc0c950" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="tf2" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0c9f0"/>
+    <token id="0x7fd49bc0c9f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="::" scope="0x7fd49bc12130" astParent="0x7fd49bc0cd30" astOperand1="0x7fd49bc0c950" astOperand2="0x7fd49bc0cc90"/>
+    <token id="0x7fd49bc0cc90" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="Quaternion" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0c9f0"/>
+    <token id="0x7fd49bc0cd30" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="&amp;" scope="0x7fd49bc12130" type="op" astParent="0x7fd49bc0ce70" astOperand1="0x7fd49bc0c9f0" astOperand2="0x7fd49bc0cdd0"/>
+    <token id="0x7fd49bc0cdd0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="quat" scope="0x7fd49bc12130" type="name" varId="1" variable="0x7fd49bc12980" astParent="0x7fd49bc0cd30"/>
+    <token id="0x7fd49bc0ce70" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="," scope="0x7fd49bc12130" astParent="0x7fd49bc0d0f0" astOperand1="0x7fd49bc0cd30" astOperand2="0x7fd49bc0cfb0"/>
+    <token id="0x7fd49bc0cf10" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="double" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0cfb0"/>
+    <token id="0x7fd49bc0cfb0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="&amp;" scope="0x7fd49bc12130" type="op" astParent="0x7fd49bc0ce70" astOperand1="0x7fd49bc0cf10" astOperand2="0x7fd49bc0d050"/>
+    <token id="0x7fd49bc0d050" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="roll" scope="0x7fd49bc12130" type="name" varId="2" variable="0x7fd49bc129e0" astParent="0x7fd49bc0cfb0"/>
+    <token id="0x7fd49bc0d0f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="," scope="0x7fd49bc12130" astParent="0x7fd49bc0d370" astOperand1="0x7fd49bc0ce70" astOperand2="0x7fd49bc0d230"/>
+    <token id="0x7fd49bc0d190" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="double" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0d230"/>
+    <token id="0x7fd49bc0d230" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="&amp;" scope="0x7fd49bc12130" type="op" astParent="0x7fd49bc0d0f0" astOperand1="0x7fd49bc0d190" astOperand2="0x7fd49bc0d2d0"/>
+    <token id="0x7fd49bc0d2d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="pitch" scope="0x7fd49bc12130" type="name" varId="3" variable="0x7fd49bc12a40" astParent="0x7fd49bc0d230"/>
+    <token id="0x7fd49bc0d370" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="," scope="0x7fd49bc12130" astParent="0x7fd49bc0c810" astOperand1="0x7fd49bc0d0f0" astOperand2="0x7fd49bc0d4b0"/>
+    <token id="0x7fd49bc0d410" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="double" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0d4b0"/>
+    <token id="0x7fd49bc0d4b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="&amp;" scope="0x7fd49bc12130" type="op" astParent="0x7fd49bc0d370" astOperand1="0x7fd49bc0d410" astOperand2="0x7fd49bc0d550"/>
+    <token id="0x7fd49bc0d550" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str="yaw" scope="0x7fd49bc12130" type="name" varId="4" variable="0x7fd49bc12aa0" astParent="0x7fd49bc0d4b0"/>
+    <token id="0x7fd49bc0d5f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="5" str=")" scope="0x7fd49bc12130" link="0x7fd49bc0c810"/>
+    <token id="0x7fd49bc0d690" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="6" str="{" scope="0x7fd49bc122f0" link="0x7fd49bc0e310"/>
+    <token id="0x7fd49bc0d730" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="tf2" scope="0x7fd49bc122f0" type="name" astParent="0x7fd49bc0d7d0"/>
+    <token id="0x7fd49bc0d7d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="::" scope="0x7fd49bc122f0" astParent="0x7fd49bc0d9b0" astOperand1="0x7fd49bc0d730" astOperand2="0x7fd49bc0d910"/>
+    <token id="0x7fd49bc0d870" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="Matrix3x3" scope="0x7fd49bc122f0" type="name"/>
+    <token id="0x7fd49bc0d910" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="orTmp" scope="0x7fd49bc122f0" type="name" varId="5" variable="0x7fd49bc12620" astParent="0x7fd49bc0d7d0"/>
+    <token id="0x7fd49bc0d9b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="(" scope="0x7fd49bc122f0" link="0x7fd49bc0daf0" astOperand1="0x7fd49bc0d7d0" astOperand2="0x7fd49bc0da50"/>
+    <token id="0x7fd49bc0da50" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str="quat" scope="0x7fd49bc122f0" type="name" varId="1" variable="0x7fd49bc12980" astParent="0x7fd49bc0d9b0"/>
+    <token id="0x7fd49bc0daf0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str=")" scope="0x7fd49bc122f0" link="0x7fd49bc0d9b0"/>
+    <token id="0x7fd49bc0db90" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="7" str=";" scope="0x7fd49bc122f0"/>
+    <token id="0x7fd49bc0dc30" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="orTmp" scope="0x7fd49bc122f0" type="name" varId="5" variable="0x7fd49bc12620" astParent="0x7fd49bc0dcd0"/>
+    <token id="0x7fd49bc0dcd0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="." scope="0x7fd49bc122f0" astParent="0x7fd49bc0de10" astOperand1="0x7fd49bc0dc30" astOperand2="0x7fd49bc0dd70"/>
+    <token id="0x7fd49bc0dd70" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="getRPY" scope="0x7fd49bc122f0" type="name" astParent="0x7fd49bc0dcd0"/>
+    <token id="0x7fd49bc0de10" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="(" scope="0x7fd49bc122f0" link="0x7fd49bc0e1d0" astOperand1="0x7fd49bc0dcd0" astOperand2="0x7fd49bc0e090"/>
+    <token id="0x7fd49bc0deb0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="roll" scope="0x7fd49bc122f0" type="name" varId="2" variable="0x7fd49bc129e0" astParent="0x7fd49bc0df50"/>
+    <token id="0x7fd49bc0df50" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="," scope="0x7fd49bc122f0" astParent="0x7fd49bc0e090" astOperand1="0x7fd49bc0deb0" astOperand2="0x7fd49bc0dff0"/>
+    <token id="0x7fd49bc0dff0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="pitch" scope="0x7fd49bc122f0" type="name" varId="3" variable="0x7fd49bc12a40" astParent="0x7fd49bc0df50"/>
+    <token id="0x7fd49bc0e090" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="," scope="0x7fd49bc122f0" astParent="0x7fd49bc0de10" astOperand1="0x7fd49bc0df50" astOperand2="0x7fd49bc0e130"/>
+    <token id="0x7fd49bc0e130" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str="yaw" scope="0x7fd49bc122f0" type="name" varId="4" variable="0x7fd49bc12aa0" astParent="0x7fd49bc0e090"/>
+    <token id="0x7fd49bc0e1d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str=")" scope="0x7fd49bc122f0" link="0x7fd49bc0de10"/>
+    <token id="0x7fd49bc0e270" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="8" str=";" scope="0x7fd49bc122f0"/>
+    <token id="0x7fd49bc0e310" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="9" str="}" scope="0x7fd49bc122f0" link="0x7fd49bc0d690"/>
+    <token id="0x7fd49bc0e3b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="int" scope="0x7fd49bc12130" type="name"/>
+    <token id="0x7fd49bc0e450" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="main" scope="0x7fd49bc12130" type="name" function="0x7fd49bc12420" astParent="0x7fd49bc0e4f0"/>
+    <token id="0x7fd49bc0e4f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="(" scope="0x7fd49bc12130" link="0x7fd49bc0e9f0" astOperand1="0x7fd49bc0e450" astOperand2="0x7fd49bc0e6d0"/>
+    <token id="0x7fd49bc0e590" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="int" scope="0x7fd49bc12130" type="name"/>
+    <token id="0x7fd49bc0e630" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="argc" scope="0x7fd49bc12130" type="name" varId="6" variable="0x7fd49bc12b00" astParent="0x7fd49bc0e6d0"/>
+    <token id="0x7fd49bc0e6d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="," scope="0x7fd49bc12130" astParent="0x7fd49bc0e4f0" astOperand1="0x7fd49bc0e630" astOperand2="0x7fd49bc0e810"/>
+    <token id="0x7fd49bc0e770" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="char" scope="0x7fd49bc12130" type="name" astParent="0x7fd49bc0e810"/>
+    <token id="0x7fd49bc0e810" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="*" scope="0x7fd49bc12130" type="op" isArithmeticalOp="True" astParent="0x7fd49bc0e6d0" astOperand1="0x7fd49bc0e770" astOperand2="0x7fd49bc0e8b0"/>
+    <token id="0x7fd49bc0e8b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="*" scope="0x7fd49bc12130" type="op" isArithmeticalOp="True" astParent="0x7fd49bc0e810" astOperand1="0x7fd49bc0e950"/>
+    <token id="0x7fd49bc0e950" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str="argv" scope="0x7fd49bc12130" type="name" varId="7" variable="0x7fd49bc12b60" astParent="0x7fd49bc0e8b0"/>
+    <token id="0x7fd49bc0e9f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="11" str=")" scope="0x7fd49bc12130" link="0x7fd49bc0e4f0"/>
+    <token id="0x7fd49bc0ea90" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="12" str="{" scope="0x7fd49bc124f0" link="0x7fd49bc11580"/>
+    <token id="0x7fd49bc0eb30" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0ebd0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="r" scope="0x7fd49bc124f0" type="name" varId="8" variable="0x7fd49bc12680"/>
+    <token id="0x7fd49bc0ec70" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc117f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0ed10" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="p" scope="0x7fd49bc124f0" type="name" varId="9" variable="0x7fd49bc126e0"/>
+    <token id="0x7fd49bc0edb0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc11890" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0ee50" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str="y" scope="0x7fd49bc124f0" type="name" varId="10" variable="0x7fd49bc12740"/>
+    <token id="0x7fd49bc0eef0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="13" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0ef90" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="14" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0f030" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="14" str="unknown_var" scope="0x7fd49bc124f0" type="name" varId="11" variable="0x7fd49bc127a0"/>
+    <token id="0x7fd49bc0f0d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="14" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0f170" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0f210" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str="x" scope="0x7fd49bc124f0" type="name" varId="12" variable="0x7fd49bc12800"/>
+    <token id="0x7fd49bc0f2b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc11930" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str="double" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0f350" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str="z" scope="0x7fd49bc124f0" type="name" varId="13" variable="0x7fd49bc12860"/>
+    <token id="0x7fd49bc0f3f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="15" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0f490" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="16" str="unknown_var" scope="0x7fd49bc124f0" type="name" varId="11" variable="0x7fd49bc127a0" astParent="0x7fd49bc0f530"/>
+    <token id="0x7fd49bc0f530" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="16" str="=" scope="0x7fd49bc124f0" type="op" isAssignmentOp="True" astOperand1="0x7fd49bc0f490" astOperand2="0x7fd49bc0f5d0"/>
+    <token id="0x7fd49bc0f5d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="16" str="0" scope="0x7fd49bc124f0" type="number" isInt="True" values="0x7fd49bc0f5d8" astParent="0x7fd49bc0f530"/>
+    <token id="0x7fd49bc0f670" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="16" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0f710" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="17" str="x" scope="0x7fd49bc124f0" type="name" varId="12" variable="0x7fd49bc12800" astParent="0x7fd49bc0f7b0"/>
+    <token id="0x7fd49bc0f7b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="17" str="=" scope="0x7fd49bc124f0" type="op" isAssignmentOp="True" astOperand1="0x7fd49bc0f710" astOperand2="0x7fd49bc0f850"/>
+    <token id="0x7fd49bc0f850" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="17" str="0" scope="0x7fd49bc124f0" type="number" isInt="True" values="0x7fd49bc0f858" astParent="0x7fd49bc0f7b0"/>
+    <token id="0x7fd49bc0f8f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="17" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0f990" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="18" str="z" scope="0x7fd49bc124f0" type="name" varId="13" variable="0x7fd49bc12860" astParent="0x7fd49bc0fa30"/>
+    <token id="0x7fd49bc0fa30" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="18" str="=" scope="0x7fd49bc124f0" type="op" isAssignmentOp="True" astOperand1="0x7fd49bc0f990" astOperand2="0x7fd49bc0fad0"/>
+    <token id="0x7fd49bc0fad0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="18" str="0" scope="0x7fd49bc124f0" type="number" isInt="True" values="0x7fd49bc0fad8" astParent="0x7fd49bc0fa30"/>
+    <token id="0x7fd49bc0fb70" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="18" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0fc10" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="19" str="geometry_msgs" scope="0x7fd49bc124f0" type="name" astParent="0x7fd49bc0fcb0"/>
+    <token id="0x7fd49bc0fcb0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="19" str="::" scope="0x7fd49bc124f0" astOperand1="0x7fd49bc0fc10" astOperand2="0x7fd49bc0fdf0"/>
+    <token id="0x7fd49bc0fd50" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="19" str="Twist" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc0fdf0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="19" str="tw" scope="0x7fd49bc124f0" type="name" varId="14" variable="0x7fd49bc128c0" astParent="0x7fd49bc0fcb0"/>
+    <token id="0x7fd49bc0fe90" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="19" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc0ff30" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="20" str="tf2" scope="0x7fd49bc124f0" type="name" astParent="0x7fd49bc0ffd0"/>
+    <token id="0x7fd49bc0ffd0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="20" str="::" scope="0x7fd49bc124f0" astOperand1="0x7fd49bc0ff30" astOperand2="0x7fd49bc10110"/>
+    <token id="0x7fd49bc10070" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="20" str="Quaternion" scope="0x7fd49bc124f0" type="name"/>
+    <token id="0x7fd49bc10110" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="20" str="myQuat" scope="0x7fd49bc124f0" type="name" varId="15" variable="0x7fd49bc12920" astParent="0x7fd49bc0ffd0"/>
+    <token id="0x7fd49bc101b0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="20" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc10250" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="quatToRPY" scope="0x7fd49bc124f0" type="name" function="0x7fd49bc12260" astParent="0x7fd49bc102f0"/>
+    <token id="0x7fd49bc102f0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="(" scope="0x7fd49bc124f0" link="0x7fd49bc10860" astOperand1="0x7fd49bc10250" astOperand2="0x7fd49bc10720"/>
+    <token id="0x7fd49bc10390" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="myQuat" scope="0x7fd49bc124f0" type="name" varId="15" variable="0x7fd49bc12920" astParent="0x7fd49bc10430"/>
+    <token id="0x7fd49bc10430" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="," scope="0x7fd49bc124f0" astParent="0x7fd49bc10570" astOperand1="0x7fd49bc10390" astOperand2="0x7fd49bc104d0"/>
+    <token id="0x7fd49bc104d0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="r" scope="0x7fd49bc124f0" type="name" varId="8" variable="0x7fd49bc12680" astParent="0x7fd49bc10430"/>
+    <token id="0x7fd49bc10570" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="," scope="0x7fd49bc124f0" astParent="0x7fd49bc10720" astOperand1="0x7fd49bc10430" astOperand2="0x7fd49bc10610"/>
+    <token id="0x7fd49bc10610" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="p" scope="0x7fd49bc124f0" type="name" varId="9" variable="0x7fd49bc126e0" astParent="0x7fd49bc10570"/>
+    <token id="0x7fd49bc10720" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="," scope="0x7fd49bc124f0" astParent="0x7fd49bc102f0" astOperand1="0x7fd49bc10570" astOperand2="0x7fd49bc107c0"/>
+    <token id="0x7fd49bc107c0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str="y" scope="0x7fd49bc124f0" type="name" varId="10" variable="0x7fd49bc12740" astParent="0x7fd49bc10720"/>
+    <token id="0x7fd49bc10860" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str=")" scope="0x7fd49bc124f0" link="0x7fd49bc102f0"/>
+    <token id="0x7fd49bc10900" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="21" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc109a0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="tw" scope="0x7fd49bc124f0" type="name" varId="14" variable="0x7fd49bc128c0" astParent="0x7fd49bc10a40"/>
+    <token id="0x7fd49bc10a40" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="." scope="0x7fd49bc124f0" astParent="0x7fd49bc10b80" astOperand1="0x7fd49bc109a0" astOperand2="0x7fd49bc10ae0"/>
+    <token id="0x7fd49bc10ae0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="linear" scope="0x7fd49bc124f0" type="name" varId="16" astParent="0x7fd49bc10a40"/>
+    <token id="0x7fd49bc10b80" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="." scope="0x7fd49bc124f0" astParent="0x7fd49bc10cc0" astOperand1="0x7fd49bc10a40" astOperand2="0x7fd49bc10c20"/>
+    <token id="0x7fd49bc10c20" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="x" scope="0x7fd49bc124f0" type="name" varId="17" astParent="0x7fd49bc10b80"/>
+    <token id="0x7fd49bc10cc0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="=" scope="0x7fd49bc124f0" type="op" isAssignmentOp="True" astOperand1="0x7fd49bc10b80" astOperand2="0x7fd49bc10e00"/>
+    <token id="0x7fd49bc10d60" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="r" scope="0x7fd49bc124f0" type="name" varId="8" variable="0x7fd49bc12680" astParent="0x7fd49bc10e00"/>
+    <token id="0x7fd49bc10e00" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="/" scope="0x7fd49bc124f0" type="op" isArithmeticalOp="True" astParent="0x7fd49bc10cc0" astOperand1="0x7fd49bc10d60" astOperand2="0x7fd49bc11120"/>
+    <token id="0x7fd49bc10ea0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="(" scope="0x7fd49bc124f0" link="0x7fd49bc11260"/>
+    <token id="0x7fd49bc10f40" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="unknown_var" scope="0x7fd49bc124f0" type="name" varId="11" variable="0x7fd49bc127a0" values="0x7fd49bc10f48" astParent="0x7fd49bc10fe0"/>
+    <token id="0x7fd49bc10fe0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="*" scope="0x7fd49bc124f0" type="op" isArithmeticalOp="True" values="0x7fd49bc10fe8" astParent="0x7fd49bc11120" astOperand1="0x7fd49bc10f40" astOperand2="0x7fd49bc11080"/>
+    <token id="0x7fd49bc11080" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="x" scope="0x7fd49bc124f0" type="name" varId="12" variable="0x7fd49bc12800" values="0x7fd49bc11088" astParent="0x7fd49bc10fe0"/>
+    <token id="0x7fd49bc11120" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="*" scope="0x7fd49bc124f0" type="op" isArithmeticalOp="True" values="0x7fd49bc11128" astParent="0x7fd49bc10e00" astOperand1="0x7fd49bc10fe0" astOperand2="0x7fd49bc111c0"/>
+    <token id="0x7fd49bc111c0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str="z" scope="0x7fd49bc124f0" type="name" varId="13" variable="0x7fd49bc12860" values="0x7fd49bc111c8" astParent="0x7fd49bc11120"/>
+    <token id="0x7fd49bc11260" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str=")" scope="0x7fd49bc124f0" link="0x7fd49bc10ea0"/>
+    <token id="0x7fd49bc11300" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="22" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc113a0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="23" str="return" scope="0x7fd49bc124f0" type="name" astOperand1="0x7fd49bc11440"/>
+    <token id="0x7fd49bc11440" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="23" str="0" scope="0x7fd49bc124f0" type="number" isInt="True" values="0x7fd49bc11448" astParent="0x7fd49bc113a0"/>
+    <token id="0x7fd49bc114e0" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="23" str=";" scope="0x7fd49bc124f0"/>
+    <token id="0x7fd49bc11580" file="tests/dump_files_for_tests/test_it_weak_inference_multiplication_2.cpp" linenr="24" str="}" scope="0x7fd49bc124f0" link="0x7fd49bc0ea90"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fd49bc12130" type="Global">
+      <functionList>
+        <function id="0x7fd49bc12260" tokenDef="0x7fd49bc0c700" name="quatToRPY">
+          <arg nr="1" variable="0x7fd49bc12980"/>
+          <arg nr="2" variable="0x7fd49bc129e0"/>
+          <arg nr="3" variable="0x7fd49bc12a40"/>
+          <arg nr="4" variable="0x7fd49bc12aa0"/>
+        </function>
+        <function id="0x7fd49bc12420" tokenDef="0x7fd49bc0e450" name="main">
+          <arg nr="1" variable="0x7fd49bc12b00"/>
+          <arg nr="2" variable="0x7fd49bc12b60"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fd49bc122f0" type="Function" className="quatToRPY" classStart="0x7fd49bc0d690" classEnd="0x7fd49bc0e310" nestedIn="0x7fd49bc12130" function="0x7fd49bc12260">
+      <varlist>
+        <var id="0x7fd49bc12620"/>
+      </varlist>
+    </scope>
+    <scope id="0x7fd49bc124f0" type="Function" className="main" classStart="0x7fd49bc0ea90" classEnd="0x7fd49bc11580" nestedIn="0x7fd49bc12130" function="0x7fd49bc12420">
+      <varlist>
+        <var id="0x7fd49bc12680"/>
+        <var id="0x7fd49bc126e0"/>
+        <var id="0x7fd49bc12740"/>
+        <var id="0x7fd49bc127a0"/>
+        <var id="0x7fd49bc12800"/>
+        <var id="0x7fd49bc12860"/>
+        <var id="0x7fd49bc128c0"/>
+        <var id="0x7fd49bc12920"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fd49bc12980" nameToken="0x7fd49bc0cdd0" typeStartToken="0x7fd49bc0c950" typeEndToken="0x7fd49bc0cd30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x7fd49bc129e0" nameToken="0x7fd49bc0d050" typeStartToken="0x7fd49bc0cf10" typeEndToken="0x7fd49bc0cfb0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x7fd49bc12a40" nameToken="0x7fd49bc0d2d0" typeStartToken="0x7fd49bc0d190" typeEndToken="0x7fd49bc0d230" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x7fd49bc12aa0" nameToken="0x7fd49bc0d550" typeStartToken="0x7fd49bc0d410" typeEndToken="0x7fd49bc0d4b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x7fd49bc12620" nameToken="0x7fd49bc0d910" typeStartToken="0x7fd49bc0d730" typeEndToken="0x7fd49bc0d870" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12b00" nameToken="0x7fd49bc0e630" typeStartToken="0x7fd49bc0e590" typeEndToken="0x7fd49bc0e590" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12b60" nameToken="0x7fd49bc0e950" typeStartToken="0x7fd49bc0e770" typeEndToken="0x7fd49bc0e8b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12680" nameToken="0x7fd49bc0ebd0" typeStartToken="0x7fd49bc0eb30" typeEndToken="0x7fd49bc0eb30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc126e0" nameToken="0x7fd49bc0ed10" typeStartToken="0x7fd49bc117f0" typeEndToken="0x7fd49bc117f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12740" nameToken="0x7fd49bc0ee50" typeStartToken="0x7fd49bc11890" typeEndToken="0x7fd49bc11890" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc127a0" nameToken="0x7fd49bc0f030" typeStartToken="0x7fd49bc0ef90" typeEndToken="0x7fd49bc0ef90" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12800" nameToken="0x7fd49bc0f210" typeStartToken="0x7fd49bc0f170" typeEndToken="0x7fd49bc0f170" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12860" nameToken="0x7fd49bc0f350" typeStartToken="0x7fd49bc11930" typeEndToken="0x7fd49bc11930" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc128c0" nameToken="0x7fd49bc0fdf0" typeStartToken="0x7fd49bc0fc10" typeEndToken="0x7fd49bc0fd50" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fd49bc12920" nameToken="0x7fd49bc10110" typeStartToken="0x7fd49bc0ff30" typeEndToken="0x7fd49bc10070" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7fd49bc0f5d8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc0f858">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc0fad8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc10f48">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc10fe8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc11088">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc11128">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc111c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fd49bc11448">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

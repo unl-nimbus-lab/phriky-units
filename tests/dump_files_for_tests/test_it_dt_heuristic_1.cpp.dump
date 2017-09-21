@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1ddbdd0" file="test_it_dt_heuristic_1.cpp" linenr="4" str="int" scope="0x1de0640" type="name"/>
+    <token id="0x1dde420" file="test_it_dt_heuristic_1.cpp" linenr="4" str="main" scope="0x1de0640" type="name" function="0x1de07c0" astParent="0x1dde4d0"/>
+    <token id="0x1dde4d0" file="test_it_dt_heuristic_1.cpp" linenr="4" str="(" scope="0x1de0640" link="0x1ddee30" astOperand1="0x1dde420" astOperand2="0x1ddeb70"/>
+    <token id="0x1dde580" file="test_it_dt_heuristic_1.cpp" linenr="4" str="int" scope="0x1de0640" type="name"/>
+    <token id="0x1ddea90" file="test_it_dt_heuristic_1.cpp" linenr="4" str="argc" scope="0x1de0640" type="name" varId="1" variable="0x1de0e40" astParent="0x1ddeb70"/>
+    <token id="0x1ddeb70" file="test_it_dt_heuristic_1.cpp" linenr="4" str="," scope="0x1de0640" astParent="0x1dde4d0" astOperand1="0x1ddea90" astOperand2="0x1dde770"/>
+    <token id="0x1dde690" file="test_it_dt_heuristic_1.cpp" linenr="4" str="char" scope="0x1de0640" type="name" astParent="0x1dde770"/>
+    <token id="0x1dde770" file="test_it_dt_heuristic_1.cpp" linenr="4" str="*" scope="0x1de0640" type="op" isArithmeticalOp="True" astParent="0x1ddeb70" astOperand1="0x1dde690" astOperand2="0x1dde850"/>
+    <token id="0x1dde850" file="test_it_dt_heuristic_1.cpp" linenr="4" str="*" scope="0x1de0640" type="op" isArithmeticalOp="True" astParent="0x1dde770" astOperand1="0x1dded50"/>
+    <token id="0x1dded50" file="test_it_dt_heuristic_1.cpp" linenr="4" str="argv" scope="0x1de0640" type="name" varId="2" variable="0x1de0ed0" astParent="0x1dde850"/>
+    <token id="0x1ddee30" file="test_it_dt_heuristic_1.cpp" linenr="4" str=")" scope="0x1de0640" link="0x1dde4d0"/>
+    <token id="0x1ddef10" file="test_it_dt_heuristic_1.cpp" linenr="5" str="{" scope="0x1de0870" link="0x1de0140"/>
+    <token id="0x1ddf020" file="test_it_dt_heuristic_1.cpp" linenr="7" str="double" scope="0x1de0870" type="name"/>
+    <token id="0x1ddf0d0" file="test_it_dt_heuristic_1.cpp" linenr="7" str="dt" scope="0x1de0870" type="name" varId="3" variable="0x1de03e0"/>
+    <token id="0x1ddf1b0" file="test_it_dt_heuristic_1.cpp" linenr="7" str=";" scope="0x1de0870"/>
+    <token id="0x1de04a0" file="test_it_dt_heuristic_1.cpp" linenr="7" str="dt" scope="0x1de0870" type="name" varId="3" variable="0x1de03e0" astParent="0x1de0550"/>
+    <token id="0x1de0550" file="test_it_dt_heuristic_1.cpp" linenr="7" str="=" scope="0x1de0870" type="op" isAssignmentOp="True" astOperand1="0x1de04a0" astOperand2="0x1ddf290"/>
+    <token id="0x1ddf290" file="test_it_dt_heuristic_1.cpp" linenr="7" str="0." scope="0x1de0870" type="number" isFloat="True" astParent="0x1de0550"/>
+    <token id="0x1ddf370" file="test_it_dt_heuristic_1.cpp" linenr="7" str=";" scope="0x1de0870"/>
+    <token id="0x1ddf450" file="test_it_dt_heuristic_1.cpp" linenr="8" str="geometry_msgs" scope="0x1de0870" type="name" astParent="0x1ddf500"/>
+    <token id="0x1ddf500" file="test_it_dt_heuristic_1.cpp" linenr="8" str="::" scope="0x1de0870" astOperand1="0x1ddf450" astOperand2="0x1ddf6c0"/>
+    <token id="0x1ddf5e0" file="test_it_dt_heuristic_1.cpp" linenr="8" str="Twist" scope="0x1de0870" type="name"/>
+    <token id="0x1ddf6c0" file="test_it_dt_heuristic_1.cpp" linenr="8" str="tw" scope="0x1de0870" type="name" varId="4" variable="0x1de0db0" astParent="0x1ddf500"/>
+    <token id="0x1ddf7a0" file="test_it_dt_heuristic_1.cpp" linenr="8" str=";" scope="0x1de0870"/>
+    <token id="0x1ddf8b0" file="test_it_dt_heuristic_1.cpp" linenr="9" str="tw" scope="0x1de0870" type="name" varId="4" variable="0x1de0db0" astParent="0x1ddf990"/>
+    <token id="0x1ddf990" file="test_it_dt_heuristic_1.cpp" linenr="9" str="." scope="0x1de0870" astParent="0x1ddfb50" astOperand1="0x1ddf8b0" astOperand2="0x1ddfa70"/>
+    <token id="0x1ddfa70" file="test_it_dt_heuristic_1.cpp" linenr="9" str="angular" scope="0x1de0870" type="name" varId="5" astParent="0x1ddf990"/>
+    <token id="0x1ddfb50" file="test_it_dt_heuristic_1.cpp" linenr="9" str="." scope="0x1de0870" astParent="0x1ddfce0" astOperand1="0x1ddf990" astOperand2="0x1ddfc00"/>
+    <token id="0x1ddfc00" file="test_it_dt_heuristic_1.cpp" linenr="9" str="x" scope="0x1de0870" type="name" varId="6" astParent="0x1ddfb50"/>
+    <token id="0x1ddfce0" file="test_it_dt_heuristic_1.cpp" linenr="9" str="=" scope="0x1de0870" type="op" isAssignmentOp="True" astOperand1="0x1ddfb50" astOperand2="0x1ddfea0"/>
+    <token id="0x1ddfdc0" file="test_it_dt_heuristic_1.cpp" linenr="9" str="1" scope="0x1de0870" type="number" isInt="True" values="0x1ddfdc8" astParent="0x1ddfea0"/>
+    <token id="0x1ddfea0" file="test_it_dt_heuristic_1.cpp" linenr="9" str="/" scope="0x1de0870" type="op" isArithmeticalOp="True" astParent="0x1ddfce0" astOperand1="0x1ddfdc0" astOperand2="0x1ddff80"/>
+    <token id="0x1ddff80" file="test_it_dt_heuristic_1.cpp" linenr="9" str="dt" scope="0x1de0870" type="name" varId="3" variable="0x1de03e0" astParent="0x1ddfea0"/>
+    <token id="0x1de0060" file="test_it_dt_heuristic_1.cpp" linenr="9" str=";" scope="0x1de0870"/>
+    <token id="0x1de0140" file="test_it_dt_heuristic_1.cpp" linenr="11" str="}" scope="0x1de0870" link="0x1ddef10"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1de0640" type="Global">
+      <functionList>
+        <function id="0x1de07c0" tokenDef="0x1dde420" name="main">
+          <arg nr="1" variable="0x1de0e40"/>
+          <arg nr="2" variable="0x1de0ed0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1de0870" type="Function" className="main" classStart="0x1ddef10" classEnd="0x1de0140" nestedIn="0x1de0640" function="0x1de07c0">
+      <varlist>
+        <var id="0x1de03e0"/>
+        <var id="0x1de0db0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1de0e40" nameToken="0x1ddea90" typeStartToken="0x1dde580" typeEndToken="0x1dde580" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1de0ed0" nameToken="0x1dded50" typeStartToken="0x1dde690" typeEndToken="0x1dde850" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1de03e0" nameToken="0x1ddf0d0" typeStartToken="0x1ddf020" typeEndToken="0x1ddf020" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1de0db0" nameToken="0x1ddf6c0" typeStartToken="0x1ddf450" typeEndToken="0x1ddf5e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1ddfdc8">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

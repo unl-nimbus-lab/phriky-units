@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_known_function_abs_3.cpp" linenr="1" str="#include &lt;ros/ros.h&gt;"/>
+    <directive file="test_it_known_function_abs_3.cpp" linenr="2" str="#include &lt;math.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fead3c74e80" file="test_it_known_function_abs_3.cpp" linenr="4" str="int" scope="0x7fead3c758c0" type="name"/>
+    <token id="0x7fead3c74f20" file="test_it_known_function_abs_3.cpp" linenr="4" str="main" scope="0x7fead3c758c0" type="name" function="0x7fead3c75bc0" astParent="0x7fead3c74fc0"/>
+    <token id="0x7fead3c74fc0" file="test_it_known_function_abs_3.cpp" linenr="4" str="(" scope="0x7fead3c758c0" link="0x7fead3c754c0" astOperand1="0x7fead3c74f20" astOperand2="0x7fead3c751a0"/>
+    <token id="0x7fead3c75060" file="test_it_known_function_abs_3.cpp" linenr="4" str="int" scope="0x7fead3c758c0" type="name"/>
+    <token id="0x7fead3c75100" file="test_it_known_function_abs_3.cpp" linenr="4" str="argc" scope="0x7fead3c758c0" type="name" varId="1" variable="0x7fead3c74af0" astParent="0x7fead3c751a0"/>
+    <token id="0x7fead3c751a0" file="test_it_known_function_abs_3.cpp" linenr="4" str="," scope="0x7fead3c758c0" astParent="0x7fead3c74fc0" astOperand1="0x7fead3c75100" astOperand2="0x7fead3c752e0"/>
+    <token id="0x7fead3c75240" file="test_it_known_function_abs_3.cpp" linenr="4" str="char" scope="0x7fead3c758c0" type="name" astParent="0x7fead3c752e0"/>
+    <token id="0x7fead3c752e0" file="test_it_known_function_abs_3.cpp" linenr="4" str="*" scope="0x7fead3c758c0" type="op" isArithmeticalOp="True" astParent="0x7fead3c751a0" astOperand1="0x7fead3c75240" astOperand2="0x7fead3c75380"/>
+    <token id="0x7fead3c75380" file="test_it_known_function_abs_3.cpp" linenr="4" str="*" scope="0x7fead3c758c0" type="op" isArithmeticalOp="True" astParent="0x7fead3c752e0" astOperand1="0x7fead3c75420"/>
+    <token id="0x7fead3c75420" file="test_it_known_function_abs_3.cpp" linenr="4" str="argv" scope="0x7fead3c758c0" type="name" varId="2" variable="0x7fead3c74b50" astParent="0x7fead3c75380"/>
+    <token id="0x7fead3c754c0" file="test_it_known_function_abs_3.cpp" linenr="4" str=")" scope="0x7fead3c758c0" link="0x7fead3c74fc0"/>
+    <token id="0x7fead3c75560" file="test_it_known_function_abs_3.cpp" linenr="5" str="{" scope="0x7fead3c74960" link="0x7fead3c75ce0"/>
+    <token id="0x7fead3c75600" file="test_it_known_function_abs_3.cpp" linenr="7" str="float" scope="0x7fead3c74960" type="name"/>
+    <token id="0x7fead3c756a0" file="test_it_known_function_abs_3.cpp" linenr="7" str="s" scope="0x7fead3c74960" type="name" varId="3" variable="0x7fead3c74a90"/>
+    <token id="0x7fead3c75740" file="test_it_known_function_abs_3.cpp" linenr="7" str=";" scope="0x7fead3c74960"/>
+    <token id="0x7fead3c75a60" file="test_it_known_function_abs_3.cpp" linenr="7" str="s" scope="0x7fead3c74960" type="name" varId="3" variable="0x7fead3c74a90" astParent="0x7fead3c748b0"/>
+    <token id="0x7fead3c748b0" file="test_it_known_function_abs_3.cpp" linenr="7" str="=" scope="0x7fead3c74960" type="op" isAssignmentOp="True" astOperand1="0x7fead3c75a60" astOperand2="0x7fead3c757e0"/>
+    <token id="0x7fead3c757e0" file="test_it_known_function_abs_3.cpp" linenr="7" str="32." scope="0x7fead3c74960" type="number" isFloat="True" astParent="0x7fead3c748b0"/>
+    <token id="0x7fead3c75c40" file="test_it_known_function_abs_3.cpp" linenr="7" str=";" scope="0x7fead3c74960"/>
+    <token id="0x7fead3c75ce0" file="test_it_known_function_abs_3.cpp" linenr="9" str="}" scope="0x7fead3c74960" link="0x7fead3c75560"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fead3c758c0" type="Global">
+      <functionList>
+        <function id="0x7fead3c75bc0" tokenDef="0x7fead3c74f20" name="main">
+          <arg nr="1" variable="0x7fead3c74af0"/>
+          <arg nr="2" variable="0x7fead3c74b50"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fead3c74960" type="Function" className="main" classStart="0x7fead3c75560" classEnd="0x7fead3c75ce0" nestedIn="0x7fead3c758c0" function="0x7fead3c75bc0">
+      <varlist>
+        <var id="0x7fead3c74a90"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fead3c74af0" nameToken="0x7fead3c75100" typeStartToken="0x7fead3c75060" typeEndToken="0x7fead3c75060" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fead3c74b50" nameToken="0x7fead3c75420" typeStartToken="0x7fead3c75240" typeEndToken="0x7fead3c75380" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fead3c74a90" nameToken="0x7fead3c756a0" typeStartToken="0x7fead3c75600" typeEndToken="0x7fead3c75600" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

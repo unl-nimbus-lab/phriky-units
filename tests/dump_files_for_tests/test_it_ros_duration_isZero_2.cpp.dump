@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x10fa2d0" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="int" scope="0x10fc530" type="name"/>
+    <token id="0x10fa380" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="main" scope="0x10fc530" type="name" function="0x10fc6b0" astParent="0x10f7d20"/>
+    <token id="0x10f7d20" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="(" scope="0x10fc530" link="0x10fb100" astOperand1="0x10fa380" astOperand2="0x10fabb0"/>
+    <token id="0x10f7dd0" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="int" scope="0x10fc530" type="name"/>
+    <token id="0x10faad0" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="argc" scope="0x10fc530" type="name" varId="1" variable="0x10fcb30" astParent="0x10fabb0"/>
+    <token id="0x10fabb0" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="," scope="0x10fc530" astParent="0x10f7d20" astOperand1="0x10faad0" astOperand2="0x10fae60"/>
+    <token id="0x10fad80" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="char" scope="0x10fc530" type="name" astParent="0x10fae60"/>
+    <token id="0x10fae60" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="*" scope="0x10fc530" type="op" isArithmeticalOp="True" astParent="0x10fabb0" astOperand1="0x10fad80" astOperand2="0x10faf40"/>
+    <token id="0x10faf40" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="*" scope="0x10fc530" type="op" isArithmeticalOp="True" astParent="0x10fae60" astOperand1="0x10fb020"/>
+    <token id="0x10fb020" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str="argv" scope="0x10fc530" type="name" varId="2" variable="0x10fcbc0" astParent="0x10faf40"/>
+    <token id="0x10fb100" file="test_it_ros_duration_isZero_2.cpp" linenr="3" str=")" scope="0x10fc530" link="0x10f7d20"/>
+    <token id="0x10fb1e0" file="test_it_ros_duration_isZero_2.cpp" linenr="4" str="{" scope="0x10fc800" link="0x10fc1a0"/>
+    <token id="0x10fb2c0" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="ros" scope="0x10fc800" type="name" astParent="0x10fb3a0"/>
+    <token id="0x10fb3a0" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="::" scope="0x10fc800" astParent="0x10fb640" astOperand1="0x10fb2c0" astOperand2="0x10fb560"/>
+    <token id="0x10fb4b0" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="Duration" scope="0x10fc800" type="name"/>
+    <token id="0x10fb560" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="d1" scope="0x10fc800" type="name" varId="3" variable="0x10fca10" astParent="0x10fb3a0"/>
+    <token id="0x10fb640" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="(" scope="0x10fc800" link="0x10fb800" astOperand1="0x10fb3a0" astOperand2="0x10fb720"/>
+    <token id="0x10fb720" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str="0.1" scope="0x10fc800" type="number" isFloat="True" astParent="0x10fb640"/>
+    <token id="0x10fb800" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str=")" scope="0x10fc800" link="0x10fb640"/>
+    <token id="0x10fb8e0" file="test_it_ros_duration_isZero_2.cpp" linenr="5" str=";" scope="0x10fc800"/>
+    <token id="0x10fb9c0" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="int" scope="0x10fc800" type="name"/>
+    <token id="0x10fbaa0" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="t" scope="0x10fc800" type="name" varId="4" variable="0x10fcaa0"/>
+    <token id="0x10fbb80" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str=";" scope="0x10fc800"/>
+    <token id="0x10fc280" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="t" scope="0x10fc800" type="name" varId="4" variable="0x10fcaa0" astParent="0x10fc330"/>
+    <token id="0x10fc330" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="=" scope="0x10fc800" type="op" isAssignmentOp="True" astOperand1="0x10fc280" astOperand2="0x10fbf00"/>
+    <token id="0x10fbc90" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="d1" scope="0x10fc800" type="name" varId="3" variable="0x10fca10" astParent="0x10fbd70"/>
+    <token id="0x10fbd70" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="." scope="0x10fc800" astParent="0x10fbf00" astOperand1="0x10fbc90" astOperand2="0x10fbe20"/>
+    <token id="0x10fbe20" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="toSec" scope="0x10fc800" type="name" astParent="0x10fbd70"/>
+    <token id="0x10fbf00" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str="(" scope="0x10fc800" link="0x10fbfe0" astParent="0x10fc330" astOperand1="0x10fbd70"/>
+    <token id="0x10fbfe0" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str=")" scope="0x10fc800" link="0x10fbf00"/>
+    <token id="0x10fc0c0" file="test_it_ros_duration_isZero_2.cpp" linenr="6" str=";" scope="0x10fc800"/>
+    <token id="0x10fc1a0" file="test_it_ros_duration_isZero_2.cpp" linenr="8" str="}" scope="0x10fc800" link="0x10fb1e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x10fc530" type="Global">
+      <functionList>
+        <function id="0x10fc6b0" tokenDef="0x10fa380" name="main">
+          <arg nr="1" variable="0x10fcb30"/>
+          <arg nr="2" variable="0x10fcbc0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x10fc800" type="Function" className="main" classStart="0x10fb1e0" classEnd="0x10fc1a0" nestedIn="0x10fc530" function="0x10fc6b0">
+      <varlist>
+        <var id="0x10fca10"/>
+        <var id="0x10fcaa0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x10fcb30" nameToken="0x10faad0" typeStartToken="0x10f7dd0" typeEndToken="0x10f7dd0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10fcbc0" nameToken="0x10fb020" typeStartToken="0x10fad80" typeEndToken="0x10faf40" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x10fca10" nameToken="0x10fb560" typeStartToken="0x10fb2c0" typeEndToken="0x10fb4b0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x10fcaa0" nameToken="0x10fbaa0" typeStartToken="0x10fb9c0" typeEndToken="0x10fb9c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

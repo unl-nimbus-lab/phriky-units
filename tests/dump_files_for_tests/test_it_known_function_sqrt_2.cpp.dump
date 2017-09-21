@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xca5aa0" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="int" scope="0xcaec20" type="name"/>
+    <token id="0xca5b50" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="main" scope="0xcaec20" type="name" function="0xcaefc0" astParent="0xca8d20"/>
+    <token id="0xca8d20" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="(" scope="0xcaec20" link="0xcac170" astOperand1="0xca5b50" astOperand2="0xcabe80"/>
+    <token id="0xca8dd0" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="int" scope="0xcaec20" type="name"/>
+    <token id="0xcabda0" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="argc" scope="0xcaec20" type="name" varId="1" variable="0xcaf4d0" astParent="0xcabe80"/>
+    <token id="0xcabe80" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="," scope="0xcaec20" astParent="0xca8d20" astOperand1="0xcabda0" astOperand2="0xcab710"/>
+    <token id="0xcab630" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="char" scope="0xcaec20" type="name" astParent="0xcab710"/>
+    <token id="0xcab710" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="*" scope="0xcaec20" type="op" isArithmeticalOp="True" astParent="0xcabe80" astOperand1="0xcab630" astOperand2="0xcab7f0"/>
+    <token id="0xcab7f0" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="*" scope="0xcaec20" type="op" isArithmeticalOp="True" astParent="0xcab710" astOperand1="0xcac090"/>
+    <token id="0xcac090" file="test_it_known_function_sqrt_2.cpp" linenr="5" str="argv" scope="0xcaec20" type="name" varId="2" variable="0xcaf560" astParent="0xcab7f0"/>
+    <token id="0xcac170" file="test_it_known_function_sqrt_2.cpp" linenr="5" str=")" scope="0xcaec20" link="0xca8d20"/>
+    <token id="0xcac250" file="test_it_known_function_sqrt_2.cpp" linenr="6" str="{" scope="0xcae7d0" link="0xcae6e0"/>
+    <token id="0xcac360" file="test_it_known_function_sqrt_2.cpp" linenr="8" str="geometry_msgs" scope="0xcae7d0" type="name" astParent="0xcac410"/>
+    <token id="0xcac410" file="test_it_known_function_sqrt_2.cpp" linenr="8" str="::" scope="0xcae7d0" astOperand1="0xcac360" astOperand2="0xcac5a0"/>
+    <token id="0xcac4c0" file="test_it_known_function_sqrt_2.cpp" linenr="8" str="Twist" scope="0xcae7d0" type="name"/>
+    <token id="0xcac5a0" file="test_it_known_function_sqrt_2.cpp" linenr="8" str="t" scope="0xcae7d0" type="name" varId="3" variable="0xcaeda0" astParent="0xcac410"/>
+    <token id="0xcac680" file="test_it_known_function_sqrt_2.cpp" linenr="8" str=";" scope="0xcae7d0"/>
+    <token id="0xcac790" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="t" scope="0xcae7d0" type="name" varId="3" variable="0xcaeda0" astParent="0xcac870"/>
+    <token id="0xcac870" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="." scope="0xcae7d0" astParent="0xcaca30" astOperand1="0xcac790" astOperand2="0xcac950"/>
+    <token id="0xcac950" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="linear" scope="0xcae7d0" type="name" varId="4" astParent="0xcac870"/>
+    <token id="0xcaca30" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="." scope="0xcae7d0" astParent="0xcacbc0" astOperand1="0xcac870" astOperand2="0xcacae0"/>
+    <token id="0xcacae0" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="x" scope="0xcae7d0" type="name" varId="5" astParent="0xcaca30"/>
+    <token id="0xcacbc0" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="=" scope="0xcae7d0" type="op" isAssignmentOp="True" astOperand1="0xcaca30" astOperand2="0xcacca0"/>
+    <token id="0xcacca0" file="test_it_known_function_sqrt_2.cpp" linenr="9" str="0" scope="0xcae7d0" type="number" isInt="True" values="0xcacca8" astParent="0xcacbc0"/>
+    <token id="0xcacd80" file="test_it_known_function_sqrt_2.cpp" linenr="9" str=";" scope="0xcae7d0"/>
+    <token id="0xcace60" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="float" scope="0xcae7d0" type="name"/>
+    <token id="0xcacf40" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="f" scope="0xcae7d0" type="name" varId="6" variable="0xcae950"/>
+    <token id="0xcad020" file="test_it_known_function_sqrt_2.cpp" linenr="11" str=";" scope="0xcae7d0"/>
+    <token id="0xcabb00" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="f" scope="0xcae7d0" type="name" varId="6" variable="0xcae950" astParent="0xcae9d0"/>
+    <token id="0xcae9d0" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="=" scope="0xcae7d0" type="op" isAssignmentOp="True" astOperand1="0xcabb00" astOperand2="0xcad560"/>
+    <token id="0xcad130" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="t" scope="0xcae7d0" type="name" varId="3" variable="0xcaeda0" astParent="0xcad210"/>
+    <token id="0xcad210" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="." scope="0xcae7d0" astParent="0xcad3d0" astOperand1="0xcad130" astOperand2="0xcad2f0"/>
+    <token id="0xcad2f0" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="linear" scope="0xcae7d0" type="name" varId="4" astParent="0xcad210"/>
+    <token id="0xcad3d0" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="." scope="0xcae7d0" astParent="0xcad560" astOperand1="0xcad210" astOperand2="0xcad480"/>
+    <token id="0xcad480" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="x" scope="0xcae7d0" type="name" varId="5" astParent="0xcad3d0"/>
+    <token id="0xcad560" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="*" scope="0xcae7d0" type="op" isArithmeticalOp="True" astParent="0xcae9d0" astOperand1="0xcad3d0" astOperand2="0xcad910"/>
+    <token id="0xcad670" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="t" scope="0xcae7d0" type="name" varId="3" variable="0xcaeda0" astParent="0xcad750"/>
+    <token id="0xcad750" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="." scope="0xcae7d0" astParent="0xcad910" astOperand1="0xcad670" astOperand2="0xcad830"/>
+    <token id="0xcad830" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="linear" scope="0xcae7d0" type="name" varId="4" astParent="0xcad750"/>
+    <token id="0xcad910" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="." scope="0xcae7d0" astParent="0xcad560" astOperand1="0xcad750" astOperand2="0xcad9c0"/>
+    <token id="0xcad9c0" file="test_it_known_function_sqrt_2.cpp" linenr="11" str="x" scope="0xcae7d0" type="name" varId="5" astParent="0xcad910"/>
+    <token id="0xcadaa0" file="test_it_known_function_sqrt_2.cpp" linenr="11" str=";" scope="0xcae7d0"/>
+    <token id="0xcadb80" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="float" scope="0xcae7d0" type="name"/>
+    <token id="0xcadc60" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="x" scope="0xcae7d0" type="name" varId="7" variable="0xcaf440"/>
+    <token id="0xcadd40" file="test_it_known_function_sqrt_2.cpp" linenr="12" str=";" scope="0xcae7d0"/>
+    <token id="0xcaea80" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="x" scope="0xcae7d0" type="name" varId="7" variable="0xcaf440" astParent="0xcaeb30"/>
+    <token id="0xcaeb30" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="=" scope="0xcae7d0" type="op" isAssignmentOp="True" astOperand1="0xcaea80" astOperand2="0xcae0c0"/>
+    <token id="0xcade20" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="std" scope="0xcae7d0" type="name" astParent="0xcadf00"/>
+    <token id="0xcadf00" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="::" scope="0xcae7d0" astParent="0xcae0c0" astOperand1="0xcade20" astOperand2="0xcadfe0"/>
+    <token id="0xcadfe0" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="sqrt" scope="0xcae7d0" type="name" astParent="0xcadf00"/>
+    <token id="0xcae0c0" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="(" scope="0xcae7d0" link="0xcae280" astParent="0xcaeb30" astOperand1="0xcadf00" astOperand2="0xcae1a0"/>
+    <token id="0xcae1a0" file="test_it_known_function_sqrt_2.cpp" linenr="12" str="f" scope="0xcae7d0" type="name" varId="6" variable="0xcae950" astParent="0xcae0c0"/>
+    <token id="0xcae280" file="test_it_known_function_sqrt_2.cpp" linenr="12" str=")" scope="0xcae7d0" link="0xcae0c0"/>
+    <token id="0xcae360" file="test_it_known_function_sqrt_2.cpp" linenr="12" str=";" scope="0xcae7d0"/>
+    <token id="0xcae440" file="test_it_known_function_sqrt_2.cpp" linenr="14" str="return" scope="0xcae7d0" type="name" astOperand1="0xcae520"/>
+    <token id="0xcae520" file="test_it_known_function_sqrt_2.cpp" linenr="14" str="0" scope="0xcae7d0" type="number" isInt="True" values="0xcae528" astParent="0xcae440"/>
+    <token id="0xcae600" file="test_it_known_function_sqrt_2.cpp" linenr="14" str=";" scope="0xcae7d0"/>
+    <token id="0xcae6e0" file="test_it_known_function_sqrt_2.cpp" linenr="16" str="}" scope="0xcae7d0" link="0xcac250"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xcaec20" type="Global">
+      <functionList>
+        <function id="0xcaefc0" tokenDef="0xca5b50" name="main">
+          <arg nr="1" variable="0xcaf4d0"/>
+          <arg nr="2" variable="0xcaf560"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xcae7d0" type="Function" className="main" classStart="0xcac250" classEnd="0xcae6e0" nestedIn="0xcaec20" function="0xcaefc0">
+      <varlist>
+        <var id="0xcaeda0"/>
+        <var id="0xcae950"/>
+        <var id="0xcaf440"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xcaf4d0" nameToken="0xcabda0" typeStartToken="0xca8dd0" typeEndToken="0xca8dd0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xcaf560" nameToken="0xcac090" typeStartToken="0xcab630" typeEndToken="0xcab7f0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xcaeda0" nameToken="0xcac5a0" typeStartToken="0xcac360" typeEndToken="0xcac4c0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xcae950" nameToken="0xcacf40" typeStartToken="0xcace60" typeEndToken="0xcace60" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xcaf440" nameToken="0xcadc60" typeStartToken="0xcadb80" typeEndToken="0xcadb80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xcacca8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xcae528">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

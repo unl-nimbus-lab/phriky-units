@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="1" str="#include &lt;ros/ros.h&gt;"/>
+    <directive file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="2" str="#include &lt;math.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fc778409030" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="int" scope="0x7fc7784484d0" type="name"/>
+    <token id="0x7fc778409110" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="main" scope="0x7fc7784484d0" type="name" function="0x7fc778448400" astParent="0x7fc7784091b0"/>
+    <token id="0x7fc7784091b0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="(" scope="0x7fc7784484d0" link="0x7fc7784475a0" astOperand1="0x7fc778409110" astOperand2="0x7fc778447280"/>
+    <token id="0x7fc778409250" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="int" scope="0x7fc7784484d0" type="name"/>
+    <token id="0x7fc7784471e0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="argc" scope="0x7fc7784484d0" type="name" varId="1" variable="0x7fc778448880" astParent="0x7fc778447280"/>
+    <token id="0x7fc778447280" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="," scope="0x7fc7784484d0" astParent="0x7fc7784091b0" astOperand1="0x7fc7784471e0" astOperand2="0x7fc7784473c0"/>
+    <token id="0x7fc778447320" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="char" scope="0x7fc7784484d0" type="name" astParent="0x7fc7784473c0"/>
+    <token id="0x7fc7784473c0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="*" scope="0x7fc7784484d0" type="op" isArithmeticalOp="True" astParent="0x7fc778447280" astOperand1="0x7fc778447320" astOperand2="0x7fc778447460"/>
+    <token id="0x7fc778447460" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="*" scope="0x7fc7784484d0" type="op" isArithmeticalOp="True" astParent="0x7fc7784473c0" astOperand1="0x7fc778447500"/>
+    <token id="0x7fc778447500" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str="argv" scope="0x7fc7784484d0" type="name" varId="2" variable="0x7fc7784488e0" astParent="0x7fc778447460"/>
+    <token id="0x7fc7784475a0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="4" str=")" scope="0x7fc7784484d0" link="0x7fc7784091b0"/>
+    <token id="0x7fc778447640" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="5" str="{" scope="0x7fc778448640" link="0x7fc778447e60"/>
+    <token id="0x7fc7784476e0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str="float" scope="0x7fc778448640" type="name"/>
+    <token id="0x7fc778447780" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str="f" scope="0x7fc778448640" type="name" varId="3" variable="0x7fc778448770"/>
+    <token id="0x7fc778447820" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str=";" scope="0x7fc778448640"/>
+    <token id="0x7fc7784480c0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str="f" scope="0x7fc778448640" type="name" varId="3" variable="0x7fc778448770" astParent="0x7fc778448160"/>
+    <token id="0x7fc778448160" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str="=" scope="0x7fc778448640" type="op" isAssignmentOp="True" astOperand1="0x7fc7784480c0" astOperand2="0x7fc7784478c0"/>
+    <token id="0x7fc7784478c0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str="37.0" scope="0x7fc778448640" type="number" isFloat="True" astParent="0x7fc778448160"/>
+    <token id="0x7fc778447960" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="6" str=";" scope="0x7fc778448640"/>
+    <token id="0x7fc778447a00" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="float" scope="0x7fc778448640" type="name"/>
+    <token id="0x7fc778447aa0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="x" scope="0x7fc778448640" type="name" varId="4" variable="0x7fc7784487d0"/>
+    <token id="0x7fc778447b40" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str=";" scope="0x7fc778448640"/>
+    <token id="0x7fc778448200" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="x" scope="0x7fc778448640" type="name" varId="4" variable="0x7fc7784487d0" astParent="0x7fc7784482a0"/>
+    <token id="0x7fc7784482a0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="=" scope="0x7fc778448640" type="op" isAssignmentOp="True" astOperand1="0x7fc778448200" astOperand2="0x7fc778447c80"/>
+    <token id="0x7fc778447be0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="f" scope="0x7fc778448640" type="name" varId="3" variable="0x7fc778448770" astParent="0x7fc778447c80"/>
+    <token id="0x7fc778447c80" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="*" scope="0x7fc778448640" type="op" isArithmeticalOp="True" astParent="0x7fc7784482a0" astOperand1="0x7fc778447be0" astOperand2="0x7fc778447d20"/>
+    <token id="0x7fc778447d20" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str="f" scope="0x7fc778448640" type="name" varId="3" variable="0x7fc778448770" astParent="0x7fc778447c80"/>
+    <token id="0x7fc778447dc0" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="7" str=";" scope="0x7fc778448640"/>
+    <token id="0x7fc778447e60" file="test_it_dimensionless_1_closed_under_multiplication.cpp" linenr="8" str="}" scope="0x7fc778448640" link="0x7fc778447640"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fc7784484d0" type="Global">
+      <functionList>
+        <function id="0x7fc778448400" tokenDef="0x7fc778409110" name="main">
+          <arg nr="1" variable="0x7fc778448880"/>
+          <arg nr="2" variable="0x7fc7784488e0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fc778448640" type="Function" className="main" classStart="0x7fc778447640" classEnd="0x7fc778447e60" nestedIn="0x7fc7784484d0" function="0x7fc778448400">
+      <varlist>
+        <var id="0x7fc778448770"/>
+        <var id="0x7fc7784487d0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fc778448880" nameToken="0x7fc7784471e0" typeStartToken="0x7fc778409250" typeEndToken="0x7fc778409250" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fc7784488e0" nameToken="0x7fc778447500" typeStartToken="0x7fc778447320" typeEndToken="0x7fc778447460" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fc778448770" nameToken="0x7fc778447780" typeStartToken="0x7fc7784476e0" typeEndToken="0x7fc7784476e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fc7784487d0" nameToken="0x7fc778447aa0" typeStartToken="0x7fc778447a00" typeEndToken="0x7fc778447a00" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

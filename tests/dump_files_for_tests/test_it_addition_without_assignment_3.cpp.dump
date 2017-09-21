@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x21e3960" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="int" scope="0x21e62e0" type="name"/>
+    <token id="0x21e3a10" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="main" scope="0x21e62e0" type="name" function="0x21e6460" astParent="0x21e0f60"/>
+    <token id="0x21e0f60" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="(" scope="0x21e62e0" link="0x21e4040" astOperand1="0x21e3a10" astOperand2="0x21e3570"/>
+    <token id="0x21e1010" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="int" scope="0x21e62e0" type="name"/>
+    <token id="0x21e10f0" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="argc" scope="0x21e62e0" type="name" varId="1" variable="0x21e6e40" astParent="0x21e3570"/>
+    <token id="0x21e3570" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="," scope="0x21e62e0" astParent="0x21e0f60" astOperand1="0x21e10f0" astOperand2="0x21e3730"/>
+    <token id="0x21e3650" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="char" scope="0x21e62e0" type="name" astParent="0x21e3730"/>
+    <token id="0x21e3730" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="*" scope="0x21e62e0" type="op" isArithmeticalOp="True" astParent="0x21e3570" astOperand1="0x21e3650" astOperand2="0x21e3e80"/>
+    <token id="0x21e3e80" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="*" scope="0x21e62e0" type="op" isArithmeticalOp="True" astParent="0x21e3730" astOperand1="0x21e3f60"/>
+    <token id="0x21e3f60" file="test_it_addition_without_assignment_3.cpp" linenr="4" str="argv" scope="0x21e62e0" type="name" varId="2" variable="0x21e6ed0" astParent="0x21e3e80"/>
+    <token id="0x21e4040" file="test_it_addition_without_assignment_3.cpp" linenr="4" str=")" scope="0x21e62e0" link="0x21e0f60"/>
+    <token id="0x21e4120" file="test_it_addition_without_assignment_3.cpp" linenr="5" str="{" scope="0x21e6510" link="0x21e5eb0"/>
+    <token id="0x21e4230" file="test_it_addition_without_assignment_3.cpp" linenr="6" str="geometry_msgs" scope="0x21e6510" type="name" astParent="0x21e42e0"/>
+    <token id="0x21e42e0" file="test_it_addition_without_assignment_3.cpp" linenr="6" str="::" scope="0x21e6510" astOperand1="0x21e4230" astOperand2="0x21e4470"/>
+    <token id="0x21e4390" file="test_it_addition_without_assignment_3.cpp" linenr="6" str="Twist" scope="0x21e6510" type="name"/>
+    <token id="0x21e4470" file="test_it_addition_without_assignment_3.cpp" linenr="6" str="tw" scope="0x21e6510" type="name" varId="3" variable="0x21e6db0" astParent="0x21e42e0"/>
+    <token id="0x21e4550" file="test_it_addition_without_assignment_3.cpp" linenr="6" str=";" scope="0x21e6510"/>
+    <token id="0x21e4630" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="if" scope="0x21e6510" type="name" astParent="0x21e4710"/>
+    <token id="0x21e4710" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="(" scope="0x21e6510" link="0x21e5890" astOperand1="0x21e4630" astOperand2="0x21e56d0"/>
+    <token id="0x21e47f0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="(" scope="0x21e6510" link="0x21e55f0"/>
+    <token id="0x21e4900" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="tw" scope="0x21e6510" type="name" varId="3" variable="0x21e6db0" astParent="0x21e49e0"/>
+    <token id="0x21e49e0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="." scope="0x21e6510" astParent="0x21e4ba0" astOperand1="0x21e4900" astOperand2="0x21e4ac0"/>
+    <token id="0x21e4ac0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="linear" scope="0x21e6510" type="name" varId="4" astParent="0x21e49e0"/>
+    <token id="0x21e4ba0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="." scope="0x21e6510" astParent="0x21e4d30" astOperand1="0x21e49e0" astOperand2="0x21e4c50"/>
+    <token id="0x21e4c50" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="x" scope="0x21e6510" type="name" varId="5" astParent="0x21e4ba0"/>
+    <token id="0x21e4d30" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="+" scope="0x21e6510" type="op" isArithmeticalOp="True" astParent="0x21e56d0" astOperand1="0x21e4ba0" astOperand2="0x21e5350"/>
+    <token id="0x21e4e10" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="(" scope="0x21e6510" link="0x21e5510"/>
+    <token id="0x21e4f20" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="tw" scope="0x21e6510" type="name" varId="3" variable="0x21e6db0" astParent="0x21e5000"/>
+    <token id="0x21e5000" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="." scope="0x21e6510" astParent="0x21e51c0" astOperand1="0x21e4f20" astOperand2="0x21e50e0"/>
+    <token id="0x21e50e0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="angular" scope="0x21e6510" type="name" varId="6" astParent="0x21e5000"/>
+    <token id="0x21e51c0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="." scope="0x21e6510" astParent="0x21e5350" astOperand1="0x21e5000" astOperand2="0x21e5270"/>
+    <token id="0x21e5270" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="y" scope="0x21e6510" type="name" varId="7" astParent="0x21e51c0"/>
+    <token id="0x21e5350" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="*" scope="0x21e6510" type="op" isArithmeticalOp="True" astParent="0x21e4d30" astOperand1="0x21e51c0" astOperand2="0x21e5430"/>
+    <token id="0x21e5430" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="3.14" scope="0x21e6510" type="number" isFloat="True" astParent="0x21e5350"/>
+    <token id="0x21e5510" file="test_it_addition_without_assignment_3.cpp" linenr="7" str=")" scope="0x21e6510" link="0x21e4e10"/>
+    <token id="0x21e55f0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str=")" scope="0x21e6510" link="0x21e47f0"/>
+    <token id="0x21e56d0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="&gt;" scope="0x21e6510" type="op" isComparisonOp="True" astParent="0x21e4710" astOperand1="0x21e4d30" astOperand2="0x21e57b0"/>
+    <token id="0x21e57b0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="7" scope="0x21e6510" type="number" isInt="True" values="0x21e57b8" astParent="0x21e56d0"/>
+    <token id="0x21e5890" file="test_it_addition_without_assignment_3.cpp" linenr="7" str=")" scope="0x21e6510" link="0x21e4710"/>
+    <token id="0x21e5fd0" file="test_it_addition_without_assignment_3.cpp" linenr="7" str="{" scope="0x21e6c30" link="0x21e60b0"/>
+    <token id="0x21e5970" file="test_it_addition_without_assignment_3.cpp" linenr="8" str="return" scope="0x21e6c30" type="name" astOperand1="0x21e5a50"/>
+    <token id="0x21e5a50" file="test_it_addition_without_assignment_3.cpp" linenr="8" str="42" scope="0x21e6c30" type="number" isInt="True" values="0x21e5a58" astParent="0x21e5970"/>
+    <token id="0x21e5b30" file="test_it_addition_without_assignment_3.cpp" linenr="8" str=";" scope="0x21e6c30"/>
+    <token id="0x21e60b0" file="test_it_addition_without_assignment_3.cpp" linenr="8" str="}" scope="0x21e6c30" link="0x21e5fd0"/>
+    <token id="0x21e5c10" file="test_it_addition_without_assignment_3.cpp" linenr="9" str="return" scope="0x21e6510" type="name" astOperand1="0x21e5cf0"/>
+    <token id="0x21e5cf0" file="test_it_addition_without_assignment_3.cpp" linenr="9" str="0" scope="0x21e6510" type="number" isInt="True" values="0x21e5cf8" astParent="0x21e5c10"/>
+    <token id="0x21e5dd0" file="test_it_addition_without_assignment_3.cpp" linenr="9" str=";" scope="0x21e6510"/>
+    <token id="0x21e5eb0" file="test_it_addition_without_assignment_3.cpp" linenr="10" str="}" scope="0x21e6510" link="0x21e4120"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x21e62e0" type="Global">
+      <functionList>
+        <function id="0x21e6460" tokenDef="0x21e3a10" name="main">
+          <arg nr="1" variable="0x21e6e40"/>
+          <arg nr="2" variable="0x21e6ed0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x21e6510" type="Function" className="main" classStart="0x21e4120" classEnd="0x21e5eb0" nestedIn="0x21e62e0" function="0x21e6460">
+      <varlist>
+        <var id="0x21e6db0"/>
+      </varlist>
+    </scope>
+    <scope id="0x21e6c30" type="If" classStart="0x21e5fd0" classEnd="0x21e60b0" nestedIn="0x21e6510"/>
+  </scopes>
+  <variables>
+    <var id="0x21e6e40" nameToken="0x21e10f0" typeStartToken="0x21e1010" typeEndToken="0x21e1010" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x21e6ed0" nameToken="0x21e3f60" typeStartToken="0x21e3650" typeEndToken="0x21e3e80" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x21e6db0" nameToken="0x21e4470" typeStartToken="0x21e4230" typeEndToken="0x21e4390" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x21e57b8">
+      <value intvalue="7" known="true"/>
+    </values>
+    <values id="0x21e5a58">
+      <value intvalue="42" known="true"/>
+    </values>
+    <values id="0x21e5cf8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

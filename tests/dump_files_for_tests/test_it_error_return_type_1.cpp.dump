@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1ecaa40" file="test_it_error_return_type_1.cpp" linenr="4" str="int" scope="0x1ecc570" type="name"/>
+    <token id="0x1ecaaf0" file="test_it_error_return_type_1.cpp" linenr="4" str="main" scope="0x1ecc570" type="name" function="0x1ecc6f0" astParent="0x1ecaba0"/>
+    <token id="0x1ecaba0" file="test_it_error_return_type_1.cpp" linenr="4" str="(" scope="0x1ecc570" link="0x1ecafb0" astOperand1="0x1ecaaf0" astOperand2="0x1eca400"/>
+    <token id="0x1ec7c30" file="test_it_error_return_type_1.cpp" linenr="4" str="int" scope="0x1ecc570" type="name"/>
+    <token id="0x1ec7d10" file="test_it_error_return_type_1.cpp" linenr="4" str="argc" scope="0x1ecc570" type="name" varId="1" variable="0x1ecd0d0" astParent="0x1eca400"/>
+    <token id="0x1eca400" file="test_it_error_return_type_1.cpp" linenr="4" str="," scope="0x1ecc570" astParent="0x1ecaba0" astOperand1="0x1ec7d10" astOperand2="0x1ecad10"/>
+    <token id="0x1eca4e0" file="test_it_error_return_type_1.cpp" linenr="4" str="char" scope="0x1ecc570" type="name" astParent="0x1ecad10"/>
+    <token id="0x1ecad10" file="test_it_error_return_type_1.cpp" linenr="4" str="*" scope="0x1ecc570" type="op" isArithmeticalOp="True" astParent="0x1eca400" astOperand1="0x1eca4e0" astOperand2="0x1ecadf0"/>
+    <token id="0x1ecadf0" file="test_it_error_return_type_1.cpp" linenr="4" str="*" scope="0x1ecc570" type="op" isArithmeticalOp="True" astParent="0x1ecad10" astOperand1="0x1ecaed0"/>
+    <token id="0x1ecaed0" file="test_it_error_return_type_1.cpp" linenr="4" str="argv" scope="0x1ecc570" type="name" varId="2" variable="0x1ecd160" astParent="0x1ecadf0"/>
+    <token id="0x1ecafb0" file="test_it_error_return_type_1.cpp" linenr="4" str=")" scope="0x1ecc570" link="0x1ecaba0"/>
+    <token id="0x1ecb090" file="test_it_error_return_type_1.cpp" linenr="5" str="{" scope="0x1ecc7a0" link="0x1ecc480"/>
+    <token id="0x1ecb1a0" file="test_it_error_return_type_1.cpp" linenr="6" str="sensor_msgs" scope="0x1ecc7a0" type="name" astParent="0x1ecb250"/>
+    <token id="0x1ecb250" file="test_it_error_return_type_1.cpp" linenr="6" str="::" scope="0x1ecc7a0" astOperand1="0x1ecb1a0" astOperand2="0x1ecb3e0"/>
+    <token id="0x1ecb300" file="test_it_error_return_type_1.cpp" linenr="6" str="Range" scope="0x1ecc7a0" type="name"/>
+    <token id="0x1ecb3e0" file="test_it_error_return_type_1.cpp" linenr="6" str="r" scope="0x1ecc7a0" type="name" varId="3" variable="0x1eccd30" astParent="0x1ecb250"/>
+    <token id="0x1ecb4c0" file="test_it_error_return_type_1.cpp" linenr="6" str=";" scope="0x1ecc7a0"/>
+    <token id="0x1ecb5a0" file="test_it_error_return_type_1.cpp" linenr="7" str="geometry_msgs" scope="0x1ecc7a0" type="name" astParent="0x1ecb680"/>
+    <token id="0x1ecb680" file="test_it_error_return_type_1.cpp" linenr="7" str="::" scope="0x1ecc7a0" astOperand1="0x1ecb5a0" astOperand2="0x1ecb840"/>
+    <token id="0x1ecb760" file="test_it_error_return_type_1.cpp" linenr="7" str="TwistStamped" scope="0x1ecc7a0" type="name"/>
+    <token id="0x1ecb840" file="test_it_error_return_type_1.cpp" linenr="7" str="ts" scope="0x1ecc7a0" type="name" varId="4" variable="0x1ecd040" astParent="0x1ecb680"/>
+    <token id="0x1ecb920" file="test_it_error_return_type_1.cpp" linenr="7" str=";" scope="0x1ecc7a0"/>
+    <token id="0x1ecba30" file="test_it_error_return_type_1.cpp" linenr="9" str="r" scope="0x1ecc7a0" type="name" varId="3" variable="0x1eccd30" astParent="0x1ecbb10"/>
+    <token id="0x1ecbb10" file="test_it_error_return_type_1.cpp" linenr="9" str="." scope="0x1ecc7a0" astParent="0x1ecbca0" astOperand1="0x1ecba30" astOperand2="0x1ecbbc0"/>
+    <token id="0x1ecbbc0" file="test_it_error_return_type_1.cpp" linenr="9" str="range" scope="0x1ecc7a0" type="name" varId="5" astParent="0x1ecbb10"/>
+    <token id="0x1ecbca0" file="test_it_error_return_type_1.cpp" linenr="9" str="=" scope="0x1ecc7a0" type="op" isAssignmentOp="True" astOperand1="0x1ecbb10" astOperand2="0x1ecc210"/>
+    <token id="0x1ecbdb0" file="test_it_error_return_type_1.cpp" linenr="9" str="ts" scope="0x1ecc7a0" type="name" varId="4" variable="0x1ecd040" astParent="0x1ecbe90"/>
+    <token id="0x1ecbe90" file="test_it_error_return_type_1.cpp" linenr="9" str="." scope="0x1ecc7a0" astParent="0x1ecc050" astOperand1="0x1ecbdb0" astOperand2="0x1ecbf70"/>
+    <token id="0x1ecbf70" file="test_it_error_return_type_1.cpp" linenr="9" str="twist" scope="0x1ecc7a0" type="name" varId="6" astParent="0x1ecbe90"/>
+    <token id="0x1ecc050" file="test_it_error_return_type_1.cpp" linenr="9" str="." scope="0x1ecc7a0" astParent="0x1ecc210" astOperand1="0x1ecbe90" astOperand2="0x1ecc130"/>
+    <token id="0x1ecc130" file="test_it_error_return_type_1.cpp" linenr="9" str="linear" scope="0x1ecc7a0" type="name" varId="7" astParent="0x1ecc050"/>
+    <token id="0x1ecc210" file="test_it_error_return_type_1.cpp" linenr="9" str="." scope="0x1ecc7a0" astParent="0x1ecbca0" astOperand1="0x1ecc050" astOperand2="0x1ecc2c0"/>
+    <token id="0x1ecc2c0" file="test_it_error_return_type_1.cpp" linenr="9" str="x" scope="0x1ecc7a0" type="name" varId="8" astParent="0x1ecc210"/>
+    <token id="0x1ecc3a0" file="test_it_error_return_type_1.cpp" linenr="9" str=";" scope="0x1ecc7a0"/>
+    <token id="0x1ecc480" file="test_it_error_return_type_1.cpp" linenr="10" str="}" scope="0x1ecc7a0" link="0x1ecb090"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1ecc570" type="Global">
+      <functionList>
+        <function id="0x1ecc6f0" tokenDef="0x1ecaaf0" name="main">
+          <arg nr="1" variable="0x1ecd0d0"/>
+          <arg nr="2" variable="0x1ecd160"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1ecc7a0" type="Function" className="main" classStart="0x1ecb090" classEnd="0x1ecc480" nestedIn="0x1ecc570" function="0x1ecc6f0">
+      <varlist>
+        <var id="0x1eccd30"/>
+        <var id="0x1ecd040"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1ecd0d0" nameToken="0x1ec7d10" typeStartToken="0x1ec7c30" typeEndToken="0x1ec7c30" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ecd160" nameToken="0x1ecaed0" typeStartToken="0x1eca4e0" typeEndToken="0x1ecadf0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1eccd30" nameToken="0x1ecb3e0" typeStartToken="0x1ecb1a0" typeEndToken="0x1ecb300" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1ecd040" nameToken="0x1ecb840" typeStartToken="0x1ecb5a0" typeEndToken="0x1ecb760" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

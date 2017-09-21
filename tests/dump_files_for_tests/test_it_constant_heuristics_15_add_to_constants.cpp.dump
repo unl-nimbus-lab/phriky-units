@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="1" str="#include &quot;sensor_msgs/Range.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7f9c40e29370" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="int" scope="0x7f9c40e2a990" type="name"/>
+    <token id="0x7f9c40e29450" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="main" scope="0x7f9c40e2a990" type="name" function="0x7f9c40e2a890" astParent="0x7f9c40e294f0"/>
+    <token id="0x7f9c40e294f0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="(" scope="0x7f9c40e2a990" link="0x7f9c40e299f0" astOperand1="0x7f9c40e29450" astOperand2="0x7f9c40e296d0"/>
+    <token id="0x7f9c40e29590" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="int" scope="0x7f9c40e2a990" type="name"/>
+    <token id="0x7f9c40e29630" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="argc" scope="0x7f9c40e2a990" type="name" varId="1" variable="0x7f9c40e2acb0" astParent="0x7f9c40e296d0"/>
+    <token id="0x7f9c40e296d0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="," scope="0x7f9c40e2a990" astParent="0x7f9c40e294f0" astOperand1="0x7f9c40e29630" astOperand2="0x7f9c40e29810"/>
+    <token id="0x7f9c40e29770" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="char" scope="0x7f9c40e2a990" type="name" astParent="0x7f9c40e29810"/>
+    <token id="0x7f9c40e29810" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="*" scope="0x7f9c40e2a990" type="op" isArithmeticalOp="True" astParent="0x7f9c40e296d0" astOperand1="0x7f9c40e29770" astOperand2="0x7f9c40e298b0"/>
+    <token id="0x7f9c40e298b0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="*" scope="0x7f9c40e2a990" type="op" isArithmeticalOp="True" astParent="0x7f9c40e29810" astOperand1="0x7f9c40e29950"/>
+    <token id="0x7f9c40e29950" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str="argv" scope="0x7f9c40e2a990" type="name" varId="2" variable="0x7f9c40e2ad40" astParent="0x7f9c40e298b0"/>
+    <token id="0x7f9c40e299f0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="3" str=")" scope="0x7f9c40e2a990" link="0x7f9c40e294f0"/>
+    <token id="0x7f9c40e29a90" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="4" str="{" scope="0x7f9c40e2aac0" link="0x7f9c40e2a3f0"/>
+    <token id="0x7f9c40e29b30" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="5" str="sensor_msgs" scope="0x7f9c40e2aac0" type="name" astParent="0x7f9c40e29bd0"/>
+    <token id="0x7f9c40e29bd0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="5" str="::" scope="0x7f9c40e2aac0" astOperand1="0x7f9c40e29b30" astOperand2="0x7f9c40e29d10"/>
+    <token id="0x7f9c40e29c70" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="5" str="Range" scope="0x7f9c40e2aac0" type="name"/>
+    <token id="0x7f9c40e29d10" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="5" str="r" scope="0x7f9c40e2aac0" type="name" varId="3" variable="0x7f9c40e2abf0" astParent="0x7f9c40e29bd0"/>
+    <token id="0x7f9c40e29db0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="5" str=";" scope="0x7f9c40e2aac0"/>
+    <token id="0x7f9c40e29e50" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="float" scope="0x7f9c40e2aac0" type="name"/>
+    <token id="0x7f9c40e29ef0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="x" scope="0x7f9c40e2aac0" type="name" varId="4" variable="0x7f9c40e2ac50"/>
+    <token id="0x7f9c40e29f90" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str=";" scope="0x7f9c40e2aac0"/>
+    <token id="0x7f9c40e2a690" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="x" scope="0x7f9c40e2aac0" type="name" varId="4" variable="0x7f9c40e2ac50" astParent="0x7f9c40e2a730"/>
+    <token id="0x7f9c40e2a730" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="=" scope="0x7f9c40e2aac0" type="op" isAssignmentOp="True" astOperand1="0x7f9c40e2a690" astOperand2="0x7f9c40e2a210"/>
+    <token id="0x7f9c40e2a030" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="r" scope="0x7f9c40e2aac0" type="name" varId="3" variable="0x7f9c40e2abf0" astParent="0x7f9c40e2a0d0"/>
+    <token id="0x7f9c40e2a0d0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="." scope="0x7f9c40e2aac0" astParent="0x7f9c40e2a210" astOperand1="0x7f9c40e2a030" astOperand2="0x7f9c40e2a170"/>
+    <token id="0x7f9c40e2a170" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="range" scope="0x7f9c40e2aac0" type="name" varId="5" astParent="0x7f9c40e2a0d0"/>
+    <token id="0x7f9c40e2a210" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="+" scope="0x7f9c40e2aac0" type="op" isArithmeticalOp="True" astParent="0x7f9c40e2a730" astOperand1="0x7f9c40e2a0d0" astOperand2="0x7f9c40e2a2b0"/>
+    <token id="0x7f9c40e2a2b0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str="0.00000000001" scope="0x7f9c40e2aac0" type="number" isFloat="True" astParent="0x7f9c40e2a210"/>
+    <token id="0x7f9c40e2a350" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="6" str=";" scope="0x7f9c40e2aac0"/>
+    <token id="0x7f9c40e2a3f0" file="test_it_constant_heuristics_15_add_to_constants.cpp" linenr="8" str="}" scope="0x7f9c40e2aac0" link="0x7f9c40e29a90"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7f9c40e2a990" type="Global">
+      <functionList>
+        <function id="0x7f9c40e2a890" tokenDef="0x7f9c40e29450" name="main">
+          <arg nr="1" variable="0x7f9c40e2acb0"/>
+          <arg nr="2" variable="0x7f9c40e2ad40"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7f9c40e2aac0" type="Function" className="main" classStart="0x7f9c40e29a90" classEnd="0x7f9c40e2a3f0" nestedIn="0x7f9c40e2a990" function="0x7f9c40e2a890">
+      <varlist>
+        <var id="0x7f9c40e2abf0"/>
+        <var id="0x7f9c40e2ac50"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7f9c40e2acb0" nameToken="0x7f9c40e29630" typeStartToken="0x7f9c40e29590" typeEndToken="0x7f9c40e29590" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f9c40e2ad40" nameToken="0x7f9c40e29950" typeStartToken="0x7f9c40e29770" typeEndToken="0x7f9c40e298b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7f9c40e2abf0" nameToken="0x7f9c40e29d10" typeStartToken="0x7f9c40e29b30" typeEndToken="0x7f9c40e29c70" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7f9c40e2ac50" nameToken="0x7f9c40e29ef0" typeStartToken="0x7f9c40e29e50" typeEndToken="0x7f9c40e29e50" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

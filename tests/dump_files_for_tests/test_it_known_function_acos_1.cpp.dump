@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x23ee2d0" file="test_it_known_function_acos_1.cpp" linenr="4" str="int" scope="0x23efeb0" type="name"/>
+    <token id="0x23ee380" file="test_it_known_function_acos_1.cpp" linenr="4" str="main" scope="0x23efeb0" type="name" function="0x23f0030" astParent="0x23ee490"/>
+    <token id="0x23ee490" file="test_it_known_function_acos_1.cpp" linenr="4" str="(" scope="0x23efeb0" link="0x23ef0a0" astOperand1="0x23ee380" astOperand2="0x23ebe00"/>
+    <token id="0x23ee540" file="test_it_known_function_acos_1.cpp" linenr="4" str="int" scope="0x23efeb0" type="name"/>
+    <token id="0x23ebd20" file="test_it_known_function_acos_1.cpp" linenr="4" str="argc" scope="0x23efeb0" type="name" varId="1" variable="0x23f0380" astParent="0x23ebe00"/>
+    <token id="0x23ebe00" file="test_it_known_function_acos_1.cpp" linenr="4" str="," scope="0x23efeb0" astParent="0x23ee490" astOperand1="0x23ebd20" astOperand2="0x23eee00"/>
+    <token id="0x23eed20" file="test_it_known_function_acos_1.cpp" linenr="4" str="char" scope="0x23efeb0" type="name" astParent="0x23eee00"/>
+    <token id="0x23eee00" file="test_it_known_function_acos_1.cpp" linenr="4" str="*" scope="0x23efeb0" type="op" isArithmeticalOp="True" astParent="0x23ebe00" astOperand1="0x23eed20" astOperand2="0x23eeee0"/>
+    <token id="0x23eeee0" file="test_it_known_function_acos_1.cpp" linenr="4" str="*" scope="0x23efeb0" type="op" isArithmeticalOp="True" astParent="0x23eee00" astOperand1="0x23eefc0"/>
+    <token id="0x23eefc0" file="test_it_known_function_acos_1.cpp" linenr="4" str="argv" scope="0x23efeb0" type="name" varId="2" variable="0x23f0410" astParent="0x23eeee0"/>
+    <token id="0x23ef0a0" file="test_it_known_function_acos_1.cpp" linenr="4" str=")" scope="0x23efeb0" link="0x23ee490"/>
+    <token id="0x23ef180" file="test_it_known_function_acos_1.cpp" linenr="5" str="{" scope="0x23f0140" link="0x23efb20"/>
+    <token id="0x23ef290" file="test_it_known_function_acos_1.cpp" linenr="7" str="float" scope="0x23f0140" type="name"/>
+    <token id="0x23ef340" file="test_it_known_function_acos_1.cpp" linenr="7" str="f" scope="0x23f0140" type="name" varId="3" variable="0x23f02f0"/>
+    <token id="0x23ef420" file="test_it_known_function_acos_1.cpp" linenr="7" str=";" scope="0x23f0140"/>
+    <token id="0x23efc00" file="test_it_known_function_acos_1.cpp" linenr="7" str="f" scope="0x23f0140" type="name" varId="3" variable="0x23f02f0" astParent="0x23efcb0"/>
+    <token id="0x23efcb0" file="test_it_known_function_acos_1.cpp" linenr="7" str="=" scope="0x23f0140" type="op" isAssignmentOp="True" astOperand1="0x23efc00" astOperand2="0x23ef7a0"/>
+    <token id="0x23ef500" file="test_it_known_function_acos_1.cpp" linenr="7" str="std" scope="0x23f0140" type="name" astParent="0x23ef5e0"/>
+    <token id="0x23ef5e0" file="test_it_known_function_acos_1.cpp" linenr="7" str="::" scope="0x23f0140" astParent="0x23ef7a0" astOperand1="0x23ef500" astOperand2="0x23ef6c0"/>
+    <token id="0x23ef6c0" file="test_it_known_function_acos_1.cpp" linenr="7" str="acos" scope="0x23f0140" type="name" astParent="0x23ef5e0"/>
+    <token id="0x23ef7a0" file="test_it_known_function_acos_1.cpp" linenr="7" str="(" scope="0x23f0140" link="0x23ef960" astParent="0x23efcb0" astOperand1="0x23ef5e0" astOperand2="0x23ef880"/>
+    <token id="0x23ef880" file="test_it_known_function_acos_1.cpp" linenr="7" str="10" scope="0x23f0140" type="number" isInt="True" values="0x23ef888" astParent="0x23ef7a0"/>
+    <token id="0x23ef960" file="test_it_known_function_acos_1.cpp" linenr="7" str=")" scope="0x23f0140" link="0x23ef7a0"/>
+    <token id="0x23efa40" file="test_it_known_function_acos_1.cpp" linenr="7" str=";" scope="0x23f0140"/>
+    <token id="0x23efb20" file="test_it_known_function_acos_1.cpp" linenr="9" str="}" scope="0x23f0140" link="0x23ef180"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x23efeb0" type="Global">
+      <functionList>
+        <function id="0x23f0030" tokenDef="0x23ee380" name="main">
+          <arg nr="1" variable="0x23f0380"/>
+          <arg nr="2" variable="0x23f0410"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x23f0140" type="Function" className="main" classStart="0x23ef180" classEnd="0x23efb20" nestedIn="0x23efeb0" function="0x23f0030">
+      <varlist>
+        <var id="0x23f02f0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x23f0380" nameToken="0x23ebd20" typeStartToken="0x23ee540" typeEndToken="0x23ee540" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x23f0410" nameToken="0x23eefc0" typeStartToken="0x23eed20" typeEndToken="0x23eeee0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x23f02f0" nameToken="0x23ef340" typeStartToken="0x23ef290" typeEndToken="0x23ef290" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x23ef888">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

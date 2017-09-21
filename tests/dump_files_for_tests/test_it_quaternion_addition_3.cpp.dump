@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x2641e30" file="test_it_quaternion_addition_3.cpp" linenr="4" str="int" scope="0x2649760" type="name"/>
+    <token id="0x2647c10" file="test_it_quaternion_addition_3.cpp" linenr="4" str="main" scope="0x2649760" type="name" function="0x26498e0" astParent="0x2647cc0"/>
+    <token id="0x2647cc0" file="test_it_quaternion_addition_3.cpp" linenr="4" str="(" scope="0x2649760" link="0x2647f80" astOperand1="0x2647c10" astOperand2="0x2647480"/>
+    <token id="0x2647d70" file="test_it_quaternion_addition_3.cpp" linenr="4" str="int" scope="0x2649760" type="name"/>
+    <token id="0x26473a0" file="test_it_quaternion_addition_3.cpp" linenr="4" str="argc" scope="0x2649760" type="name" varId="1" variable="0x2649dc0" astParent="0x2647480"/>
+    <token id="0x2647480" file="test_it_quaternion_addition_3.cpp" linenr="4" str="," scope="0x2649760" astParent="0x2647cc0" astOperand1="0x26473a0" astOperand2="0x2647640"/>
+    <token id="0x2647560" file="test_it_quaternion_addition_3.cpp" linenr="4" str="char" scope="0x2649760" type="name" astParent="0x2647640"/>
+    <token id="0x2647640" file="test_it_quaternion_addition_3.cpp" linenr="4" str="*" scope="0x2649760" type="op" isArithmeticalOp="True" astParent="0x2647480" astOperand1="0x2647560" astOperand2="0x2647720"/>
+    <token id="0x2647720" file="test_it_quaternion_addition_3.cpp" linenr="4" str="*" scope="0x2649760" type="op" isArithmeticalOp="True" astParent="0x2647640" astOperand1="0x2647ed0"/>
+    <token id="0x2647ed0" file="test_it_quaternion_addition_3.cpp" linenr="4" str="argv" scope="0x2649760" type="name" varId="2" variable="0x2649e50" astParent="0x2647720"/>
+    <token id="0x2647f80" file="test_it_quaternion_addition_3.cpp" linenr="4" str=")" scope="0x2649760" link="0x2647cc0"/>
+    <token id="0x2648060" file="test_it_quaternion_addition_3.cpp" linenr="5" str="{" scope="0x2649990" link="0x2649290"/>
+    <token id="0x2648140" file="test_it_quaternion_addition_3.cpp" linenr="6" str="tf2" scope="0x2649990" type="name" astParent="0x2648220"/>
+    <token id="0x2648220" file="test_it_quaternion_addition_3.cpp" linenr="6" str="::" scope="0x2649990" astOperand1="0x2648140" astOperand2="0x26483e0"/>
+    <token id="0x2648330" file="test_it_quaternion_addition_3.cpp" linenr="6" str="Transform" scope="0x2649990" type="name"/>
+    <token id="0x26483e0" file="test_it_quaternion_addition_3.cpp" linenr="6" str="tf" scope="0x2649990" type="name" varId="3" variable="0x26495e0" astParent="0x2648220"/>
+    <token id="0x2648490" file="test_it_quaternion_addition_3.cpp" linenr="6" str=";" scope="0x2649990"/>
+    <token id="0x2648570" file="test_it_quaternion_addition_3.cpp" linenr="7" str="float" scope="0x2649990" type="name"/>
+    <token id="0x2648650" file="test_it_quaternion_addition_3.cpp" linenr="7" str="f" scope="0x2649990" type="name" varId="4" variable="0x2649d30"/>
+    <token id="0x2648730" file="test_it_quaternion_addition_3.cpp" linenr="7" str=";" scope="0x2649990"/>
+    <token id="0x2647b30" file="test_it_quaternion_addition_3.cpp" linenr="7" str="f" scope="0x2649990" type="name" varId="4" variable="0x2649d30" astParent="0x26496a0"/>
+    <token id="0x26496a0" file="test_it_quaternion_addition_3.cpp" linenr="7" str="=" scope="0x2649990" type="op" isAssignmentOp="True" astOperand1="0x2647b30" astOperand2="0x26488f0"/>
+    <token id="0x2648810" file="test_it_quaternion_addition_3.cpp" linenr="7" str="42.0" scope="0x2649990" type="number" isFloat="True" astParent="0x26488f0"/>
+    <token id="0x26488f0" file="test_it_quaternion_addition_3.cpp" linenr="7" str="+" scope="0x2649990" type="op" isArithmeticalOp="True" astParent="0x26496a0" astOperand1="0x2648810" astOperand2="0x2648ff0"/>
+    <token id="0x2648a00" file="test_it_quaternion_addition_3.cpp" linenr="7" str="tf" scope="0x2649990" type="name" varId="3" variable="0x26495e0" astParent="0x2648ae0"/>
+    <token id="0x2648ae0" file="test_it_quaternion_addition_3.cpp" linenr="7" str="." scope="0x2649990" astParent="0x2648c70" astOperand1="0x2648a00" astOperand2="0x2648b90"/>
+    <token id="0x2648b90" file="test_it_quaternion_addition_3.cpp" linenr="7" str="getRotation" scope="0x2649990" type="name" astParent="0x2648ae0"/>
+    <token id="0x2648c70" file="test_it_quaternion_addition_3.cpp" linenr="7" str="(" scope="0x2649990" link="0x2648d50" astParent="0x2648e30" astOperand1="0x2648ae0"/>
+    <token id="0x2648d50" file="test_it_quaternion_addition_3.cpp" linenr="7" str=")" scope="0x2649990" link="0x2648c70"/>
+    <token id="0x2648e30" file="test_it_quaternion_addition_3.cpp" linenr="7" str="." scope="0x2649990" astParent="0x2648ff0" astOperand1="0x2648c70" astOperand2="0x2648f10"/>
+    <token id="0x2648f10" file="test_it_quaternion_addition_3.cpp" linenr="7" str="getW" scope="0x2649990" type="name" astParent="0x2648e30"/>
+    <token id="0x2648ff0" file="test_it_quaternion_addition_3.cpp" linenr="7" str="(" scope="0x2649990" link="0x26490d0" astParent="0x26488f0" astOperand1="0x2648e30"/>
+    <token id="0x26490d0" file="test_it_quaternion_addition_3.cpp" linenr="7" str=")" scope="0x2649990" link="0x2648ff0"/>
+    <token id="0x26491b0" file="test_it_quaternion_addition_3.cpp" linenr="7" str=";" scope="0x2649990"/>
+    <token id="0x2649290" file="test_it_quaternion_addition_3.cpp" linenr="8" str="}" scope="0x2649990" link="0x2648060"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x2649760" type="Global">
+      <functionList>
+        <function id="0x26498e0" tokenDef="0x2647c10" name="main">
+          <arg nr="1" variable="0x2649dc0"/>
+          <arg nr="2" variable="0x2649e50"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x2649990" type="Function" className="main" classStart="0x2648060" classEnd="0x2649290" nestedIn="0x2649760" function="0x26498e0">
+      <varlist>
+        <var id="0x26495e0"/>
+        <var id="0x2649d30"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x2649dc0" nameToken="0x26473a0" typeStartToken="0x2647d70" typeEndToken="0x2647d70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2649e50" nameToken="0x2647ed0" typeStartToken="0x2647560" typeEndToken="0x2647720" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x26495e0" nameToken="0x26483e0" typeStartToken="0x2648140" typeEndToken="0x2648330" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x2649d30" nameToken="0x2648650" typeStartToken="0x2648570" typeEndToken="0x2648570" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

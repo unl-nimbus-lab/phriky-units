@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xd81d20" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="int" scope="0xd86780" type="name"/>
+    <token id="0xd81dd0" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="main" scope="0xd86780" type="name" function="0xd86900" astParent="0xd81e80"/>
+    <token id="0xd81e80" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="(" scope="0xd86780" link="0xd85000" astOperand1="0xd81dd0" astOperand2="0xd844c0"/>
+    <token id="0xd84ba0" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="int" scope="0xd86780" type="name"/>
+    <token id="0xd84c50" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="argc" scope="0xd86780" type="name" varId="1" variable="0xd86ec0" astParent="0xd844c0"/>
+    <token id="0xd844c0" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="," scope="0xd86780" astParent="0xd81e80" astOperand1="0xd84c50" astOperand2="0xd84680"/>
+    <token id="0xd845a0" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="char" scope="0xd86780" type="name" astParent="0xd84680"/>
+    <token id="0xd84680" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="*" scope="0xd86780" type="op" isArithmeticalOp="True" astParent="0xd844c0" astOperand1="0xd845a0" astOperand2="0xd84e70"/>
+    <token id="0xd84e70" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="*" scope="0xd86780" type="op" isArithmeticalOp="True" astParent="0xd84680" astOperand1="0xd84f20"/>
+    <token id="0xd84f20" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str="argv" scope="0xd86780" type="name" varId="2" variable="0xd86f50" astParent="0xd84e70"/>
+    <token id="0xd85000" file="test_it_multiplication_with_constant_2.cpp" linenr="3" str=")" scope="0xd86780" link="0xd81e80"/>
+    <token id="0xd850e0" file="test_it_multiplication_with_constant_2.cpp" linenr="4" str="{" scope="0xd869b0" link="0xd863f0"/>
+    <token id="0xd851f0" file="test_it_multiplication_with_constant_2.cpp" linenr="6" str="geometry_msgs" scope="0xd869b0" type="name" astParent="0xd852a0"/>
+    <token id="0xd852a0" file="test_it_multiplication_with_constant_2.cpp" linenr="6" str="::" scope="0xd869b0" astOperand1="0xd851f0" astOperand2="0xd85430"/>
+    <token id="0xd85350" file="test_it_multiplication_with_constant_2.cpp" linenr="6" str="Twist" scope="0xd869b0" type="name"/>
+    <token id="0xd85430" file="test_it_multiplication_with_constant_2.cpp" linenr="6" str="t" scope="0xd869b0" type="name" varId="3" variable="0xd86660" astParent="0xd852a0"/>
+    <token id="0xd85510" file="test_it_multiplication_with_constant_2.cpp" linenr="6" str=";" scope="0xd869b0"/>
+    <token id="0xd855f0" file="test_it_multiplication_with_constant_2.cpp" linenr="8" str="float" scope="0xd869b0" type="name"/>
+    <token id="0xd856d0" file="test_it_multiplication_with_constant_2.cpp" linenr="8" str="f" scope="0xd869b0" type="name" varId="4" variable="0xd86e30"/>
+    <token id="0xd857b0" file="test_it_multiplication_with_constant_2.cpp" linenr="8" str=";" scope="0xd869b0"/>
+    <token id="0xd85890" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="f" scope="0xd869b0" type="name" varId="4" variable="0xd86e30" astParent="0xd85970"/>
+    <token id="0xd85970" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="=" scope="0xd869b0" type="op" isAssignmentOp="True" astOperand1="0xd85890" astOperand2="0xd85eb0"/>
+    <token id="0xd85a80" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="t" scope="0xd869b0" type="name" varId="3" variable="0xd86660" astParent="0xd85b60"/>
+    <token id="0xd85b60" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="." scope="0xd869b0" astParent="0xd85d20" astOperand1="0xd85a80" astOperand2="0xd85c40"/>
+    <token id="0xd85c40" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="angular" scope="0xd869b0" type="name" varId="5" astParent="0xd85b60"/>
+    <token id="0xd85d20" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="." scope="0xd869b0" astParent="0xd85eb0" astOperand1="0xd85b60" astOperand2="0xd85dd0"/>
+    <token id="0xd85dd0" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="x" scope="0xd869b0" type="name" varId="6" astParent="0xd85d20"/>
+    <token id="0xd85eb0" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="*" scope="0xd869b0" type="op" isArithmeticalOp="True" astParent="0xd85970" astOperand1="0xd85d20" astOperand2="0xd85f90"/>
+    <token id="0xd85f90" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str="1137.1618" scope="0xd869b0" type="number" isFloat="True" astParent="0xd85eb0"/>
+    <token id="0xd86070" file="test_it_multiplication_with_constant_2.cpp" linenr="9" str=";" scope="0xd869b0"/>
+    <token id="0xd86150" file="test_it_multiplication_with_constant_2.cpp" linenr="12" str="return" scope="0xd869b0" type="name" astOperand1="0xd86230"/>
+    <token id="0xd86230" file="test_it_multiplication_with_constant_2.cpp" linenr="12" str="0" scope="0xd869b0" type="number" isInt="True" values="0xd86238" astParent="0xd86150"/>
+    <token id="0xd86310" file="test_it_multiplication_with_constant_2.cpp" linenr="12" str=";" scope="0xd869b0"/>
+    <token id="0xd863f0" file="test_it_multiplication_with_constant_2.cpp" linenr="13" str="}" scope="0xd869b0" link="0xd850e0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd86780" type="Global">
+      <functionList>
+        <function id="0xd86900" tokenDef="0xd81dd0" name="main">
+          <arg nr="1" variable="0xd86ec0"/>
+          <arg nr="2" variable="0xd86f50"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xd869b0" type="Function" className="main" classStart="0xd850e0" classEnd="0xd863f0" nestedIn="0xd86780" function="0xd86900">
+      <varlist>
+        <var id="0xd86660"/>
+        <var id="0xd86e30"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xd86ec0" nameToken="0xd84c50" typeStartToken="0xd84ba0" typeEndToken="0xd84ba0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd86f50" nameToken="0xd84f20" typeStartToken="0xd845a0" typeEndToken="0xd84e70" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xd86660" nameToken="0xd85430" typeStartToken="0xd851f0" typeEndToken="0xd85350" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd86e30" nameToken="0xd856d0" typeStartToken="0xd855f0" typeEndToken="0xd855f0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xd86238">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

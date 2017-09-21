@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1d71b50" file="test_it_quatToRPY_1.cpp" linenr="5" str="void" scope="0x1d7cdd0" type="name"/>
+    <token id="0x1d71c00" file="test_it_quatToRPY_1.cpp" linenr="5" str="quatToRPY" scope="0x1d7cdd0" type="name" function="0x1d7cf50" astParent="0x1d772c0"/>
+    <token id="0x1d772c0" file="test_it_quatToRPY_1.cpp" linenr="5" str="(" scope="0x1d7cdd0" link="0x1d78b70" astOperand1="0x1d71c00" astOperand2="0x1d787f0"/>
+    <token id="0x1d77370" file="test_it_quatToRPY_1.cpp" linenr="5" str="const" scope="0x1d7cdd0" type="name"/>
+    <token id="0x1d77420" file="test_it_quatToRPY_1.cpp" linenr="5" str="tf2" scope="0x1d7cdd0" type="name" astParent="0x1d77520"/>
+    <token id="0x1d77520" file="test_it_quatToRPY_1.cpp" linenr="5" str="::" scope="0x1d7cdd0" astParent="0x1d77d90" astOperand1="0x1d77420" astOperand2="0x1d77600"/>
+    <token id="0x1d77600" file="test_it_quatToRPY_1.cpp" linenr="5" str="Quaternion" scope="0x1d7cdd0" type="name" astParent="0x1d77520"/>
+    <token id="0x1d77d90" file="test_it_quatToRPY_1.cpp" linenr="5" str="&amp;" scope="0x1d7cdd0" type="op" astParent="0x1d77f50" astOperand1="0x1d77520" astOperand2="0x1d77e70"/>
+    <token id="0x1d77e70" file="test_it_quatToRPY_1.cpp" linenr="5" str="quat" scope="0x1d7cdd0" type="name" varId="1" variable="0x1d7dd60" astParent="0x1d77d90"/>
+    <token id="0x1d77f50" file="test_it_quatToRPY_1.cpp" linenr="5" str="," scope="0x1d7cdd0" astParent="0x1d78470" astOperand1="0x1d77d90" astOperand2="0x1d782b0"/>
+    <token id="0x1d781d0" file="test_it_quatToRPY_1.cpp" linenr="5" str="double" scope="0x1d7cdd0" type="name" astParent="0x1d782b0"/>
+    <token id="0x1d782b0" file="test_it_quatToRPY_1.cpp" linenr="5" str="&amp;" scope="0x1d7cdd0" type="op" astParent="0x1d77f50" astOperand1="0x1d781d0" astOperand2="0x1d78390"/>
+    <token id="0x1d78390" file="test_it_quatToRPY_1.cpp" linenr="5" str="roll" scope="0x1d7cdd0" type="name" varId="2" variable="0x1d7ddf0" astParent="0x1d782b0"/>
+    <token id="0x1d78470" file="test_it_quatToRPY_1.cpp" linenr="5" str="," scope="0x1d7cdd0" astParent="0x1d787f0" astOperand1="0x1d77f50" astOperand2="0x1d78630"/>
+    <token id="0x1d78550" file="test_it_quatToRPY_1.cpp" linenr="5" str="double" scope="0x1d7cdd0" type="name" astParent="0x1d78630"/>
+    <token id="0x1d78630" file="test_it_quatToRPY_1.cpp" linenr="5" str="&amp;" scope="0x1d7cdd0" type="op" astParent="0x1d78470" astOperand1="0x1d78550" astOperand2="0x1d78710"/>
+    <token id="0x1d78710" file="test_it_quatToRPY_1.cpp" linenr="5" str="pitch" scope="0x1d7cdd0" type="name" varId="3" variable="0x1d7de80" astParent="0x1d78630"/>
+    <token id="0x1d787f0" file="test_it_quatToRPY_1.cpp" linenr="5" str="," scope="0x1d7cdd0" astParent="0x1d772c0" astOperand1="0x1d78470" astOperand2="0x1d789b0"/>
+    <token id="0x1d788d0" file="test_it_quatToRPY_1.cpp" linenr="5" str="double" scope="0x1d7cdd0" type="name" astParent="0x1d789b0"/>
+    <token id="0x1d789b0" file="test_it_quatToRPY_1.cpp" linenr="5" str="&amp;" scope="0x1d7cdd0" type="op" astParent="0x1d787f0" astOperand1="0x1d788d0" astOperand2="0x1d78a90"/>
+    <token id="0x1d78a90" file="test_it_quatToRPY_1.cpp" linenr="5" str="yaw" scope="0x1d7cdd0" type="name" varId="4" variable="0x1d7df10" astParent="0x1d789b0"/>
+    <token id="0x1d78b70" file="test_it_quatToRPY_1.cpp" linenr="5" str=")" scope="0x1d7cdd0" link="0x1d772c0"/>
+    <token id="0x1d78c50" file="test_it_quatToRPY_1.cpp" linenr="6" str="{" scope="0x1d7d000" link="0x1d79dd0"/>
+    <token id="0x1d78d30" file="test_it_quatToRPY_1.cpp" linenr="7" str="tf2" scope="0x1d7d000" type="name" astParent="0x1d78e10"/>
+    <token id="0x1d78e10" file="test_it_quatToRPY_1.cpp" linenr="7" str="::" scope="0x1d7d000" astParent="0x1d790b0" astOperand1="0x1d78d30" astOperand2="0x1d78fd0"/>
+    <token id="0x1d78ef0" file="test_it_quatToRPY_1.cpp" linenr="7" str="Matrix3x3" scope="0x1d7d000" type="name"/>
+    <token id="0x1d78fd0" file="test_it_quatToRPY_1.cpp" linenr="7" str="orTmp" scope="0x1d7d000" type="name" varId="5" variable="0x1d7da00" astParent="0x1d78e10"/>
+    <token id="0x1d790b0" file="test_it_quatToRPY_1.cpp" linenr="7" str="(" scope="0x1d7d000" link="0x1d79270" astOperand1="0x1d78e10" astOperand2="0x1d79190"/>
+    <token id="0x1d79190" file="test_it_quatToRPY_1.cpp" linenr="7" str="quat" scope="0x1d7d000" type="name" varId="1" variable="0x1d7dd60" astParent="0x1d790b0"/>
+    <token id="0x1d79270" file="test_it_quatToRPY_1.cpp" linenr="7" str=")" scope="0x1d7d000" link="0x1d790b0"/>
+    <token id="0x1d79350" file="test_it_quatToRPY_1.cpp" linenr="7" str=";" scope="0x1d7d000"/>
+    <token id="0x1d79460" file="test_it_quatToRPY_1.cpp" linenr="8" str="orTmp" scope="0x1d7d000" type="name" varId="5" variable="0x1d7da00" astParent="0x1d79540"/>
+    <token id="0x1d79540" file="test_it_quatToRPY_1.cpp" linenr="8" str="." scope="0x1d7d000" astParent="0x1d796d0" astOperand1="0x1d79460" astOperand2="0x1d795f0"/>
+    <token id="0x1d795f0" file="test_it_quatToRPY_1.cpp" linenr="8" str="getRPY" scope="0x1d7d000" type="name" astParent="0x1d79540"/>
+    <token id="0x1d796d0" file="test_it_quatToRPY_1.cpp" linenr="8" str="(" scope="0x1d7d000" link="0x1d79c10" astOperand1="0x1d79540" astOperand2="0x1d79a50"/>
+    <token id="0x1d797b0" file="test_it_quatToRPY_1.cpp" linenr="8" str="roll" scope="0x1d7d000" type="name" varId="2" variable="0x1d7ddf0" astParent="0x1d79890"/>
+    <token id="0x1d79890" file="test_it_quatToRPY_1.cpp" linenr="8" str="," scope="0x1d7d000" astParent="0x1d79a50" astOperand1="0x1d797b0" astOperand2="0x1d79970"/>
+    <token id="0x1d79970" file="test_it_quatToRPY_1.cpp" linenr="8" str="pitch" scope="0x1d7d000" type="name" varId="3" variable="0x1d7de80" astParent="0x1d79890"/>
+    <token id="0x1d79a50" file="test_it_quatToRPY_1.cpp" linenr="8" str="," scope="0x1d7d000" astParent="0x1d796d0" astOperand1="0x1d79890" astOperand2="0x1d79b30"/>
+    <token id="0x1d79b30" file="test_it_quatToRPY_1.cpp" linenr="8" str="yaw" scope="0x1d7d000" type="name" varId="4" variable="0x1d7df10" astParent="0x1d79a50"/>
+    <token id="0x1d79c10" file="test_it_quatToRPY_1.cpp" linenr="8" str=")" scope="0x1d7d000" link="0x1d796d0"/>
+    <token id="0x1d79cf0" file="test_it_quatToRPY_1.cpp" linenr="8" str=";" scope="0x1d7d000"/>
+    <token id="0x1d79dd0" file="test_it_quatToRPY_1.cpp" linenr="9" str="}" scope="0x1d7d000" link="0x1d78c50"/>
+    <token id="0x1d79eb0" file="test_it_quatToRPY_1.cpp" linenr="11" str="int" scope="0x1d7cdd0" type="name"/>
+    <token id="0x1d79f90" file="test_it_quatToRPY_1.cpp" linenr="11" str="main" scope="0x1d7cdd0" type="name" function="0x1d7d400" astParent="0x1d7a070"/>
+    <token id="0x1d7a070" file="test_it_quatToRPY_1.cpp" linenr="11" str="(" scope="0x1d7cdd0" link="0x1d7a770" astOperand1="0x1d79f90" astOperand2="0x1d7a310"/>
+    <token id="0x1d7a150" file="test_it_quatToRPY_1.cpp" linenr="11" str="int" scope="0x1d7cdd0" type="name"/>
+    <token id="0x1d7a230" file="test_it_quatToRPY_1.cpp" linenr="11" str="argc" scope="0x1d7cdd0" type="name" varId="6" variable="0x1d7dfa0" astParent="0x1d7a310"/>
+    <token id="0x1d7a310" file="test_it_quatToRPY_1.cpp" linenr="11" str="," scope="0x1d7cdd0" astParent="0x1d7a070" astOperand1="0x1d7a230" astOperand2="0x1d7a4d0"/>
+    <token id="0x1d7a3f0" file="test_it_quatToRPY_1.cpp" linenr="11" str="char" scope="0x1d7cdd0" type="name" astParent="0x1d7a4d0"/>
+    <token id="0x1d7a4d0" file="test_it_quatToRPY_1.cpp" linenr="11" str="*" scope="0x1d7cdd0" type="op" isArithmeticalOp="True" astParent="0x1d7a310" astOperand1="0x1d7a3f0" astOperand2="0x1d7a5b0"/>
+    <token id="0x1d7a5b0" file="test_it_quatToRPY_1.cpp" linenr="11" str="*" scope="0x1d7cdd0" type="op" isArithmeticalOp="True" astParent="0x1d7a4d0" astOperand1="0x1d7a690"/>
+    <token id="0x1d7a690" file="test_it_quatToRPY_1.cpp" linenr="11" str="argv" scope="0x1d7cdd0" type="name" varId="7" variable="0x1d7e030" astParent="0x1d7a5b0"/>
+    <token id="0x1d7a770" file="test_it_quatToRPY_1.cpp" linenr="11" str=")" scope="0x1d7cdd0" link="0x1d7a070"/>
+    <token id="0x1d7a850" file="test_it_quatToRPY_1.cpp" linenr="12" str="{" scope="0x1d7d880" link="0x1d7cb50"/>
+    <token id="0x1d7a930" file="test_it_quatToRPY_1.cpp" linenr="13" str="double" scope="0x1d7d880" type="name"/>
+    <token id="0x1d7aa10" file="test_it_quatToRPY_1.cpp" linenr="13" str="r" scope="0x1d7d880" type="name" varId="8" variable="0x1d7da90"/>
+    <token id="0x1d7aaf0" file="test_it_quatToRPY_1.cpp" linenr="13" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7cc30" file="test_it_quatToRPY_1.cpp" linenr="13" str="double" scope="0x1d7d880" type="name"/>
+    <token id="0x1d7abd0" file="test_it_quatToRPY_1.cpp" linenr="13" str="p" scope="0x1d7d880" type="name" varId="9" variable="0x1d7db20"/>
+    <token id="0x1d7acb0" file="test_it_quatToRPY_1.cpp" linenr="13" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7cce0" file="test_it_quatToRPY_1.cpp" linenr="13" str="double" scope="0x1d7d880" type="name"/>
+    <token id="0x1d7ad90" file="test_it_quatToRPY_1.cpp" linenr="13" str="y" scope="0x1d7d880" type="name" varId="10" variable="0x1d7dbb0"/>
+    <token id="0x1d7ae70" file="test_it_quatToRPY_1.cpp" linenr="13" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7af50" file="test_it_quatToRPY_1.cpp" linenr="14" str="geometry_msgs" scope="0x1d7d880" type="name" astParent="0x1d7b030"/>
+    <token id="0x1d7b030" file="test_it_quatToRPY_1.cpp" linenr="14" str="::" scope="0x1d7d880" astOperand1="0x1d7af50" astOperand2="0x1d7b1f0"/>
+    <token id="0x1d7b110" file="test_it_quatToRPY_1.cpp" linenr="14" str="Twist" scope="0x1d7d880" type="name"/>
+    <token id="0x1d7b1f0" file="test_it_quatToRPY_1.cpp" linenr="14" str="tw" scope="0x1d7d880" type="name" varId="11" variable="0x1d7dc40" astParent="0x1d7b030"/>
+    <token id="0x1d7b2d0" file="test_it_quatToRPY_1.cpp" linenr="14" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7b3b0" file="test_it_quatToRPY_1.cpp" linenr="15" str="tf2" scope="0x1d7d880" type="name" astParent="0x1d7b490"/>
+    <token id="0x1d7b490" file="test_it_quatToRPY_1.cpp" linenr="15" str="::" scope="0x1d7d880" astOperand1="0x1d7b3b0" astOperand2="0x1d7b650"/>
+    <token id="0x1d7b570" file="test_it_quatToRPY_1.cpp" linenr="15" str="Quaternion" scope="0x1d7d880" type="name"/>
+    <token id="0x1d7b650" file="test_it_quatToRPY_1.cpp" linenr="15" str="myQuat" scope="0x1d7d880" type="name" varId="12" variable="0x1d7dcd0" astParent="0x1d7b490"/>
+    <token id="0x1d7b730" file="test_it_quatToRPY_1.cpp" linenr="15" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7b810" file="test_it_quatToRPY_1.cpp" linenr="16" str="quatToRPY" scope="0x1d7d880" type="name" function="0x1d7cf50" astParent="0x1d7b8f0"/>
+    <token id="0x1d7b8f0" file="test_it_quatToRPY_1.cpp" linenr="16" str="(" scope="0x1d7d880" link="0x1d7bff0" astOperand1="0x1d7b810" astOperand2="0x1d7be30"/>
+    <token id="0x1d7b9d0" file="test_it_quatToRPY_1.cpp" linenr="16" str="myQuat" scope="0x1d7d880" type="name" varId="12" variable="0x1d7dcd0" astParent="0x1d7bab0"/>
+    <token id="0x1d7bab0" file="test_it_quatToRPY_1.cpp" linenr="16" str="," scope="0x1d7d880" astParent="0x1d7bc70" astOperand1="0x1d7b9d0" astOperand2="0x1d7bb90"/>
+    <token id="0x1d7bb90" file="test_it_quatToRPY_1.cpp" linenr="16" str="r" scope="0x1d7d880" type="name" varId="8" variable="0x1d7da90" astParent="0x1d7bab0"/>
+    <token id="0x1d7bc70" file="test_it_quatToRPY_1.cpp" linenr="16" str="," scope="0x1d7d880" astParent="0x1d7be30" astOperand1="0x1d7bab0" astOperand2="0x1d7bd50"/>
+    <token id="0x1d7bd50" file="test_it_quatToRPY_1.cpp" linenr="16" str="p" scope="0x1d7d880" type="name" varId="9" variable="0x1d7db20" astParent="0x1d7bc70"/>
+    <token id="0x1d7be30" file="test_it_quatToRPY_1.cpp" linenr="16" str="," scope="0x1d7d880" astParent="0x1d7b8f0" astOperand1="0x1d7bc70" astOperand2="0x1d7bf10"/>
+    <token id="0x1d7bf10" file="test_it_quatToRPY_1.cpp" linenr="16" str="y" scope="0x1d7d880" type="name" varId="10" variable="0x1d7dbb0" astParent="0x1d7be30"/>
+    <token id="0x1d7bff0" file="test_it_quatToRPY_1.cpp" linenr="16" str=")" scope="0x1d7d880" link="0x1d7b8f0"/>
+    <token id="0x1d7c0d0" file="test_it_quatToRPY_1.cpp" linenr="16" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7c1e0" file="test_it_quatToRPY_1.cpp" linenr="17" str="tw" scope="0x1d7d880" type="name" varId="11" variable="0x1d7dc40" astParent="0x1d7c2c0"/>
+    <token id="0x1d7c2c0" file="test_it_quatToRPY_1.cpp" linenr="17" str="." scope="0x1d7d880" astParent="0x1d7c480" astOperand1="0x1d7c1e0" astOperand2="0x1d7c3a0"/>
+    <token id="0x1d7c3a0" file="test_it_quatToRPY_1.cpp" linenr="17" str="linear" scope="0x1d7d880" type="name" varId="13" astParent="0x1d7c2c0"/>
+    <token id="0x1d7c480" file="test_it_quatToRPY_1.cpp" linenr="17" str="." scope="0x1d7d880" astParent="0x1d7c610" astOperand1="0x1d7c2c0" astOperand2="0x1d7c530"/>
+    <token id="0x1d7c530" file="test_it_quatToRPY_1.cpp" linenr="17" str="x" scope="0x1d7d880" type="name" varId="14" astParent="0x1d7c480"/>
+    <token id="0x1d7c610" file="test_it_quatToRPY_1.cpp" linenr="17" str="=" scope="0x1d7d880" type="op" isAssignmentOp="True" astOperand1="0x1d7c480" astOperand2="0x1d7c6f0"/>
+    <token id="0x1d7c6f0" file="test_it_quatToRPY_1.cpp" linenr="17" str="r" scope="0x1d7d880" type="name" varId="8" variable="0x1d7da90" astParent="0x1d7c610"/>
+    <token id="0x1d7c7d0" file="test_it_quatToRPY_1.cpp" linenr="17" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7c8b0" file="test_it_quatToRPY_1.cpp" linenr="18" str="return" scope="0x1d7d880" type="name" astOperand1="0x1d7c990"/>
+    <token id="0x1d7c990" file="test_it_quatToRPY_1.cpp" linenr="18" str="0" scope="0x1d7d880" type="number" isInt="True" values="0x1d7c998" astParent="0x1d7c8b0"/>
+    <token id="0x1d7ca70" file="test_it_quatToRPY_1.cpp" linenr="18" str=";" scope="0x1d7d880"/>
+    <token id="0x1d7cb50" file="test_it_quatToRPY_1.cpp" linenr="19" str="}" scope="0x1d7d880" link="0x1d7a850"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x1d7cdd0" type="Global">
+      <functionList>
+        <function id="0x1d7cf50" tokenDef="0x1d71c00" name="quatToRPY">
+          <arg nr="1" variable="0x1d7dd60"/>
+          <arg nr="2" variable="0x1d7ddf0"/>
+          <arg nr="3" variable="0x1d7de80"/>
+          <arg nr="4" variable="0x1d7df10"/>
+        </function>
+        <function id="0x1d7d400" tokenDef="0x1d79f90" name="main">
+          <arg nr="1" variable="0x1d7dfa0"/>
+          <arg nr="2" variable="0x1d7e030"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1d7d000" type="Function" className="quatToRPY" classStart="0x1d78c50" classEnd="0x1d79dd0" nestedIn="0x1d7cdd0" function="0x1d7cf50">
+      <varlist>
+        <var id="0x1d7da00"/>
+      </varlist>
+    </scope>
+    <scope id="0x1d7d880" type="Function" className="main" classStart="0x1d7a850" classEnd="0x1d7cb50" nestedIn="0x1d7cdd0" function="0x1d7d400">
+      <varlist>
+        <var id="0x1d7da90"/>
+        <var id="0x1d7db20"/>
+        <var id="0x1d7dbb0"/>
+        <var id="0x1d7dc40"/>
+        <var id="0x1d7dcd0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x1d7dd60" nameToken="0x1d77e70" typeStartToken="0x1d77420" typeEndToken="0x1d77d90" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d7ddf0" nameToken="0x1d78390" typeStartToken="0x1d781d0" typeEndToken="0x1d782b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d7de80" nameToken="0x1d78710" typeStartToken="0x1d78550" typeEndToken="0x1d78630" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d7df10" nameToken="0x1d78a90" typeStartToken="0x1d788d0" typeEndToken="0x1d789b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0x1d7da00" nameToken="0x1d78fd0" typeStartToken="0x1d78d30" typeEndToken="0x1d78ef0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7dfa0" nameToken="0x1d7a230" typeStartToken="0x1d7a150" typeEndToken="0x1d7a150" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7e030" nameToken="0x1d7a690" typeStartToken="0x1d7a3f0" typeEndToken="0x1d7a5b0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x1d7da90" nameToken="0x1d7aa10" typeStartToken="0x1d7a930" typeEndToken="0x1d7a930" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7db20" nameToken="0x1d7abd0" typeStartToken="0x1d7cc30" typeEndToken="0x1d7cc30" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7dbb0" nameToken="0x1d7ad90" typeStartToken="0x1d7cce0" typeEndToken="0x1d7cce0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7dc40" nameToken="0x1d7b1f0" typeStartToken="0x1d7af50" typeEndToken="0x1d7b110" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1d7dcd0" nameToken="0x1d7b650" typeStartToken="0x1d7b3b0" typeEndToken="0x1d7b570" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x1d7c998">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

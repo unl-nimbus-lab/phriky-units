@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xc8ab40" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="void" scope="0xc984a0" type="name"/>
+    <token id="0xc90ac0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="quatToRPY" scope="0xc984a0" type="name" function="0xc98620" astParent="0xc90b70"/>
+    <token id="0xc90b70" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="(" scope="0xc984a0" link="0xc91d60" astOperand1="0xc90ac0" astOperand2="0xc919e0"/>
+    <token id="0xc8e1a0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="const" scope="0xc984a0" type="name"/>
+    <token id="0xc8e250" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="tf2" scope="0xc984a0" type="name" astParent="0xc8e300"/>
+    <token id="0xc8e300" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="::" scope="0xc984a0" astParent="0xc91290" astOperand1="0xc8e250" astOperand2="0xc911b0"/>
+    <token id="0xc911b0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="Quaternion" scope="0xc984a0" type="name" astParent="0xc8e300"/>
+    <token id="0xc91290" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="&amp;" scope="0xc984a0" type="op" astParent="0xc90640" astOperand1="0xc8e300" astOperand2="0xc91370"/>
+    <token id="0xc91370" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="quat" scope="0xc984a0" type="name" varId="1" variable="0xc99340" astParent="0xc91290"/>
+    <token id="0xc90640" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="," scope="0xc984a0" astParent="0xc91660" astOperand1="0xc91290" astOperand2="0xc90800"/>
+    <token id="0xc90720" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="double" scope="0xc984a0" type="name" astParent="0xc90800"/>
+    <token id="0xc90800" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="&amp;" scope="0xc984a0" type="op" astParent="0xc90640" astOperand1="0xc90720" astOperand2="0xc908e0"/>
+    <token id="0xc908e0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="roll" scope="0xc984a0" type="name" varId="2" variable="0xc993d0" astParent="0xc90800"/>
+    <token id="0xc91660" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="," scope="0xc984a0" astParent="0xc919e0" astOperand1="0xc90640" astOperand2="0xc91820"/>
+    <token id="0xc91740" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="double" scope="0xc984a0" type="name" astParent="0xc91820"/>
+    <token id="0xc91820" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="&amp;" scope="0xc984a0" type="op" astParent="0xc91660" astOperand1="0xc91740" astOperand2="0xc91900"/>
+    <token id="0xc91900" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="pitch" scope="0xc984a0" type="name" varId="3" variable="0xc99460" astParent="0xc91820"/>
+    <token id="0xc919e0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="," scope="0xc984a0" astParent="0xc90b70" astOperand1="0xc91660" astOperand2="0xc91ba0"/>
+    <token id="0xc91ac0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="double" scope="0xc984a0" type="name" astParent="0xc91ba0"/>
+    <token id="0xc91ba0" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="&amp;" scope="0xc984a0" type="op" astParent="0xc919e0" astOperand1="0xc91ac0" astOperand2="0xc91c80"/>
+    <token id="0xc91c80" file="test_it_weak_inference_addition_2.cpp" linenr="5" str="yaw" scope="0xc984a0" type="name" varId="4" variable="0xc994f0" astParent="0xc91ba0"/>
+    <token id="0xc91d60" file="test_it_weak_inference_addition_2.cpp" linenr="5" str=")" scope="0xc984a0" link="0xc90b70"/>
+    <token id="0xc91e40" file="test_it_weak_inference_addition_2.cpp" linenr="6" str="{" scope="0xc986d0" link="0xc92fc0"/>
+    <token id="0xc91f20" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="tf2" scope="0xc986d0" type="name" astParent="0xc92000"/>
+    <token id="0xc92000" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="::" scope="0xc986d0" astParent="0xc922a0" astOperand1="0xc91f20" astOperand2="0xc921c0"/>
+    <token id="0xc920e0" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="Matrix3x3" scope="0xc986d0" type="name"/>
+    <token id="0xc921c0" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="orTmp" scope="0xc986d0" type="name" varId="5" variable="0xc98e30" astParent="0xc92000"/>
+    <token id="0xc922a0" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="(" scope="0xc986d0" link="0xc92460" astOperand1="0xc92000" astOperand2="0xc92380"/>
+    <token id="0xc92380" file="test_it_weak_inference_addition_2.cpp" linenr="7" str="quat" scope="0xc986d0" type="name" varId="1" variable="0xc99340" astParent="0xc922a0"/>
+    <token id="0xc92460" file="test_it_weak_inference_addition_2.cpp" linenr="7" str=")" scope="0xc986d0" link="0xc922a0"/>
+    <token id="0xc92540" file="test_it_weak_inference_addition_2.cpp" linenr="7" str=";" scope="0xc986d0"/>
+    <token id="0xc92650" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="orTmp" scope="0xc986d0" type="name" varId="5" variable="0xc98e30" astParent="0xc92730"/>
+    <token id="0xc92730" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="." scope="0xc986d0" astParent="0xc928c0" astOperand1="0xc92650" astOperand2="0xc927e0"/>
+    <token id="0xc927e0" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="getRPY" scope="0xc986d0" type="name" astParent="0xc92730"/>
+    <token id="0xc928c0" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="(" scope="0xc986d0" link="0xc92e00" astOperand1="0xc92730" astOperand2="0xc92c40"/>
+    <token id="0xc929a0" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="roll" scope="0xc986d0" type="name" varId="2" variable="0xc993d0" astParent="0xc92a80"/>
+    <token id="0xc92a80" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="," scope="0xc986d0" astParent="0xc92c40" astOperand1="0xc929a0" astOperand2="0xc92b60"/>
+    <token id="0xc92b60" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="pitch" scope="0xc986d0" type="name" varId="3" variable="0xc99460" astParent="0xc92a80"/>
+    <token id="0xc92c40" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="," scope="0xc986d0" astParent="0xc928c0" astOperand1="0xc92a80" astOperand2="0xc92d20"/>
+    <token id="0xc92d20" file="test_it_weak_inference_addition_2.cpp" linenr="8" str="yaw" scope="0xc986d0" type="name" varId="4" variable="0xc994f0" astParent="0xc92c40"/>
+    <token id="0xc92e00" file="test_it_weak_inference_addition_2.cpp" linenr="8" str=")" scope="0xc986d0" link="0xc928c0"/>
+    <token id="0xc92ee0" file="test_it_weak_inference_addition_2.cpp" linenr="8" str=";" scope="0xc986d0"/>
+    <token id="0xc92fc0" file="test_it_weak_inference_addition_2.cpp" linenr="9" str="}" scope="0xc986d0" link="0xc91e40"/>
+    <token id="0xc930a0" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="int" scope="0xc984a0" type="name"/>
+    <token id="0xc93180" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="main" scope="0xc984a0" type="name" function="0xc981d0" astParent="0xc93260"/>
+    <token id="0xc93260" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="(" scope="0xc984a0" link="0xc93960" astOperand1="0xc93180" astOperand2="0xc93500"/>
+    <token id="0xc93340" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="int" scope="0xc984a0" type="name"/>
+    <token id="0xc93420" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="argc" scope="0xc984a0" type="name" varId="6" variable="0xc99580" astParent="0xc93500"/>
+    <token id="0xc93500" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="," scope="0xc984a0" astParent="0xc93260" astOperand1="0xc93420" astOperand2="0xc936c0"/>
+    <token id="0xc935e0" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="char" scope="0xc984a0" type="name" astParent="0xc936c0"/>
+    <token id="0xc936c0" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="*" scope="0xc984a0" type="op" isArithmeticalOp="True" astParent="0xc93500" astOperand1="0xc935e0" astOperand2="0xc937a0"/>
+    <token id="0xc937a0" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="*" scope="0xc984a0" type="op" isArithmeticalOp="True" astParent="0xc936c0" astOperand1="0xc93880"/>
+    <token id="0xc93880" file="test_it_weak_inference_addition_2.cpp" linenr="11" str="argv" scope="0xc984a0" type="name" varId="7" variable="0xc99610" astParent="0xc937a0"/>
+    <token id="0xc93960" file="test_it_weak_inference_addition_2.cpp" linenr="11" str=")" scope="0xc984a0" link="0xc93260"/>
+    <token id="0xc93a40" file="test_it_weak_inference_addition_2.cpp" linenr="12" str="{" scope="0xc98cb0" link="0xc97cc0"/>
+    <token id="0xc93b20" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc93c00" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="r" scope="0xc98cb0" type="name" varId="8" variable="0xc98ec0"/>
+    <token id="0xc93ce0" file="test_it_weak_inference_addition_2.cpp" linenr="13" str=";" scope="0xc98cb0"/>
+    <token id="0xc97e10" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc93dc0" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="p" scope="0xc98cb0" type="name" varId="9" variable="0xc98f50"/>
+    <token id="0xc93ea0" file="test_it_weak_inference_addition_2.cpp" linenr="13" str=";" scope="0xc98cb0"/>
+    <token id="0xc97ec0" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc93f80" file="test_it_weak_inference_addition_2.cpp" linenr="13" str="y" scope="0xc98cb0" type="name" varId="10" variable="0xc98fe0"/>
+    <token id="0xc94060" file="test_it_weak_inference_addition_2.cpp" linenr="13" str=";" scope="0xc98cb0"/>
+    <token id="0xc94140" file="test_it_weak_inference_addition_2.cpp" linenr="14" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc94220" file="test_it_weak_inference_addition_2.cpp" linenr="14" str="unknown_var" scope="0xc98cb0" type="name" varId="11" variable="0xc99070"/>
+    <token id="0xc94300" file="test_it_weak_inference_addition_2.cpp" linenr="14" str=";" scope="0xc98cb0"/>
+    <token id="0xc943e0" file="test_it_weak_inference_addition_2.cpp" linenr="15" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc944c0" file="test_it_weak_inference_addition_2.cpp" linenr="15" str="x" scope="0xc98cb0" type="name" varId="12" variable="0xc99100"/>
+    <token id="0xc945a0" file="test_it_weak_inference_addition_2.cpp" linenr="15" str=";" scope="0xc98cb0"/>
+    <token id="0xc97fa0" file="test_it_weak_inference_addition_2.cpp" linenr="15" str="double" scope="0xc98cb0" type="name"/>
+    <token id="0xc94680" file="test_it_weak_inference_addition_2.cpp" linenr="15" str="z" scope="0xc98cb0" type="name" varId="13" variable="0xc99190"/>
+    <token id="0xc94760" file="test_it_weak_inference_addition_2.cpp" linenr="15" str=";" scope="0xc98cb0"/>
+    <token id="0xc94840" file="test_it_weak_inference_addition_2.cpp" linenr="16" str="unknown_var" scope="0xc98cb0" type="name" varId="11" variable="0xc99070" astParent="0xc94920"/>
+    <token id="0xc94920" file="test_it_weak_inference_addition_2.cpp" linenr="16" str="=" scope="0xc98cb0" type="op" isAssignmentOp="True" astOperand1="0xc94840" astOperand2="0xc94a00"/>
+    <token id="0xc94a00" file="test_it_weak_inference_addition_2.cpp" linenr="16" str="0" scope="0xc98cb0" type="number" isInt="True" values="0xc94a08" astParent="0xc94920"/>
+    <token id="0xc94ae0" file="test_it_weak_inference_addition_2.cpp" linenr="16" str=";" scope="0xc98cb0"/>
+    <token id="0xc94bc0" file="test_it_weak_inference_addition_2.cpp" linenr="17" str="x" scope="0xc98cb0" type="name" varId="12" variable="0xc99100" astParent="0xc94ca0"/>
+    <token id="0xc94ca0" file="test_it_weak_inference_addition_2.cpp" linenr="17" str="=" scope="0xc98cb0" type="op" isAssignmentOp="True" astOperand1="0xc94bc0" astOperand2="0xc94d80"/>
+    <token id="0xc94d80" file="test_it_weak_inference_addition_2.cpp" linenr="17" str="0" scope="0xc98cb0" type="number" isInt="True" values="0xc94d88" astParent="0xc94ca0"/>
+    <token id="0xc94e60" file="test_it_weak_inference_addition_2.cpp" linenr="17" str=";" scope="0xc98cb0"/>
+    <token id="0xc94f40" file="test_it_weak_inference_addition_2.cpp" linenr="18" str="z" scope="0xc98cb0" type="name" varId="13" variable="0xc99190" astParent="0xc95020"/>
+    <token id="0xc95020" file="test_it_weak_inference_addition_2.cpp" linenr="18" str="=" scope="0xc98cb0" type="op" isAssignmentOp="True" astOperand1="0xc94f40" astOperand2="0xc95100"/>
+    <token id="0xc95100" file="test_it_weak_inference_addition_2.cpp" linenr="18" str="0" scope="0xc98cb0" type="number" isInt="True" values="0xc95108" astParent="0xc95020"/>
+    <token id="0xc951e0" file="test_it_weak_inference_addition_2.cpp" linenr="18" str=";" scope="0xc98cb0"/>
+    <token id="0xc952c0" file="test_it_weak_inference_addition_2.cpp" linenr="19" str="geometry_msgs" scope="0xc98cb0" type="name" astParent="0xc953a0"/>
+    <token id="0xc953a0" file="test_it_weak_inference_addition_2.cpp" linenr="19" str="::" scope="0xc98cb0" astOperand1="0xc952c0" astOperand2="0xc95560"/>
+    <token id="0xc95480" file="test_it_weak_inference_addition_2.cpp" linenr="19" str="Twist" scope="0xc98cb0" type="name"/>
+    <token id="0xc95560" file="test_it_weak_inference_addition_2.cpp" linenr="19" str="tw" scope="0xc98cb0" type="name" varId="14" variable="0xc99220" astParent="0xc953a0"/>
+    <token id="0xc95640" file="test_it_weak_inference_addition_2.cpp" linenr="19" str=";" scope="0xc98cb0"/>
+    <token id="0xc95720" file="test_it_weak_inference_addition_2.cpp" linenr="20" str="tf2" scope="0xc98cb0" type="name" astParent="0xc95800"/>
+    <token id="0xc95800" file="test_it_weak_inference_addition_2.cpp" linenr="20" str="::" scope="0xc98cb0" astOperand1="0xc95720" astOperand2="0xc959c0"/>
+    <token id="0xc958e0" file="test_it_weak_inference_addition_2.cpp" linenr="20" str="Quaternion" scope="0xc98cb0" type="name"/>
+    <token id="0xc959c0" file="test_it_weak_inference_addition_2.cpp" linenr="20" str="myQuat" scope="0xc98cb0" type="name" varId="15" variable="0xc992b0" astParent="0xc95800"/>
+    <token id="0xc95aa0" file="test_it_weak_inference_addition_2.cpp" linenr="20" str=";" scope="0xc98cb0"/>
+    <token id="0xc95b80" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="quatToRPY" scope="0xc98cb0" type="name" function="0xc98620" astParent="0xc95c60"/>
+    <token id="0xc95c60" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="(" scope="0xc98cb0" link="0xc96360" astOperand1="0xc95b80" astOperand2="0xc961a0"/>
+    <token id="0xc95d40" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="myQuat" scope="0xc98cb0" type="name" varId="15" variable="0xc992b0" astParent="0xc95e20"/>
+    <token id="0xc95e20" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="," scope="0xc98cb0" astParent="0xc95fe0" astOperand1="0xc95d40" astOperand2="0xc95f00"/>
+    <token id="0xc95f00" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="r" scope="0xc98cb0" type="name" varId="8" variable="0xc98ec0" astParent="0xc95e20"/>
+    <token id="0xc95fe0" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="," scope="0xc98cb0" astParent="0xc961a0" astOperand1="0xc95e20" astOperand2="0xc960c0"/>
+    <token id="0xc960c0" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="p" scope="0xc98cb0" type="name" varId="9" variable="0xc98f50" astParent="0xc95fe0"/>
+    <token id="0xc961a0" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="," scope="0xc98cb0" astParent="0xc95c60" astOperand1="0xc95fe0" astOperand2="0xc96280"/>
+    <token id="0xc96280" file="test_it_weak_inference_addition_2.cpp" linenr="21" str="y" scope="0xc98cb0" type="name" varId="10" variable="0xc98fe0" astParent="0xc961a0"/>
+    <token id="0xc96360" file="test_it_weak_inference_addition_2.cpp" linenr="21" str=")" scope="0xc98cb0" link="0xc95c60"/>
+    <token id="0xc96440" file="test_it_weak_inference_addition_2.cpp" linenr="21" str=";" scope="0xc98cb0"/>
+    <token id="0xc96550" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="tw" scope="0xc98cb0" type="name" varId="14" variable="0xc99220" astParent="0xc96630"/>
+    <token id="0xc96630" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="." scope="0xc98cb0" astParent="0xc967f0" astOperand1="0xc96550" astOperand2="0xc96710"/>
+    <token id="0xc96710" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="linear" scope="0xc98cb0" type="name" varId="16" astParent="0xc96630"/>
+    <token id="0xc967f0" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="." scope="0xc98cb0" astParent="0xc96980" astOperand1="0xc96630" astOperand2="0xc968a0"/>
+    <token id="0xc968a0" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="x" scope="0xc98cb0" type="name" varId="17" astParent="0xc967f0"/>
+    <token id="0xc96980" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="=" scope="0xc98cb0" type="op" isAssignmentOp="True" astOperand1="0xc967f0" astOperand2="0xc96b40"/>
+    <token id="0xc96a60" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="unknown_var" scope="0xc98cb0" type="name" varId="11" variable="0xc99070" values="0xc96a68" astParent="0xc96b40"/>
+    <token id="0xc96b40" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="+" scope="0xc98cb0" type="op" isArithmeticalOp="True" astParent="0xc96980" astOperand1="0xc96a60" astOperand2="0xc96c20"/>
+    <token id="0xc96c20" file="test_it_weak_inference_addition_2.cpp" linenr="22" str="r" scope="0xc98cb0" type="name" varId="8" variable="0xc98ec0" astParent="0xc96b40"/>
+    <token id="0xc96d00" file="test_it_weak_inference_addition_2.cpp" linenr="22" str=";" scope="0xc98cb0"/>
+    <token id="0xc96e10" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="tw" scope="0xc98cb0" type="name" varId="14" variable="0xc99220" astParent="0xc96ef0"/>
+    <token id="0xc96ef0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="." scope="0xc98cb0" astParent="0xc970b0" astOperand1="0xc96e10" astOperand2="0xc96fd0"/>
+    <token id="0xc96fd0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="linear" scope="0xc98cb0" type="name" varId="16" astParent="0xc96ef0"/>
+    <token id="0xc970b0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="." scope="0xc98cb0" astParent="0xc97240" astOperand1="0xc96ef0" astOperand2="0xc97160"/>
+    <token id="0xc97160" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="y" scope="0xc98cb0" type="name" varId="18" astParent="0xc970b0"/>
+    <token id="0xc97240" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="=" scope="0xc98cb0" type="op" isAssignmentOp="True" astOperand1="0xc970b0" astOperand2="0xc97780"/>
+    <token id="0xc97320" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="unknown_var" scope="0xc98cb0" type="name" varId="11" variable="0xc99070" values="0xc97328" astParent="0xc97400"/>
+    <token id="0xc97400" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="*" scope="0xc98cb0" type="op" isArithmeticalOp="True" values="0xc97408" astParent="0xc975c0" astOperand1="0xc97320" astOperand2="0xc974e0"/>
+    <token id="0xc974e0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="x" scope="0xc98cb0" type="name" varId="12" variable="0xc99100" values="0xc974e8" astParent="0xc97400"/>
+    <token id="0xc975c0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="*" scope="0xc98cb0" type="op" isArithmeticalOp="True" values="0xc975c8" astParent="0xc97780" astOperand1="0xc97400" astOperand2="0xc976a0"/>
+    <token id="0xc976a0" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="z" scope="0xc98cb0" type="name" varId="13" variable="0xc99190" values="0xc976a8" astParent="0xc975c0"/>
+    <token id="0xc97780" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="+" scope="0xc98cb0" type="op" isArithmeticalOp="True" astParent="0xc97240" astOperand1="0xc975c0" astOperand2="0xc97860"/>
+    <token id="0xc97860" file="test_it_weak_inference_addition_2.cpp" linenr="23" str="r" scope="0xc98cb0" type="name" varId="8" variable="0xc98ec0" astParent="0xc97780"/>
+    <token id="0xc97940" file="test_it_weak_inference_addition_2.cpp" linenr="23" str=";" scope="0xc98cb0"/>
+    <token id="0xc97a20" file="test_it_weak_inference_addition_2.cpp" linenr="24" str="return" scope="0xc98cb0" type="name" astOperand1="0xc97b00"/>
+    <token id="0xc97b00" file="test_it_weak_inference_addition_2.cpp" linenr="24" str="0" scope="0xc98cb0" type="number" isInt="True" values="0xc97b08" astParent="0xc97a20"/>
+    <token id="0xc97be0" file="test_it_weak_inference_addition_2.cpp" linenr="24" str=";" scope="0xc98cb0"/>
+    <token id="0xc97cc0" file="test_it_weak_inference_addition_2.cpp" linenr="25" str="}" scope="0xc98cb0" link="0xc93a40"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xc984a0" type="Global">
+      <functionList>
+        <function id="0xc98620" tokenDef="0xc90ac0" name="quatToRPY">
+          <arg nr="1" variable="0xc99340"/>
+          <arg nr="2" variable="0xc993d0"/>
+          <arg nr="3" variable="0xc99460"/>
+          <arg nr="4" variable="0xc994f0"/>
+        </function>
+        <function id="0xc981d0" tokenDef="0xc93180" name="main">
+          <arg nr="1" variable="0xc99580"/>
+          <arg nr="2" variable="0xc99610"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xc986d0" type="Function" className="quatToRPY" classStart="0xc91e40" classEnd="0xc92fc0" nestedIn="0xc984a0" function="0xc98620">
+      <varlist>
+        <var id="0xc98e30"/>
+      </varlist>
+    </scope>
+    <scope id="0xc98cb0" type="Function" className="main" classStart="0xc93a40" classEnd="0xc97cc0" nestedIn="0xc984a0" function="0xc981d0">
+      <varlist>
+        <var id="0xc98ec0"/>
+        <var id="0xc98f50"/>
+        <var id="0xc98fe0"/>
+        <var id="0xc99070"/>
+        <var id="0xc99100"/>
+        <var id="0xc99190"/>
+        <var id="0xc99220"/>
+        <var id="0xc992b0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xc99340" nameToken="0xc91370" typeStartToken="0xc8e250" typeEndToken="0xc91290" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xc993d0" nameToken="0xc908e0" typeStartToken="0xc90720" typeEndToken="0xc90800" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xc99460" nameToken="0xc91900" typeStartToken="0xc91740" typeEndToken="0xc91820" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xc994f0" nameToken="0xc91c80" typeStartToken="0xc91ac0" typeEndToken="0xc91ba0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="true" isStatic="false"/>
+    <var id="0xc98e30" nameToken="0xc921c0" typeStartToken="0xc91f20" typeEndToken="0xc920e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99580" nameToken="0xc93420" typeStartToken="0xc93340" typeEndToken="0xc93340" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99610" nameToken="0xc93880" typeStartToken="0xc935e0" typeEndToken="0xc937a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xc98ec0" nameToken="0xc93c00" typeStartToken="0xc93b20" typeEndToken="0xc93b20" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc98f50" nameToken="0xc93dc0" typeStartToken="0xc97e10" typeEndToken="0xc97e10" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc98fe0" nameToken="0xc93f80" typeStartToken="0xc97ec0" typeEndToken="0xc97ec0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99070" nameToken="0xc94220" typeStartToken="0xc94140" typeEndToken="0xc94140" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99100" nameToken="0xc944c0" typeStartToken="0xc943e0" typeEndToken="0xc943e0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99190" nameToken="0xc94680" typeStartToken="0xc97fa0" typeEndToken="0xc97fa0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc99220" nameToken="0xc95560" typeStartToken="0xc952c0" typeEndToken="0xc95480" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xc992b0" nameToken="0xc959c0" typeStartToken="0xc95720" typeEndToken="0xc958e0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xc94a08">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc94d88">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc95108">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc96a68">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc97328">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc97408">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc974e8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc975c8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc976a8">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0xc97b08">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

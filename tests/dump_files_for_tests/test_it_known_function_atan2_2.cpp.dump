@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xd89ab0" file="test_it_known_function_atan2_2.cpp" linenr="5" str="int" scope="0xd89b70" type="name"/>
+    <token id="0xd894a0" file="test_it_known_function_atan2_2.cpp" linenr="5" str="main" scope="0xd89b70" type="name" function="0xd8aef0" astParent="0xd89580"/>
+    <token id="0xd89580" file="test_it_known_function_atan2_2.cpp" linenr="5" str="(" scope="0xd89b70" link="0xd8a380" astOperand1="0xd894a0" astOperand2="0xd89f20"/>
+    <token id="0xd89d60" file="test_it_known_function_atan2_2.cpp" linenr="5" str="int" scope="0xd89b70" type="name"/>
+    <token id="0xd89e40" file="test_it_known_function_atan2_2.cpp" linenr="5" str="argc" scope="0xd89b70" type="name" varId="1" variable="0xd8b4d0" astParent="0xd89f20"/>
+    <token id="0xd89f20" file="test_it_known_function_atan2_2.cpp" linenr="5" str="," scope="0xd89b70" astParent="0xd89580" astOperand1="0xd89e40" astOperand2="0xd8a0e0"/>
+    <token id="0xd8a000" file="test_it_known_function_atan2_2.cpp" linenr="5" str="char" scope="0xd89b70" type="name" astParent="0xd8a0e0"/>
+    <token id="0xd8a0e0" file="test_it_known_function_atan2_2.cpp" linenr="5" str="*" scope="0xd89b70" type="op" isArithmeticalOp="True" astParent="0xd89f20" astOperand1="0xd8a000" astOperand2="0xd8a1c0"/>
+    <token id="0xd8a1c0" file="test_it_known_function_atan2_2.cpp" linenr="5" str="*" scope="0xd89b70" type="op" isArithmeticalOp="True" astParent="0xd8a0e0" astOperand1="0xd8a2a0"/>
+    <token id="0xd8a2a0" file="test_it_known_function_atan2_2.cpp" linenr="5" str="argv" scope="0xd89b70" type="name" varId="2" variable="0xd8b560" astParent="0xd8a1c0"/>
+    <token id="0xd8a380" file="test_it_known_function_atan2_2.cpp" linenr="5" str=")" scope="0xd89b70" link="0xd89580"/>
+    <token id="0xd8a460" file="test_it_known_function_atan2_2.cpp" linenr="6" str="{" scope="0xd8b2c0" link="0xd8ae00"/>
+    <token id="0xd8a540" file="test_it_known_function_atan2_2.cpp" linenr="8" str="float" scope="0xd8b2c0" type="name"/>
+    <token id="0xd8a620" file="test_it_known_function_atan2_2.cpp" linenr="8" str="f" scope="0xd8b2c0" type="name" varId="3" variable="0xd8b440"/>
+    <token id="0xd8a700" file="test_it_known_function_atan2_2.cpp" linenr="8" str=";" scope="0xd8b2c0"/>
+    <token id="0xd8b0f0" file="test_it_known_function_atan2_2.cpp" linenr="8" str="f" scope="0xd8b2c0" type="name" varId="3" variable="0xd8b440" astParent="0xd8b1d0"/>
+    <token id="0xd8b1d0" file="test_it_known_function_atan2_2.cpp" linenr="8" str="=" scope="0xd8b2c0" type="op" isAssignmentOp="True" astOperand1="0xd8b0f0" astOperand2="0xd8a8c0"/>
+    <token id="0xd8a7e0" file="test_it_known_function_atan2_2.cpp" linenr="8" str="atan2" scope="0xd8b2c0" type="name" astParent="0xd8a8c0"/>
+    <token id="0xd8a8c0" file="test_it_known_function_atan2_2.cpp" linenr="8" str="(" scope="0xd8b2c0" link="0xd8ac40" astParent="0xd8b1d0" astOperand1="0xd8a7e0" astOperand2="0xd8aa80"/>
+    <token id="0xd8a9a0" file="test_it_known_function_atan2_2.cpp" linenr="8" str="10" scope="0xd8b2c0" type="number" isInt="True" values="0xd8a9a8" astParent="0xd8aa80"/>
+    <token id="0xd8aa80" file="test_it_known_function_atan2_2.cpp" linenr="8" str="," scope="0xd8b2c0" astParent="0xd8a8c0" astOperand1="0xd8a9a0" astOperand2="0xd8ab60"/>
+    <token id="0xd8ab60" file="test_it_known_function_atan2_2.cpp" linenr="8" str="10" scope="0xd8b2c0" type="number" isInt="True" values="0xd8ab68" astParent="0xd8aa80"/>
+    <token id="0xd8ac40" file="test_it_known_function_atan2_2.cpp" linenr="8" str=")" scope="0xd8b2c0" link="0xd8a8c0"/>
+    <token id="0xd8ad20" file="test_it_known_function_atan2_2.cpp" linenr="8" str=";" scope="0xd8b2c0"/>
+    <token id="0xd8ae00" file="test_it_known_function_atan2_2.cpp" linenr="10" str="}" scope="0xd8b2c0" link="0xd8a460"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xd89b70" type="Global">
+      <functionList>
+        <function id="0xd8aef0" tokenDef="0xd894a0" name="main">
+          <arg nr="1" variable="0xd8b4d0"/>
+          <arg nr="2" variable="0xd8b560"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xd8b2c0" type="Function" className="main" classStart="0xd8a460" classEnd="0xd8ae00" nestedIn="0xd89b70" function="0xd8aef0">
+      <varlist>
+        <var id="0xd8b440"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xd8b4d0" nameToken="0xd89e40" typeStartToken="0xd89d60" typeEndToken="0xd89d60" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xd8b560" nameToken="0xd8a2a0" typeStartToken="0xd8a000" typeEndToken="0xd8a1c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xd8b440" nameToken="0xd8a620" typeStartToken="0xd8a540" typeEndToken="0xd8a540" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0xd8a9a8">
+      <value intvalue="10" known="true"/>
+    </values>
+    <values id="0xd8ab68">
+      <value intvalue="10" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

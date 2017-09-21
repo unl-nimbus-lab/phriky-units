@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_bitwise_1.cpp" linenr="1" str="#include &quot;geometry_msgs/TwistStamped.h&quot;"/>
+    <directive file="test_it_bitwise_1.cpp" linenr="2" str="#include &quot;sensor_msgs/Range.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fe54ac11010" file="test_it_bitwise_1.cpp" linenr="5" str="int" scope="0x7fe54ac15230" type="name"/>
+    <token id="0x7fe54ac110b0" file="test_it_bitwise_1.cpp" linenr="5" str="main" scope="0x7fe54ac15230" type="name" function="0x7fe54ac15360" astParent="0x7fe54ac112b0"/>
+    <token id="0x7fe54ac112b0" file="test_it_bitwise_1.cpp" linenr="5" str="(" scope="0x7fe54ac15230" link="0x7fe54ac117b0" astOperand1="0x7fe54ac110b0" astOperand2="0x7fe54ac11490"/>
+    <token id="0x7fe54ac11350" file="test_it_bitwise_1.cpp" linenr="5" str="int" scope="0x7fe54ac15230" type="name"/>
+    <token id="0x7fe54ac113f0" file="test_it_bitwise_1.cpp" linenr="5" str="argc" scope="0x7fe54ac15230" type="name" varId="1" variable="0x7fe54ac15ae0" astParent="0x7fe54ac11490"/>
+    <token id="0x7fe54ac11490" file="test_it_bitwise_1.cpp" linenr="5" str="," scope="0x7fe54ac15230" astParent="0x7fe54ac112b0" astOperand1="0x7fe54ac113f0" astOperand2="0x7fe54ac115d0"/>
+    <token id="0x7fe54ac11530" file="test_it_bitwise_1.cpp" linenr="5" str="char" scope="0x7fe54ac15230" type="name" astParent="0x7fe54ac115d0"/>
+    <token id="0x7fe54ac115d0" file="test_it_bitwise_1.cpp" linenr="5" str="*" scope="0x7fe54ac15230" type="op" isArithmeticalOp="True" astParent="0x7fe54ac11490" astOperand1="0x7fe54ac11530" astOperand2="0x7fe54ac11670"/>
+    <token id="0x7fe54ac11670" file="test_it_bitwise_1.cpp" linenr="5" str="*" scope="0x7fe54ac15230" type="op" isArithmeticalOp="True" astParent="0x7fe54ac115d0" astOperand1="0x7fe54ac11710"/>
+    <token id="0x7fe54ac11710" file="test_it_bitwise_1.cpp" linenr="5" str="argv" scope="0x7fe54ac15230" type="name" varId="2" variable="0x7fe54ac15b40" astParent="0x7fe54ac11670"/>
+    <token id="0x7fe54ac117b0" file="test_it_bitwise_1.cpp" linenr="5" str=")" scope="0x7fe54ac15230" link="0x7fe54ac112b0"/>
+    <token id="0x7fe54ac11850" file="test_it_bitwise_1.cpp" linenr="6" str="{" scope="0x7fe54ac15430" link="0x7fe54ac14a20"/>
+    <token id="0x7fe54ac118f0" file="test_it_bitwise_1.cpp" linenr="7" str="sensor_msgs" scope="0x7fe54ac15430" type="name" astParent="0x7fe54ac11990"/>
+    <token id="0x7fe54ac11990" file="test_it_bitwise_1.cpp" linenr="7" str="::" scope="0x7fe54ac15430" astOperand1="0x7fe54ac118f0" astOperand2="0x7fe54ac11ad0"/>
+    <token id="0x7fe54ac11a30" file="test_it_bitwise_1.cpp" linenr="7" str="Range" scope="0x7fe54ac15430" type="name"/>
+    <token id="0x7fe54ac11ad0" file="test_it_bitwise_1.cpp" linenr="7" str="a_sensor_msgs_Range" scope="0x7fe54ac15430" type="name" varId="3" variable="0x7fe54ac15a20" astParent="0x7fe54ac11990"/>
+    <token id="0x7fe54ac11b70" file="test_it_bitwise_1.cpp" linenr="7" str=";" scope="0x7fe54ac15430"/>
+    <token id="0x7fe54ac11c10" file="test_it_bitwise_1.cpp" linenr="8" str="a_sensor_msgs_Range" scope="0x7fe54ac15430" type="name" varId="3" variable="0x7fe54ac15a20" astParent="0x7fe54ac11cb0"/>
+    <token id="0x7fe54ac11cb0" file="test_it_bitwise_1.cpp" linenr="8" str="." scope="0x7fe54ac15430" astParent="0x7fe54ac11df0" astOperand1="0x7fe54ac11c10" astOperand2="0x7fe54ac11d50"/>
+    <token id="0x7fe54ac11d50" file="test_it_bitwise_1.cpp" linenr="8" str="range" scope="0x7fe54ac15430" type="name" varId="4" astParent="0x7fe54ac11cb0"/>
+    <token id="0x7fe54ac11df0" file="test_it_bitwise_1.cpp" linenr="8" str="=" scope="0x7fe54ac15430" type="op" isAssignmentOp="True" astOperand1="0x7fe54ac11cb0" astOperand2="0x7fe54ac11e90"/>
+    <token id="0x7fe54ac11e90" file="test_it_bitwise_1.cpp" linenr="8" str="0" scope="0x7fe54ac15430" type="number" isInt="True" values="0x7fe54ac11e98" astParent="0x7fe54ac11df0"/>
+    <token id="0x7fe54ac11f30" file="test_it_bitwise_1.cpp" linenr="8" str=";" scope="0x7fe54ac15430"/>
+    <token id="0x7fe54ac11fd0" file="test_it_bitwise_1.cpp" linenr="11" str="float" scope="0x7fe54ac15430" type="name"/>
+    <token id="0x7fe54ac12070" file="test_it_bitwise_1.cpp" linenr="11" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80"/>
+    <token id="0x7fe54ac12110" file="test_it_bitwise_1.cpp" linenr="11" str=";" scope="0x7fe54ac15430"/>
+    <token id="0x7fe54ac13330" file="test_it_bitwise_1.cpp" linenr="11" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac129d0"/>
+    <token id="0x7fe54ac129d0" file="test_it_bitwise_1.cpp" linenr="11" str="=" scope="0x7fe54ac15430" type="op" isAssignmentOp="True" astOperand1="0x7fe54ac13330" astOperand2="0x7fe54ac12250"/>
+    <token id="0x7fe54ac121b0" file="test_it_bitwise_1.cpp" linenr="11" str="a_sensor_msgs_Range" scope="0x7fe54ac15430" type="name" varId="3" variable="0x7fe54ac15a20" astParent="0x7fe54ac12250"/>
+    <token id="0x7fe54ac12250" file="test_it_bitwise_1.cpp" linenr="11" str="." scope="0x7fe54ac15430" astParent="0x7fe54ac129d0" astOperand1="0x7fe54ac121b0" astOperand2="0x7fe54ac122f0"/>
+    <token id="0x7fe54ac122f0" file="test_it_bitwise_1.cpp" linenr="11" str="range" scope="0x7fe54ac15430" type="name" varId="4" astParent="0x7fe54ac12250"/>
+    <token id="0x7fe54ac12390" file="test_it_bitwise_1.cpp" linenr="11" str=";" scope="0x7fe54ac15430"/>
+    <token id="0x7fe54ac12430" file="test_it_bitwise_1.cpp" linenr="13" str="if" scope="0x7fe54ac15430" type="name" astParent="0x7fe54ac124d0"/>
+    <token id="0x7fe54ac124d0" file="test_it_bitwise_1.cpp" linenr="13" str="(" scope="0x7fe54ac15430" link="0x7fe54ac12750" astOperand1="0x7fe54ac12430" astOperand2="0x7fe54ac12610"/>
+    <token id="0x7fe54ac12570" file="test_it_bitwise_1.cpp" linenr="13" str="7.2" scope="0x7fe54ac15430" type="number" isFloat="True" astParent="0x7fe54ac12610"/>
+    <token id="0x7fe54ac12610" file="test_it_bitwise_1.cpp" linenr="13" str="&amp;" scope="0x7fe54ac15430" type="op" astParent="0x7fe54ac124d0" astOperand1="0x7fe54ac12570" astOperand2="0x7fe54ac126b0"/>
+    <token id="0x7fe54ac126b0" file="test_it_bitwise_1.cpp" linenr="13" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac12610"/>
+    <token id="0x7fe54ac12750" file="test_it_bitwise_1.cpp" linenr="13" str=")" scope="0x7fe54ac15430" link="0x7fe54ac124d0"/>
+    <token id="0x7fe54ac127f0" file="test_it_bitwise_1.cpp" linenr="14" str="{" scope="0x7fe54ac15560" link="0x7fe54ac12cf0"/>
+    <token id="0x7fe54ac12890" file="test_it_bitwise_1.cpp" linenr="15" str="r" scope="0x7fe54ac15560" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac12930"/>
+    <token id="0x7fe54ac12930" file="test_it_bitwise_1.cpp" linenr="15" str="&amp;=" scope="0x7fe54ac15560" type="op" isAssignmentOp="True" astOperand1="0x7fe54ac12890" astOperand2="0x7fe54ac12b10"/>
+    <token id="0x7fe54ac12a70" file="test_it_bitwise_1.cpp" linenr="15" str="r" scope="0x7fe54ac15560" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac12b10"/>
+    <token id="0x7fe54ac12b10" file="test_it_bitwise_1.cpp" linenr="15" str="+" scope="0x7fe54ac15560" type="op" isArithmeticalOp="True" astParent="0x7fe54ac12930" astOperand1="0x7fe54ac12a70" astOperand2="0x7fe54ac12bb0"/>
+    <token id="0x7fe54ac12bb0" file="test_it_bitwise_1.cpp" linenr="15" str="3.14" scope="0x7fe54ac15560" type="number" isFloat="True" astParent="0x7fe54ac12b10"/>
+    <token id="0x7fe54ac12c50" file="test_it_bitwise_1.cpp" linenr="15" str=";" scope="0x7fe54ac15560"/>
+    <token id="0x7fe54ac12cf0" file="test_it_bitwise_1.cpp" linenr="16" str="}" scope="0x7fe54ac15560" link="0x7fe54ac127f0"/>
+    <token id="0x7fe54ac12d90" file="test_it_bitwise_1.cpp" linenr="18" str="if" scope="0x7fe54ac15430" type="name" astParent="0x7fe54ac12e30"/>
+    <token id="0x7fe54ac12e30" file="test_it_bitwise_1.cpp" linenr="18" str="(" scope="0x7fe54ac15430" link="0x7fe54ac130b0" astOperand1="0x7fe54ac12d90" astOperand2="0x7fe54ac12f70"/>
+    <token id="0x7fe54ac12ed0" file="test_it_bitwise_1.cpp" linenr="18" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac12f70"/>
+    <token id="0x7fe54ac12f70" file="test_it_bitwise_1.cpp" linenr="18" str="|" scope="0x7fe54ac15430" type="op" astParent="0x7fe54ac12e30" astOperand1="0x7fe54ac12ed0" astOperand2="0x7fe54ac13010"/>
+    <token id="0x7fe54ac13010" file="test_it_bitwise_1.cpp" linenr="18" str="7.7" scope="0x7fe54ac15430" type="number" isFloat="True" astParent="0x7fe54ac12f70"/>
+    <token id="0x7fe54ac130b0" file="test_it_bitwise_1.cpp" linenr="18" str=")" scope="0x7fe54ac15430" link="0x7fe54ac12e30"/>
+    <token id="0x7fe54ac13150" file="test_it_bitwise_1.cpp" linenr="19" str="{" scope="0x7fe54ac15690" link="0x7fe54ac13650"/>
+    <token id="0x7fe54ac131f0" file="test_it_bitwise_1.cpp" linenr="20" str="r" scope="0x7fe54ac15690" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac13290"/>
+    <token id="0x7fe54ac13290" file="test_it_bitwise_1.cpp" linenr="20" str="|=" scope="0x7fe54ac15690" type="op" isAssignmentOp="True" astOperand1="0x7fe54ac131f0" astOperand2="0x7fe54ac13470"/>
+    <token id="0x7fe54ac133d0" file="test_it_bitwise_1.cpp" linenr="20" str="r" scope="0x7fe54ac15690" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac13470"/>
+    <token id="0x7fe54ac13470" file="test_it_bitwise_1.cpp" linenr="20" str="+" scope="0x7fe54ac15690" type="op" isArithmeticalOp="True" astParent="0x7fe54ac13290" astOperand1="0x7fe54ac133d0" astOperand2="0x7fe54ac13510"/>
+    <token id="0x7fe54ac13510" file="test_it_bitwise_1.cpp" linenr="20" str="3.14" scope="0x7fe54ac15690" type="number" isFloat="True" astParent="0x7fe54ac13470"/>
+    <token id="0x7fe54ac135b0" file="test_it_bitwise_1.cpp" linenr="20" str=";" scope="0x7fe54ac15690"/>
+    <token id="0x7fe54ac13650" file="test_it_bitwise_1.cpp" linenr="21" str="}" scope="0x7fe54ac15690" link="0x7fe54ac13150"/>
+    <token id="0x7fe54ac136f0" file="test_it_bitwise_1.cpp" linenr="23" str="if" scope="0x7fe54ac15430" type="name" astParent="0x7fe54ac13790"/>
+    <token id="0x7fe54ac13790" file="test_it_bitwise_1.cpp" linenr="23" str="(" scope="0x7fe54ac15430" link="0x7fe54ac13970" astOperand1="0x7fe54ac136f0" astOperand2="0x7fe54ac13830"/>
+    <token id="0x7fe54ac13830" file="test_it_bitwise_1.cpp" linenr="23" str="~" scope="0x7fe54ac15430" type="op" astParent="0x7fe54ac13790" astOperand1="0x7fe54ac138d0"/>
+    <token id="0x7fe54ac138d0" file="test_it_bitwise_1.cpp" linenr="23" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac13830"/>
+    <token id="0x7fe54ac13970" file="test_it_bitwise_1.cpp" linenr="23" str=")" scope="0x7fe54ac15430" link="0x7fe54ac13790"/>
+    <token id="0x7fe54ac13a10" file="test_it_bitwise_1.cpp" linenr="24" str="{" scope="0x7fe54ac157c0" link="0x7fe54ac13f10"/>
+    <token id="0x7fe54ac13ab0" file="test_it_bitwise_1.cpp" linenr="25" str="r" scope="0x7fe54ac157c0" type="name" varId="5" variable="0x7fe54ac15a80"/>
+    <token id="0x7fe54ac13b50" file="test_it_bitwise_1.cpp" linenr="25" str="~" scope="0x7fe54ac157c0" type="op"/>
+    <token id="0x7fe54ac13bf0" file="test_it_bitwise_1.cpp" linenr="25" str="=" scope="0x7fe54ac157c0" type="op" isAssignmentOp="True"/>
+    <token id="0x7fe54ac13c90" file="test_it_bitwise_1.cpp" linenr="25" str="r" scope="0x7fe54ac157c0" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac13d30"/>
+    <token id="0x7fe54ac13d30" file="test_it_bitwise_1.cpp" linenr="25" str="+" scope="0x7fe54ac157c0" type="op" isArithmeticalOp="True" astOperand1="0x7fe54ac13c90" astOperand2="0x7fe54ac13dd0"/>
+    <token id="0x7fe54ac13dd0" file="test_it_bitwise_1.cpp" linenr="25" str="3.14" scope="0x7fe54ac157c0" type="number" isFloat="True" astParent="0x7fe54ac13d30"/>
+    <token id="0x7fe54ac13e70" file="test_it_bitwise_1.cpp" linenr="25" str=";" scope="0x7fe54ac157c0"/>
+    <token id="0x7fe54ac13f10" file="test_it_bitwise_1.cpp" linenr="26" str="}" scope="0x7fe54ac157c0" link="0x7fe54ac13a10"/>
+    <token id="0x7fe54ac13fb0" file="test_it_bitwise_1.cpp" linenr="28" str="if" scope="0x7fe54ac15430" type="name" astParent="0x7fe54ac140f0"/>
+    <token id="0x7fe54ac14050" file="test_it_bitwise_1.cpp" linenr="28" str="(" scope="0x7fe54ac15430" link="0x7fe54ac142a0" astOperand1="0x7fe54ac140f0"/>
+    <token id="0x7fe54ac140f0" file="test_it_bitwise_1.cpp" linenr="28" str="^" scope="0x7fe54ac15430" type="op" astParent="0x7fe54ac14050" astOperand1="0x7fe54ac13fb0" astOperand2="0x7fe54ac14190"/>
+    <token id="0x7fe54ac14190" file="test_it_bitwise_1.cpp" linenr="28" str="r" scope="0x7fe54ac15430" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac140f0"/>
+    <token id="0x7fe54ac142a0" file="test_it_bitwise_1.cpp" linenr="28" str=")" scope="0x7fe54ac15430" link="0x7fe54ac14050"/>
+    <token id="0x7fe54ac14340" file="test_it_bitwise_1.cpp" linenr="29" str="{" scope="0x7fe54ac158f0" link="0x7fe54ac147a0"/>
+    <token id="0x7fe54ac143e0" file="test_it_bitwise_1.cpp" linenr="30" str="r" scope="0x7fe54ac158f0" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac14480"/>
+    <token id="0x7fe54ac14480" file="test_it_bitwise_1.cpp" linenr="30" str="=" scope="0x7fe54ac158f0" type="op" isAssignmentOp="True" astOperand1="0x7fe54ac143e0" astOperand2="0x7fe54ac145c0"/>
+    <token id="0x7fe54ac14520" file="test_it_bitwise_1.cpp" linenr="30" str="r" scope="0x7fe54ac158f0" type="name" varId="5" variable="0x7fe54ac15a80" astParent="0x7fe54ac145c0"/>
+    <token id="0x7fe54ac145c0" file="test_it_bitwise_1.cpp" linenr="30" str="+" scope="0x7fe54ac158f0" type="op" isArithmeticalOp="True" astParent="0x7fe54ac14480" astOperand1="0x7fe54ac14520" astOperand2="0x7fe54ac14660"/>
+    <token id="0x7fe54ac14660" file="test_it_bitwise_1.cpp" linenr="30" str="3.14" scope="0x7fe54ac158f0" type="number" isFloat="True" astParent="0x7fe54ac145c0"/>
+    <token id="0x7fe54ac14700" file="test_it_bitwise_1.cpp" linenr="30" str=";" scope="0x7fe54ac158f0"/>
+    <token id="0x7fe54ac147a0" file="test_it_bitwise_1.cpp" linenr="31" str="}" scope="0x7fe54ac158f0" link="0x7fe54ac14340"/>
+    <token id="0x7fe54ac14840" file="test_it_bitwise_1.cpp" linenr="33" str="return" scope="0x7fe54ac15430" type="name" astOperand1="0x7fe54ac148e0"/>
+    <token id="0x7fe54ac148e0" file="test_it_bitwise_1.cpp" linenr="33" str="0" scope="0x7fe54ac15430" type="number" isInt="True" values="0x7fe54ac148e8" astParent="0x7fe54ac14840"/>
+    <token id="0x7fe54ac14980" file="test_it_bitwise_1.cpp" linenr="33" str=";" scope="0x7fe54ac15430"/>
+    <token id="0x7fe54ac14a20" file="test_it_bitwise_1.cpp" linenr="34" str="}" scope="0x7fe54ac15430" link="0x7fe54ac11850"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fe54ac15230" type="Global">
+      <functionList>
+        <function id="0x7fe54ac15360" tokenDef="0x7fe54ac110b0" name="main">
+          <arg nr="1" variable="0x7fe54ac15ae0"/>
+          <arg nr="2" variable="0x7fe54ac15b40"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fe54ac15430" type="Function" className="main" classStart="0x7fe54ac11850" classEnd="0x7fe54ac14a20" nestedIn="0x7fe54ac15230" function="0x7fe54ac15360">
+      <varlist>
+        <var id="0x7fe54ac15a20"/>
+        <var id="0x7fe54ac15a80"/>
+      </varlist>
+    </scope>
+    <scope id="0x7fe54ac15560" type="If" classStart="0x7fe54ac127f0" classEnd="0x7fe54ac12cf0" nestedIn="0x7fe54ac15430"/>
+    <scope id="0x7fe54ac15690" type="If" classStart="0x7fe54ac13150" classEnd="0x7fe54ac13650" nestedIn="0x7fe54ac15430"/>
+    <scope id="0x7fe54ac157c0" type="If" classStart="0x7fe54ac13a10" classEnd="0x7fe54ac13f10" nestedIn="0x7fe54ac15430"/>
+    <scope id="0x7fe54ac158f0" type="If" classStart="0x7fe54ac14340" classEnd="0x7fe54ac147a0" nestedIn="0x7fe54ac15430"/>
+  </scopes>
+  <variables>
+    <var id="0x7fe54ac15ae0" nameToken="0x7fe54ac113f0" typeStartToken="0x7fe54ac11350" typeEndToken="0x7fe54ac11350" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fe54ac15b40" nameToken="0x7fe54ac11710" typeStartToken="0x7fe54ac11530" typeEndToken="0x7fe54ac11670" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fe54ac15a20" nameToken="0x7fe54ac11ad0" typeStartToken="0x7fe54ac118f0" typeEndToken="0x7fe54ac11a30" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fe54ac15a80" nameToken="0x7fe54ac12070" typeStartToken="0x7fe54ac11fd0" typeEndToken="0x7fe54ac11fd0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7fe54ac11e98">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fe54ac148e8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

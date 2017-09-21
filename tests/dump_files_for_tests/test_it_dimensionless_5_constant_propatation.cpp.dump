@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="1" str="#include &lt;ros/ros.h&gt;"/>
+    <directive file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="2" str="#include &lt;math.h&gt;"/>
+    <directive file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="3" str="#include &lt;geometry_msgs/Twist.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fcf48601c00" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="int" scope="0x7fcf486037c0" type="name"/>
+    <token id="0x7fcf48601ca0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="main" scope="0x7fcf486037c0" type="name" function="0x7fcf486038f0" astParent="0x7fcf48601d40"/>
+    <token id="0x7fcf48601d40" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="(" scope="0x7fcf486037c0" link="0x7fcf486022e0" astOperand1="0x7fcf48601ca0" astOperand2="0x7fcf48601fc0"/>
+    <token id="0x7fcf48601de0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="int" scope="0x7fcf486037c0" type="name"/>
+    <token id="0x7fcf48601e80" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="argc" scope="0x7fcf486037c0" type="name" varId="1" variable="0x7fcf48603bd0" astParent="0x7fcf48601fc0"/>
+    <token id="0x7fcf48601fc0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="," scope="0x7fcf486037c0" astParent="0x7fcf48601d40" astOperand1="0x7fcf48601e80" astOperand2="0x7fcf48602100"/>
+    <token id="0x7fcf48602060" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="char" scope="0x7fcf486037c0" type="name" astParent="0x7fcf48602100"/>
+    <token id="0x7fcf48602100" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="*" scope="0x7fcf486037c0" type="op" isArithmeticalOp="True" astParent="0x7fcf48601fc0" astOperand1="0x7fcf48602060" astOperand2="0x7fcf486021a0"/>
+    <token id="0x7fcf486021a0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="*" scope="0x7fcf486037c0" type="op" isArithmeticalOp="True" astParent="0x7fcf48602100" astOperand1="0x7fcf48602240"/>
+    <token id="0x7fcf48602240" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str="argv" scope="0x7fcf486037c0" type="name" varId="2" variable="0x7fcf48603c30" astParent="0x7fcf486021a0"/>
+    <token id="0x7fcf486022e0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="5" str=")" scope="0x7fcf486037c0" link="0x7fcf48601d40"/>
+    <token id="0x7fcf48602380" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="6" str="{" scope="0x7fcf48603980" link="0x7fcf48603140"/>
+    <token id="0x7fcf48602420" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="7" str="geometry_msgs" scope="0x7fcf48603980" type="name" astParent="0x7fcf486024c0"/>
+    <token id="0x7fcf486024c0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="7" str="::" scope="0x7fcf48603980" astOperand1="0x7fcf48602420" astOperand2="0x7fcf48602600"/>
+    <token id="0x7fcf48602560" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="7" str="Twist" scope="0x7fcf48603980" type="name"/>
+    <token id="0x7fcf48602600" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="7" str="t" scope="0x7fcf48603980" type="name" varId="3" variable="0x7fcf48603ab0" astParent="0x7fcf486024c0"/>
+    <token id="0x7fcf486026a0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="7" str=";" scope="0x7fcf48603980"/>
+    <token id="0x7fcf48602740" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str="float" scope="0x7fcf48603980" type="name"/>
+    <token id="0x7fcf486027e0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str="f" scope="0x7fcf48603980" type="name" varId="4" variable="0x7fcf48603b10"/>
+    <token id="0x7fcf48602880" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str=";" scope="0x7fcf48603980"/>
+    <token id="0x7fcf486033e0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str="f" scope="0x7fcf48603980" type="name" varId="4" variable="0x7fcf48603b10" astParent="0x7fcf48603480"/>
+    <token id="0x7fcf48603480" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str="=" scope="0x7fcf48603980" type="op" isAssignmentOp="True" astOperand1="0x7fcf486033e0" astOperand2="0x7fcf48602920"/>
+    <token id="0x7fcf48602920" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str="3.14" scope="0x7fcf48603980" type="number" isFloat="True" astParent="0x7fcf48603480"/>
+    <token id="0x7fcf486029c0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" str=";" scope="0x7fcf48603980"/>
+    <token id="0x7fcf48602a60" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="float" scope="0x7fcf48603980" type="name"/>
+    <token id="0x7fcf48602b00" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="x" scope="0x7fcf48603980" type="name" varId="5" variable="0x7fcf48603b70"/>
+    <token id="0x7fcf48602ba0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str=";" scope="0x7fcf48603980"/>
+    <token id="0x7fcf48603520" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="x" scope="0x7fcf48603980" type="name" varId="5" variable="0x7fcf48603b70" astParent="0x7fcf486035c0"/>
+    <token id="0x7fcf486035c0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="=" scope="0x7fcf48603980" type="op" isAssignmentOp="True" astOperand1="0x7fcf48603520" astOperand2="0x7fcf48602ce0"/>
+    <token id="0x7fcf48602c40" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="f" scope="0x7fcf48603980" type="name" varId="4" variable="0x7fcf48603b10" astParent="0x7fcf48602ce0"/>
+    <token id="0x7fcf48602ce0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="+" scope="0x7fcf48603980" type="op" isArithmeticalOp="True" astParent="0x7fcf486035c0" astOperand1="0x7fcf48602c40" astOperand2="0x7fcf48602f60"/>
+    <token id="0x7fcf48602d80" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="t" scope="0x7fcf48603980" type="name" varId="3" variable="0x7fcf48603ab0" astParent="0x7fcf48602e20"/>
+    <token id="0x7fcf48602e20" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="." scope="0x7fcf48603980" astParent="0x7fcf48602f60" astOperand1="0x7fcf48602d80" astOperand2="0x7fcf48602ec0"/>
+    <token id="0x7fcf48602ec0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="linear" scope="0x7fcf48603980" type="name" varId="6" astParent="0x7fcf48602e20"/>
+    <token id="0x7fcf48602f60" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="." scope="0x7fcf48603980" astParent="0x7fcf48602ce0" astOperand1="0x7fcf48602e20" astOperand2="0x7fcf48603000"/>
+    <token id="0x7fcf48603000" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str="x" scope="0x7fcf48603980" type="name" varId="7" astParent="0x7fcf48602f60"/>
+    <token id="0x7fcf486030a0" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" str=";" scope="0x7fcf48603980"/>
+    <token id="0x7fcf48603140" file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="10" str="}" scope="0x7fcf48603980" link="0x7fcf48602380"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fcf486037c0" type="Global">
+      <functionList>
+        <function id="0x7fcf486038f0" tokenDef="0x7fcf48601ca0" name="main">
+          <arg nr="1" variable="0x7fcf48603bd0"/>
+          <arg nr="2" variable="0x7fcf48603c30"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fcf48603980" type="Function" className="main" classStart="0x7fcf48602380" classEnd="0x7fcf48603140" nestedIn="0x7fcf486037c0" function="0x7fcf486038f0">
+      <varlist>
+        <var id="0x7fcf48603ab0"/>
+        <var id="0x7fcf48603b10"/>
+        <var id="0x7fcf48603b70"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fcf48603bd0" nameToken="0x7fcf48601e80" typeStartToken="0x7fcf48601de0" typeEndToken="0x7fcf48601de0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fcf48603c30" nameToken="0x7fcf48602240" typeStartToken="0x7fcf48602060" typeEndToken="0x7fcf486021a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fcf48603ab0" nameToken="0x7fcf48602600" typeStartToken="0x7fcf48602420" typeEndToken="0x7fcf48602560" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fcf48603b10" nameToken="0x7fcf486027e0" typeStartToken="0x7fcf48602740" typeEndToken="0x7fcf48602740" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fcf48603b70" nameToken="0x7fcf48602b00" typeStartToken="0x7fcf48602a60" typeEndToken="0x7fcf48602a60" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+
+<physical_unit_annotation_list>
+<physical_unit_annotation file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" id="0x1" name="f" units="0,0,0,0,0,0,0,0,0,0" isVar="true" isConstant="false" varId="0x7fcf48603b10" hasUnits="false" />
+<physical_unit_annotation file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="8" id="0x2" name="3.14" units="0,0,0,0,0,0,0,0,0,0" isVar="none" isConstant="true" tokenId="0x7fcf48602920" hasUnits="true" />
+<physical_unit_annotation file="test_it_dimensionless_3_addition_with_twist.cpp" linenr="9" id="0x3" name="x" units="0,0,0,0,0,0,0,0,0,0" isVar="true" isConstant="false" varId="0x7fcf48603b70" hasUnits="false" />
+</physical_unit_annotation_list>
+</dump>
+</dumps>

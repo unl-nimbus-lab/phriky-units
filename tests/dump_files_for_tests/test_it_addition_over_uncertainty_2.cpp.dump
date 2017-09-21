@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_addition_over_uncertainty_2.cpp" linenr="1" str="#include &quot;geometry_msgs/Accel.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fee4f546080" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="int" scope="0x7fee4f548430" type="name"/>
+    <token id="0x7fee4f546260" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="main" scope="0x7fee4f548430" type="name" function="0x7fee4f548610" astParent="0x7fee4f546300"/>
+    <token id="0x7fee4f546300" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="(" scope="0x7fee4f548430" link="0x7fee4f546800" astOperand1="0x7fee4f546260" astOperand2="0x7fee4f5464e0"/>
+    <token id="0x7fee4f5463a0" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="int" scope="0x7fee4f548430" type="name"/>
+    <token id="0x7fee4f546440" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="argc" scope="0x7fee4f548430" type="name" varId="1" variable="0x7fee4f548890" astParent="0x7fee4f5464e0"/>
+    <token id="0x7fee4f5464e0" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="," scope="0x7fee4f548430" astParent="0x7fee4f546300" astOperand1="0x7fee4f546440" astOperand2="0x7fee4f546620"/>
+    <token id="0x7fee4f546580" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="char" scope="0x7fee4f548430" type="name" astParent="0x7fee4f546620"/>
+    <token id="0x7fee4f546620" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="*" scope="0x7fee4f548430" type="op" isArithmeticalOp="True" astParent="0x7fee4f5464e0" astOperand1="0x7fee4f546580" astOperand2="0x7fee4f5466c0"/>
+    <token id="0x7fee4f5466c0" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="*" scope="0x7fee4f548430" type="op" isArithmeticalOp="True" astParent="0x7fee4f546620" astOperand1="0x7fee4f546760"/>
+    <token id="0x7fee4f546760" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str="argv" scope="0x7fee4f548430" type="name" varId="2" variable="0x7fee4f5488f0" astParent="0x7fee4f5466c0"/>
+    <token id="0x7fee4f546800" file="test_it_addition_over_uncertainty_2.cpp" linenr="3" str=")" scope="0x7fee4f548430" link="0x7fee4f546300"/>
+    <token id="0x7fee4f5468a0" file="test_it_addition_over_uncertainty_2.cpp" linenr="4" str="{" scope="0x7fee4f5486a0" link="0x7fee4f547f20"/>
+    <token id="0x7fee4f546940" file="test_it_addition_over_uncertainty_2.cpp" linenr="6" str="geometry_msgs" scope="0x7fee4f5486a0" type="name" astParent="0x7fee4f5469e0"/>
+    <token id="0x7fee4f5469e0" file="test_it_addition_over_uncertainty_2.cpp" linenr="6" str="::" scope="0x7fee4f5486a0" astOperand1="0x7fee4f546940" astOperand2="0x7fee4f546b20"/>
+    <token id="0x7fee4f546a80" file="test_it_addition_over_uncertainty_2.cpp" linenr="6" str="Accel" scope="0x7fee4f5486a0" type="name"/>
+    <token id="0x7fee4f546b20" file="test_it_addition_over_uncertainty_2.cpp" linenr="6" str="a_geometry_msgs_Accel" scope="0x7fee4f5486a0" type="name" varId="3" variable="0x7fee4f5487d0" astParent="0x7fee4f5469e0"/>
+    <token id="0x7fee4f546bc0" file="test_it_addition_over_uncertainty_2.cpp" linenr="6" str=";" scope="0x7fee4f5486a0"/>
+    <token id="0x7fee4f546c60" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="a_geometry_msgs_Accel" scope="0x7fee4f5486a0" type="name" varId="3" variable="0x7fee4f5487d0" astParent="0x7fee4f546d00"/>
+    <token id="0x7fee4f546d00" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f546e40" astOperand1="0x7fee4f546c60" astOperand2="0x7fee4f546da0"/>
+    <token id="0x7fee4f546da0" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="linear" scope="0x7fee4f5486a0" type="name" varId="4" astParent="0x7fee4f546d00"/>
+    <token id="0x7fee4f546e40" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f546f80" astOperand1="0x7fee4f546d00" astOperand2="0x7fee4f546ee0"/>
+    <token id="0x7fee4f546ee0" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="x" scope="0x7fee4f5486a0" type="name" varId="5" astParent="0x7fee4f546e40"/>
+    <token id="0x7fee4f546f80" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="=" scope="0x7fee4f5486a0" type="op" isAssignmentOp="True" astOperand1="0x7fee4f546e40" astOperand2="0x7fee4f547020"/>
+    <token id="0x7fee4f547020" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str="0" scope="0x7fee4f5486a0" type="number" isInt="True" values="0x7fee4f547028" astParent="0x7fee4f546f80"/>
+    <token id="0x7fee4f5470c0" file="test_it_addition_over_uncertainty_2.cpp" linenr="7" str=";" scope="0x7fee4f5486a0"/>
+    <token id="0x7fee4f547160" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="float" scope="0x7fee4f5486a0" type="name"/>
+    <token id="0x7fee4f547200" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="y" scope="0x7fee4f5486a0" type="name" varId="6" variable="0x7fee4f548830"/>
+    <token id="0x7fee4f5472a0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str=";" scope="0x7fee4f5486a0"/>
+    <token id="0x7fee4f548230" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="y" scope="0x7fee4f5486a0" type="name" varId="6" variable="0x7fee4f548830" astParent="0x7fee4f5482d0"/>
+    <token id="0x7fee4f5482d0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="=" scope="0x7fee4f5486a0" type="op" isAssignmentOp="True" astOperand1="0x7fee4f548230" astOperand2="0x7fee4f5478e0"/>
+    <token id="0x7fee4f547340" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="(" scope="0x7fee4f5486a0" link="0x7fee4f547840"/>
+    <token id="0x7fee4f5473e0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="42.0" scope="0x7fee4f5486a0" type="number" isFloat="True" astParent="0x7fee4f547480"/>
+    <token id="0x7fee4f547480" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="*" scope="0x7fee4f5486a0" type="op" isArithmeticalOp="True" astParent="0x7fee4f5478e0" astOperand1="0x7fee4f5473e0" astOperand2="0x7fee4f547700"/>
+    <token id="0x7fee4f547520" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="a_geometry_msgs_Accel" scope="0x7fee4f5486a0" type="name" varId="3" variable="0x7fee4f5487d0" astParent="0x7fee4f5475c0"/>
+    <token id="0x7fee4f5475c0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f547700" astOperand1="0x7fee4f547520" astOperand2="0x7fee4f547660"/>
+    <token id="0x7fee4f547660" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="linear" scope="0x7fee4f5486a0" type="name" varId="4" astParent="0x7fee4f5475c0"/>
+    <token id="0x7fee4f547700" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f547480" astOperand1="0x7fee4f5475c0" astOperand2="0x7fee4f5477a0"/>
+    <token id="0x7fee4f5477a0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="x" scope="0x7fee4f5486a0" type="name" varId="5" astParent="0x7fee4f547700"/>
+    <token id="0x7fee4f547840" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str=")" scope="0x7fee4f5486a0" link="0x7fee4f547340"/>
+    <token id="0x7fee4f5478e0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="+" scope="0x7fee4f5486a0" type="op" isArithmeticalOp="True" astParent="0x7fee4f5482d0" astOperand1="0x7fee4f547480" astOperand2="0x7fee4f547b60"/>
+    <token id="0x7fee4f547980" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="a_geometry_msgs_Accel" scope="0x7fee4f5486a0" type="name" varId="3" variable="0x7fee4f5487d0" astParent="0x7fee4f547a20"/>
+    <token id="0x7fee4f547a20" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f547b60" astOperand1="0x7fee4f547980" astOperand2="0x7fee4f547ac0"/>
+    <token id="0x7fee4f547ac0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="linear" scope="0x7fee4f5486a0" type="name" varId="4" astParent="0x7fee4f547a20"/>
+    <token id="0x7fee4f547b60" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="." scope="0x7fee4f5486a0" astParent="0x7fee4f5478e0" astOperand1="0x7fee4f547a20" astOperand2="0x7fee4f547c00"/>
+    <token id="0x7fee4f547c00" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str="x" scope="0x7fee4f5486a0" type="name" varId="5" astParent="0x7fee4f547b60"/>
+    <token id="0x7fee4f547ca0" file="test_it_addition_over_uncertainty_2.cpp" linenr="10" str=";" scope="0x7fee4f5486a0"/>
+    <token id="0x7fee4f547d40" file="test_it_addition_over_uncertainty_2.cpp" linenr="12" str="return" scope="0x7fee4f5486a0" type="name" astOperand1="0x7fee4f547de0"/>
+    <token id="0x7fee4f547de0" file="test_it_addition_over_uncertainty_2.cpp" linenr="12" str="0" scope="0x7fee4f5486a0" type="number" isInt="True" values="0x7fee4f547de8" astParent="0x7fee4f547d40"/>
+    <token id="0x7fee4f547e80" file="test_it_addition_over_uncertainty_2.cpp" linenr="12" str=";" scope="0x7fee4f5486a0"/>
+    <token id="0x7fee4f547f20" file="test_it_addition_over_uncertainty_2.cpp" linenr="13" str="}" scope="0x7fee4f5486a0" link="0x7fee4f5468a0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fee4f548430" type="Global">
+      <functionList>
+        <function id="0x7fee4f548610" tokenDef="0x7fee4f546260" name="main">
+          <arg nr="1" variable="0x7fee4f548890"/>
+          <arg nr="2" variable="0x7fee4f5488f0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fee4f5486a0" type="Function" className="main" classStart="0x7fee4f5468a0" classEnd="0x7fee4f547f20" nestedIn="0x7fee4f548430" function="0x7fee4f548610">
+      <varlist>
+        <var id="0x7fee4f5487d0"/>
+        <var id="0x7fee4f548830"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fee4f548890" nameToken="0x7fee4f546440" typeStartToken="0x7fee4f5463a0" typeEndToken="0x7fee4f5463a0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fee4f5488f0" nameToken="0x7fee4f546760" typeStartToken="0x7fee4f546580" typeEndToken="0x7fee4f5466c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fee4f5487d0" nameToken="0x7fee4f546b20" typeStartToken="0x7fee4f546940" typeEndToken="0x7fee4f546a80" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fee4f548830" nameToken="0x7fee4f547200" typeStartToken="0x7fee4f547160" typeEndToken="0x7fee4f547160" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7fee4f547028">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fee4f547de8">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

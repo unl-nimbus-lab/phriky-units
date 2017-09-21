@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0xe26750" file="test_it_M_PI_1.cpp" linenr="4" str="int" scope="0xe278d0" type="name"/>
+    <token id="0xe26800" file="test_it_M_PI_1.cpp" linenr="4" str="main" scope="0xe278d0" type="name" function="0xe27a50" astParent="0xe26390"/>
+    <token id="0xe26390" file="test_it_M_PI_1.cpp" linenr="4" str="(" scope="0xe278d0" link="0xe26e60" astOperand1="0xe26800" astOperand2="0xe26960"/>
+    <token id="0xe26440" file="test_it_M_PI_1.cpp" linenr="4" str="int" scope="0xe278d0" type="name"/>
+    <token id="0xe264f0" file="test_it_M_PI_1.cpp" linenr="4" str="argc" scope="0xe278d0" type="name" varId="1" variable="0xe27e00" astParent="0xe26960"/>
+    <token id="0xe26960" file="test_it_M_PI_1.cpp" linenr="4" str="," scope="0xe278d0" astParent="0xe26390" astOperand1="0xe264f0" astOperand2="0xe26bc0"/>
+    <token id="0xe26a40" file="test_it_M_PI_1.cpp" linenr="4" str="char" scope="0xe278d0" type="name" astParent="0xe26bc0"/>
+    <token id="0xe26bc0" file="test_it_M_PI_1.cpp" linenr="4" str="*" scope="0xe278d0" type="op" isArithmeticalOp="True" astParent="0xe26960" astOperand1="0xe26a40" astOperand2="0xe26ca0"/>
+    <token id="0xe26ca0" file="test_it_M_PI_1.cpp" linenr="4" str="*" scope="0xe278d0" type="op" isArithmeticalOp="True" astParent="0xe26bc0" astOperand1="0xe26d80"/>
+    <token id="0xe26d80" file="test_it_M_PI_1.cpp" linenr="4" str="argv" scope="0xe278d0" type="name" varId="2" variable="0xe27e90" astParent="0xe26ca0"/>
+    <token id="0xe26e60" file="test_it_M_PI_1.cpp" linenr="4" str=")" scope="0xe278d0" link="0xe26390"/>
+    <token id="0xe26f40" file="test_it_M_PI_1.cpp" linenr="5" str="{" scope="0xe27b00" link="0xe27480"/>
+    <token id="0xe27050" file="test_it_M_PI_1.cpp" linenr="6" str="float" scope="0xe27b00" type="name"/>
+    <token id="0xe27100" file="test_it_M_PI_1.cpp" linenr="6" str="x" scope="0xe27b00" type="name" varId="3" variable="0xe27720"/>
+    <token id="0xe271e0" file="test_it_M_PI_1.cpp" linenr="6" str=";" scope="0xe27b00"/>
+    <token id="0xe26600" file="test_it_M_PI_1.cpp" linenr="6" str="x" scope="0xe27b00" type="name" varId="3" variable="0xe27720" astParent="0xe277e0"/>
+    <token id="0xe277e0" file="test_it_M_PI_1.cpp" linenr="6" str="=" scope="0xe27b00" type="op" isAssignmentOp="True" astOperand1="0xe26600" astOperand2="0xe272c0"/>
+    <token id="0xe272c0" file="test_it_M_PI_1.cpp" linenr="6" str="M_PI" scope="0xe27b00" type="name" astParent="0xe277e0"/>
+    <token id="0xe273a0" file="test_it_M_PI_1.cpp" linenr="6" str=";" scope="0xe27b00"/>
+    <token id="0xe27480" file="test_it_M_PI_1.cpp" linenr="7" str="}" scope="0xe27b00" link="0xe26f40"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0xe278d0" type="Global">
+      <functionList>
+        <function id="0xe27a50" tokenDef="0xe26800" name="main">
+          <arg nr="1" variable="0xe27e00"/>
+          <arg nr="2" variable="0xe27e90"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0xe27b00" type="Function" className="main" classStart="0xe26f40" classEnd="0xe27480" nestedIn="0xe278d0" function="0xe27a50">
+      <varlist>
+        <var id="0xe27720"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0xe27e00" nameToken="0xe264f0" typeStartToken="0xe26440" typeEndToken="0xe26440" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0xe27e90" nameToken="0xe26d80" typeStartToken="0xe26a40" typeEndToken="0xe26ca0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0xe27720" nameToken="0xe27100" typeStartToken="0xe27050" typeEndToken="0xe27050" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+  </valueflow>
+</dump>
+</dumps>

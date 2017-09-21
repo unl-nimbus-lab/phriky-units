@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x134ac10" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="int" scope="0x134cc10" type="name"/>
+    <token id="0x134acc0" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="main" scope="0x134cc10" type="name" function="0x134cd90" astParent="0x134ad70"/>
+    <token id="0x134ad70" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="(" scope="0x134cc10" link="0x134afc0" astOperand1="0x134acc0" astOperand2="0x1347ee0"/>
+    <token id="0x1347d20" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="int" scope="0x134cc10" type="name"/>
+    <token id="0x1347e00" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="argc" scope="0x134cc10" type="name" varId="1" variable="0x134d370" astParent="0x1347ee0"/>
+    <token id="0x1347ee0" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="," scope="0x134cc10" astParent="0x134ad70" astOperand1="0x1347e00" astOperand2="0x134a870"/>
+    <token id="0x134a790" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="char" scope="0x134cc10" type="name" astParent="0x134a870"/>
+    <token id="0x134a870" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="*" scope="0x134cc10" type="op" isArithmeticalOp="True" astParent="0x1347ee0" astOperand1="0x134a790" astOperand2="0x134a950"/>
+    <token id="0x134a950" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="*" scope="0x134cc10" type="op" isArithmeticalOp="True" astParent="0x134a870" astOperand1="0x134aee0"/>
+    <token id="0x134aee0" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str="argv" scope="0x134cc10" type="name" varId="2" variable="0x134d400" astParent="0x134a950"/>
+    <token id="0x134afc0" file="test_it_known_function_sqrt_half_units.cpp" linenr="5" str=")" scope="0x134cc10" link="0x134ad70"/>
+    <token id="0x134b0a0" file="test_it_known_function_sqrt_half_units.cpp" linenr="6" str="{" scope="0x134ce40" link="0x134c810"/>
+    <token id="0x134b1b0" file="test_it_known_function_sqrt_half_units.cpp" linenr="8" str="sensor_msgs" scope="0x134ce40" type="name" astParent="0x134b260"/>
+    <token id="0x134b260" file="test_it_known_function_sqrt_half_units.cpp" linenr="8" str="::" scope="0x134ce40" astOperand1="0x134b1b0" astOperand2="0x134b3f0"/>
+    <token id="0x134b310" file="test_it_known_function_sqrt_half_units.cpp" linenr="8" str="Range" scope="0x134ce40" type="name"/>
+    <token id="0x134b3f0" file="test_it_known_function_sqrt_half_units.cpp" linenr="8" str="r" scope="0x134ce40" type="name" varId="3" variable="0x134cfc0" astParent="0x134b260"/>
+    <token id="0x134b4d0" file="test_it_known_function_sqrt_half_units.cpp" linenr="8" str=";" scope="0x134ce40"/>
+    <token id="0x134b5e0" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str="r" scope="0x134ce40" type="name" varId="3" variable="0x134cfc0" astParent="0x134b6c0"/>
+    <token id="0x134b6c0" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str="." scope="0x134ce40" astParent="0x134b850" astOperand1="0x134b5e0" astOperand2="0x134b770"/>
+    <token id="0x134b770" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str="range" scope="0x134ce40" type="name" varId="4" astParent="0x134b6c0"/>
+    <token id="0x134b850" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str="=" scope="0x134ce40" type="op" isAssignmentOp="True" astOperand1="0x134b6c0" astOperand2="0x134b930"/>
+    <token id="0x134b930" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str="0" scope="0x134ce40" type="number" isInt="True" values="0x134b938" astParent="0x134b850"/>
+    <token id="0x134ba10" file="test_it_known_function_sqrt_half_units.cpp" linenr="9" str=";" scope="0x134ce40"/>
+    <token id="0x134baf0" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="float" scope="0x134ce40" type="name"/>
+    <token id="0x134bbd0" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="x" scope="0x134ce40" type="name" varId="5" variable="0x134d050"/>
+    <token id="0x134bcb0" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str=";" scope="0x134ce40"/>
+    <token id="0x134c960" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="x" scope="0x134ce40" type="name" varId="5" variable="0x134d050" astParent="0x134ca10"/>
+    <token id="0x134ca10" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="=" scope="0x134ce40" type="op" isAssignmentOp="True" astOperand1="0x134c960" astOperand2="0x134c030"/>
+    <token id="0x134bd90" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="std" scope="0x134ce40" type="name" astParent="0x134be70"/>
+    <token id="0x134be70" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="::" scope="0x134ce40" astParent="0x134c030" astOperand1="0x134bd90" astOperand2="0x134bf50"/>
+    <token id="0x134bf50" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="sqrt" scope="0x134ce40" type="name" astParent="0x134be70"/>
+    <token id="0x134c030" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="(" scope="0x134ce40" link="0x134c3b0" astParent="0x134ca10" astOperand1="0x134be70" astOperand2="0x134c220"/>
+    <token id="0x134c140" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="r" scope="0x134ce40" type="name" varId="3" variable="0x134cfc0" astParent="0x134c220"/>
+    <token id="0x134c220" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="." scope="0x134ce40" astParent="0x134c030" astOperand1="0x134c140" astOperand2="0x134c2d0"/>
+    <token id="0x134c2d0" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str="range" scope="0x134ce40" type="name" varId="4" astParent="0x134c220"/>
+    <token id="0x134c3b0" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str=")" scope="0x134ce40" link="0x134c030"/>
+    <token id="0x134c490" file="test_it_known_function_sqrt_half_units.cpp" linenr="11" str=";" scope="0x134ce40"/>
+    <token id="0x134c570" file="test_it_known_function_sqrt_half_units.cpp" linenr="13" str="return" scope="0x134ce40" type="name" astOperand1="0x134c650"/>
+    <token id="0x134c650" file="test_it_known_function_sqrt_half_units.cpp" linenr="13" str="0" scope="0x134ce40" type="number" isInt="True" values="0x134c658" astParent="0x134c570"/>
+    <token id="0x134c730" file="test_it_known_function_sqrt_half_units.cpp" linenr="13" str=";" scope="0x134ce40"/>
+    <token id="0x134c810" file="test_it_known_function_sqrt_half_units.cpp" linenr="15" str="}" scope="0x134ce40" link="0x134b0a0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x134cc10" type="Global">
+      <functionList>
+        <function id="0x134cd90" tokenDef="0x134acc0" name="main">
+          <arg nr="1" variable="0x134d370"/>
+          <arg nr="2" variable="0x134d400"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x134ce40" type="Function" className="main" classStart="0x134b0a0" classEnd="0x134c810" nestedIn="0x134cc10" function="0x134cd90">
+      <varlist>
+        <var id="0x134cfc0"/>
+        <var id="0x134d050"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x134d370" nameToken="0x1347e00" typeStartToken="0x1347d20" typeEndToken="0x1347d20" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x134d400" nameToken="0x134aee0" typeStartToken="0x134a790" typeEndToken="0x134a950" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x134cfc0" nameToken="0x134b3f0" typeStartToken="0x134b1b0" typeEndToken="0x134b310" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x134d050" nameToken="0x134bbd0" typeStartToken="0x134baf0" typeEndToken="0x134baf0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x134b938">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x134c658">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

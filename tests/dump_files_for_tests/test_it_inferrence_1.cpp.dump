@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+    <directive file="test_it_inferrence_1.cpp" linenr="1" str="#include &quot;sensor_msgs/Range.h&quot;"/>
+    <directive file="test_it_inferrence_1.cpp" linenr="2" str="#include &quot;math.h&quot;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="0x7fb333540440" file="test_it_inferrence_1.cpp" linenr="5" str="int" scope="0x7fb333541fc0" type="name"/>
+    <token id="0x7fb3335404e0" file="test_it_inferrence_1.cpp" linenr="5" str="main" scope="0x7fb333541fc0" type="name" function="0x7fb333541ec0" astParent="0x7fb333540620"/>
+    <token id="0x7fb333540620" file="test_it_inferrence_1.cpp" linenr="5" str="(" scope="0x7fb333541fc0" link="0x7fb333540b20" astOperand1="0x7fb3335404e0" astOperand2="0x7fb333540800"/>
+    <token id="0x7fb3335406c0" file="test_it_inferrence_1.cpp" linenr="5" str="int" scope="0x7fb333541fc0" type="name"/>
+    <token id="0x7fb333540760" file="test_it_inferrence_1.cpp" linenr="5" str="argc" scope="0x7fb333541fc0" type="name" varId="1" variable="0x7fb333542340" astParent="0x7fb333540800"/>
+    <token id="0x7fb333540800" file="test_it_inferrence_1.cpp" linenr="5" str="," scope="0x7fb333541fc0" astParent="0x7fb333540620" astOperand1="0x7fb333540760" astOperand2="0x7fb333540940"/>
+    <token id="0x7fb3335408a0" file="test_it_inferrence_1.cpp" linenr="5" str="char" scope="0x7fb333541fc0" type="name" astParent="0x7fb333540940"/>
+    <token id="0x7fb333540940" file="test_it_inferrence_1.cpp" linenr="5" str="*" scope="0x7fb333541fc0" type="op" isArithmeticalOp="True" astParent="0x7fb333540800" astOperand1="0x7fb3335408a0" astOperand2="0x7fb3335409e0"/>
+    <token id="0x7fb3335409e0" file="test_it_inferrence_1.cpp" linenr="5" str="*" scope="0x7fb333541fc0" type="op" isArithmeticalOp="True" astParent="0x7fb333540940" astOperand1="0x7fb333540a80"/>
+    <token id="0x7fb333540a80" file="test_it_inferrence_1.cpp" linenr="5" str="argv" scope="0x7fb333541fc0" type="name" varId="2" variable="0x7fb3335423a0" astParent="0x7fb3335409e0"/>
+    <token id="0x7fb333540b20" file="test_it_inferrence_1.cpp" linenr="5" str=")" scope="0x7fb333541fc0" link="0x7fb333540620"/>
+    <token id="0x7fb333540bc0" file="test_it_inferrence_1.cpp" linenr="6" str="{" scope="0x7fb3335420f0" link="0x7fb333541860"/>
+    <token id="0x7fb333540c60" file="test_it_inferrence_1.cpp" linenr="8" str="sensor_msgs" scope="0x7fb3335420f0" type="name" astParent="0x7fb333540d00"/>
+    <token id="0x7fb333540d00" file="test_it_inferrence_1.cpp" linenr="8" str="::" scope="0x7fb3335420f0" astOperand1="0x7fb333540c60" astOperand2="0x7fb333540e40"/>
+    <token id="0x7fb333540da0" file="test_it_inferrence_1.cpp" linenr="8" str="Range" scope="0x7fb3335420f0" type="name"/>
+    <token id="0x7fb333540e40" file="test_it_inferrence_1.cpp" linenr="8" str="r" scope="0x7fb3335420f0" type="name" varId="3" variable="0x7fb333542220" astParent="0x7fb333540d00"/>
+    <token id="0x7fb333540ee0" file="test_it_inferrence_1.cpp" linenr="8" str=";" scope="0x7fb3335420f0"/>
+    <token id="0x7fb333540f80" file="test_it_inferrence_1.cpp" linenr="9" str="float" scope="0x7fb3335420f0" type="name"/>
+    <token id="0x7fb333541020" file="test_it_inferrence_1.cpp" linenr="9" str="y" scope="0x7fb3335420f0" type="name" varId="4" variable="0x7fb333542280"/>
+    <token id="0x7fb3335410c0" file="test_it_inferrence_1.cpp" linenr="9" str=";" scope="0x7fb3335420f0"/>
+    <token id="0x7fb333541b80" file="test_it_inferrence_1.cpp" linenr="9" str="y" scope="0x7fb3335420f0" type="name" varId="4" variable="0x7fb333542280" astParent="0x7fb333541c20"/>
+    <token id="0x7fb333541c20" file="test_it_inferrence_1.cpp" linenr="9" str="=" scope="0x7fb3335420f0" type="op" isAssignmentOp="True" astOperand1="0x7fb333541b80" astOperand2="0x7fb333541160"/>
+    <token id="0x7fb333541160" file="test_it_inferrence_1.cpp" linenr="9" str="0" scope="0x7fb3335420f0" type="number" isInt="True" values="0x7fb333541168" astParent="0x7fb333541c20"/>
+    <token id="0x7fb333541200" file="test_it_inferrence_1.cpp" linenr="9" str=";" scope="0x7fb3335420f0"/>
+    <token id="0x7fb3335412a0" file="test_it_inferrence_1.cpp" linenr="10" str="float" scope="0x7fb3335420f0" type="name"/>
+    <token id="0x7fb333541340" file="test_it_inferrence_1.cpp" linenr="10" str="x" scope="0x7fb3335420f0" type="name" varId="5" variable="0x7fb3335422e0"/>
+    <token id="0x7fb3335413e0" file="test_it_inferrence_1.cpp" linenr="10" str=";" scope="0x7fb3335420f0"/>
+    <token id="0x7fb333541cc0" file="test_it_inferrence_1.cpp" linenr="10" str="x" scope="0x7fb3335420f0" type="name" varId="5" variable="0x7fb3335422e0" astParent="0x7fb333541d60"/>
+    <token id="0x7fb333541d60" file="test_it_inferrence_1.cpp" linenr="10" str="=" scope="0x7fb3335420f0" type="op" isAssignmentOp="True" astOperand1="0x7fb333541cc0" astOperand2="0x7fb333541520"/>
+    <token id="0x7fb333541480" file="test_it_inferrence_1.cpp" linenr="10" str="y" scope="0x7fb3335420f0" type="name" varId="4" variable="0x7fb333542280" values="0x7fb333541488" astParent="0x7fb333541520"/>
+    <token id="0x7fb333541520" file="test_it_inferrence_1.cpp" linenr="10" str="+" scope="0x7fb3335420f0" type="op" isArithmeticalOp="True" astParent="0x7fb333541d60" astOperand1="0x7fb333541480" astOperand2="0x7fb333541680"/>
+    <token id="0x7fb3335415c0" file="test_it_inferrence_1.cpp" linenr="10" str="r" scope="0x7fb3335420f0" type="name" varId="3" variable="0x7fb333542220" astParent="0x7fb333541680"/>
+    <token id="0x7fb333541680" file="test_it_inferrence_1.cpp" linenr="10" str="." scope="0x7fb3335420f0" astParent="0x7fb333541520" astOperand1="0x7fb3335415c0" astOperand2="0x7fb333541720"/>
+    <token id="0x7fb333541720" file="test_it_inferrence_1.cpp" linenr="10" str="max_range" scope="0x7fb3335420f0" type="name" varId="6" astParent="0x7fb333541680"/>
+    <token id="0x7fb3335417c0" file="test_it_inferrence_1.cpp" linenr="10" str=";" scope="0x7fb3335420f0"/>
+    <token id="0x7fb333541860" file="test_it_inferrence_1.cpp" linenr="12" str="}" scope="0x7fb3335420f0" link="0x7fb333540bc0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x7fb333541fc0" type="Global">
+      <functionList>
+        <function id="0x7fb333541ec0" tokenDef="0x7fb3335404e0" name="main">
+          <arg nr="1" variable="0x7fb333542340"/>
+          <arg nr="2" variable="0x7fb3335423a0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x7fb3335420f0" type="Function" className="main" classStart="0x7fb333540bc0" classEnd="0x7fb333541860" nestedIn="0x7fb333541fc0" function="0x7fb333541ec0">
+      <varlist>
+        <var id="0x7fb333542220"/>
+        <var id="0x7fb333542280"/>
+        <var id="0x7fb3335422e0"/>
+      </varlist>
+    </scope>
+  </scopes>
+  <variables>
+    <var id="0x7fb333542340" nameToken="0x7fb333540760" typeStartToken="0x7fb3335406c0" typeEndToken="0x7fb3335406c0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fb3335423a0" nameToken="0x7fb333540a80" typeStartToken="0x7fb3335408a0" typeEndToken="0x7fb3335409e0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x7fb333542220" nameToken="0x7fb333540e40" typeStartToken="0x7fb333540c60" typeEndToken="0x7fb333540da0" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fb333542280" nameToken="0x7fb333541020" typeStartToken="0x7fb333540f80" typeEndToken="0x7fb333540f80" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x7fb3335422e0" nameToken="0x7fb333541340" typeStartToken="0x7fb3335412a0" typeEndToken="0x7fb3335412a0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x7fb333541168">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="0x7fb333541488">
+      <value intvalue="0" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

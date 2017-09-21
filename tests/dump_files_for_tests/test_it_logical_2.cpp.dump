@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<dumps>
+<dump cfg="">
+  <directivelist>
+  </directivelist>
+  <tokenlist>
+    <token id="0x1757ba0" file="test_it_logical_2.cpp" linenr="5" str="int" scope="0x175ff50" type="name"/>
+    <token id="0x175da40" file="test_it_logical_2.cpp" linenr="5" str="main" scope="0x175ff50" type="name" function="0x1760730" astParent="0x175daf0"/>
+    <token id="0x175daf0" file="test_it_logical_2.cpp" linenr="5" str="(" scope="0x175ff50" link="0x175ded0" astOperand1="0x175da40" astOperand2="0x175ad40"/>
+    <token id="0x175dba0" file="test_it_logical_2.cpp" linenr="5" str="int" scope="0x175ff50" type="name"/>
+    <token id="0x175ac60" file="test_it_logical_2.cpp" linenr="5" str="argc" scope="0x175ff50" type="name" varId="1" variable="0x1760d20" astParent="0x175ad40"/>
+    <token id="0x175ad40" file="test_it_logical_2.cpp" linenr="5" str="," scope="0x175ff50" astParent="0x175daf0" astOperand1="0x175ac60" astOperand2="0x175d4e0"/>
+    <token id="0x175d400" file="test_it_logical_2.cpp" linenr="5" str="char" scope="0x175ff50" type="name" astParent="0x175d4e0"/>
+    <token id="0x175d4e0" file="test_it_logical_2.cpp" linenr="5" str="*" scope="0x175ff50" type="op" isArithmeticalOp="True" astParent="0x175ad40" astOperand1="0x175d400" astOperand2="0x175dd10"/>
+    <token id="0x175dd10" file="test_it_logical_2.cpp" linenr="5" str="*" scope="0x175ff50" type="op" isArithmeticalOp="True" astParent="0x175d4e0" astOperand1="0x175ddf0"/>
+    <token id="0x175ddf0" file="test_it_logical_2.cpp" linenr="5" str="argv" scope="0x175ff50" type="name" varId="2" variable="0x1760db0" astParent="0x175dd10"/>
+    <token id="0x175ded0" file="test_it_logical_2.cpp" linenr="5" str=")" scope="0x175ff50" link="0x175daf0"/>
+    <token id="0x175dfb0" file="test_it_logical_2.cpp" linenr="6" str="{" scope="0x1760200" link="0x175fc60"/>
+    <token id="0x175e0c0" file="test_it_logical_2.cpp" linenr="7" str="sensor_msgs" scope="0x1760200" type="name" astParent="0x175e170"/>
+    <token id="0x175e170" file="test_it_logical_2.cpp" linenr="7" str="::" scope="0x1760200" astOperand1="0x175e0c0" astOperand2="0x175e300"/>
+    <token id="0x175e220" file="test_it_logical_2.cpp" linenr="7" str="Range" scope="0x1760200" type="name"/>
+    <token id="0x175e300" file="test_it_logical_2.cpp" linenr="7" str="r" scope="0x1760200" type="name" varId="3" variable="0x17600d0" astParent="0x175e170"/>
+    <token id="0x175e3e0" file="test_it_logical_2.cpp" linenr="7" str=";" scope="0x1760200"/>
+    <token id="0x175e4c0" file="test_it_logical_2.cpp" linenr="9" str="int" scope="0x1760200" type="name"/>
+    <token id="0x175e5a0" file="test_it_logical_2.cpp" linenr="9" str="x" scope="0x1760200" type="name" varId="4" variable="0x1760380"/>
+    <token id="0x175e680" file="test_it_logical_2.cpp" linenr="9" str=";" scope="0x1760200"/>
+    <token id="0x1760450" file="test_it_logical_2.cpp" linenr="9" str="x" scope="0x1760200" type="name" varId="4" variable="0x1760380" astParent="0x1760500"/>
+    <token id="0x1760500" file="test_it_logical_2.cpp" linenr="9" str="=" scope="0x1760200" type="op" isAssignmentOp="True" astOperand1="0x1760450" astOperand2="0x175e760"/>
+    <token id="0x175e760" file="test_it_logical_2.cpp" linenr="9" str="1" scope="0x1760200" type="number" isInt="True" values="0x175e768" astParent="0x1760500"/>
+    <token id="0x175e840" file="test_it_logical_2.cpp" linenr="9" str=";" scope="0x1760200"/>
+    <token id="0x175e920" file="test_it_logical_2.cpp" linenr="10" str="int" scope="0x1760200" type="name"/>
+    <token id="0x175ea00" file="test_it_logical_2.cpp" linenr="10" str="y" scope="0x1760200" type="name" varId="5" variable="0x1760c90"/>
+    <token id="0x175eae0" file="test_it_logical_2.cpp" linenr="10" str=";" scope="0x1760200"/>
+    <token id="0x175fd80" file="test_it_logical_2.cpp" linenr="10" str="y" scope="0x1760200" type="name" varId="5" variable="0x1760c90" astParent="0x175fe60"/>
+    <token id="0x175fe60" file="test_it_logical_2.cpp" linenr="10" str="=" scope="0x1760200" type="op" isAssignmentOp="True" astOperand1="0x175fd80" astOperand2="0x175ebc0"/>
+    <token id="0x175ebc0" file="test_it_logical_2.cpp" linenr="10" str="2" scope="0x1760200" type="number" isInt="True" values="0x175ebc8" astParent="0x175fe60"/>
+    <token id="0x175eca0" file="test_it_logical_2.cpp" linenr="10" str=";" scope="0x1760200"/>
+    <token id="0x175ed80" file="test_it_logical_2.cpp" linenr="12" str="if" scope="0x1760200" type="name" astParent="0x175ee60"/>
+    <token id="0x175ee60" file="test_it_logical_2.cpp" linenr="12" str="(" scope="0x1760200" link="0x175f720" astOperand1="0x175ed80" astOperand2="0x175f1e0"/>
+    <token id="0x175ef40" file="test_it_logical_2.cpp" linenr="12" str="x" scope="0x1760200" type="name" varId="4" variable="0x1760380" values="0x175ef48" astParent="0x175f020"/>
+    <token id="0x175f020" file="test_it_logical_2.cpp" linenr="12" str="&lt;" scope="0x1760200" type="op" isComparisonOp="True" values="0x175f028" astParent="0x175f1e0" astOperand1="0x175ef40" astOperand2="0x175f100"/>
+    <token id="0x175f100" file="test_it_logical_2.cpp" linenr="12" str="y" scope="0x1760200" type="name" varId="5" variable="0x1760c90" values="0x175f108" astParent="0x175f020"/>
+    <token id="0x175f1e0" file="test_it_logical_2.cpp" linenr="12" str="&amp;&amp;" scope="0x1760200" type="op" isLogicalOp="True" astParent="0x175ee60" astOperand1="0x175f020" astOperand2="0x175f3a0"/>
+    <token id="0x175f2c0" file="test_it_logical_2.cpp" linenr="12" str="20" scope="0x1760200" type="number" isInt="True" values="0x175f2c8" astParent="0x175f3a0"/>
+    <token id="0x175f3a0" file="test_it_logical_2.cpp" linenr="12" str="&lt;" scope="0x1760200" type="op" isComparisonOp="True" astParent="0x175f1e0" astOperand1="0x175f2c0" astOperand2="0x175f590"/>
+    <token id="0x175f4b0" file="test_it_logical_2.cpp" linenr="12" str="r" scope="0x1760200" type="name" varId="3" variable="0x17600d0" astParent="0x175f590"/>
+    <token id="0x175f590" file="test_it_logical_2.cpp" linenr="12" str="." scope="0x1760200" astParent="0x175f3a0" astOperand1="0x175f4b0" astOperand2="0x175f640"/>
+    <token id="0x175f640" file="test_it_logical_2.cpp" linenr="12" str="range" scope="0x1760200" type="name" varId="6" astParent="0x175f590"/>
+    <token id="0x175f720" file="test_it_logical_2.cpp" linenr="12" str=")" scope="0x1760200" link="0x175ee60"/>
+    <token id="0x175f800" file="test_it_logical_2.cpp" linenr="13" str="{" scope="0x1760b10" link="0x175fb80"/>
+    <token id="0x175f910" file="test_it_logical_2.cpp" linenr="14" str="x" scope="0x1760b10" type="name" varId="4" variable="0x1760380" astParent="0x175f9f0"/>
+    <token id="0x175f9f0" file="test_it_logical_2.cpp" linenr="14" str="++" scope="0x1760b10" type="op" astOperand1="0x175f910"/>
+    <token id="0x175faa0" file="test_it_logical_2.cpp" linenr="14" str=";" scope="0x1760b10"/>
+    <token id="0x175fb80" file="test_it_logical_2.cpp" linenr="15" str="}" scope="0x1760b10" link="0x175f800"/>
+    <token id="0x175fc60" file="test_it_logical_2.cpp" linenr="17" str="}" scope="0x1760200" link="0x175dfb0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="0x175ff50" type="Global">
+      <functionList>
+        <function id="0x1760730" tokenDef="0x175da40" name="main">
+          <arg nr="1" variable="0x1760d20"/>
+          <arg nr="2" variable="0x1760db0"/>
+        </function>
+      </functionList>
+    </scope>
+    <scope id="0x1760200" type="Function" className="main" classStart="0x175dfb0" classEnd="0x175fc60" nestedIn="0x175ff50" function="0x1760730">
+      <varlist>
+        <var id="0x17600d0"/>
+        <var id="0x1760380"/>
+        <var id="0x1760c90"/>
+      </varlist>
+    </scope>
+    <scope id="0x1760b10" type="If" classStart="0x175f800" classEnd="0x175fb80" nestedIn="0x1760200"/>
+  </scopes>
+  <variables>
+    <var id="0x1760d20" nameToken="0x175ac60" typeStartToken="0x175dba0" typeEndToken="0x175dba0" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1760db0" nameToken="0x175ddf0" typeStartToken="0x175d400" typeEndToken="0x175dd10" isArgument="true" isArray="false" isClass="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="0x17600d0" nameToken="0x175e300" typeStartToken="0x175e0c0" typeEndToken="0x175e220" isArgument="false" isArray="false" isClass="true" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1760380" nameToken="0x175e5a0" typeStartToken="0x175e4c0" typeEndToken="0x175e4c0" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="0x1760c90" nameToken="0x175ea00" typeStartToken="0x175e920" typeEndToken="0x175e920" isArgument="false" isArray="false" isClass="false" isLocal="true" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="0x175e768">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x175ebc8">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x175ef48">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x175f028">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="0x175f108">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="0x175f2c8">
+      <value intvalue="20" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>
