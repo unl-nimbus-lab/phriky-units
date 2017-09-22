@@ -547,7 +547,8 @@ class CppcheckData:
         data = ET.parse(filename)
         # root is 'dumps' node, each config has its own 'dump' subnode.
         for cfgnode in data.getroot():
-            self.configurations.append(Configuration(cfgnode))
+            if cfgnode.tag == 'dump':
+                self.configurations.append(Configuration(cfgnode))
 
 # parse a cppcheck dump file
 
