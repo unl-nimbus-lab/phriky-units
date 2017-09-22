@@ -16,11 +16,9 @@ WINNER: <a href="https://conf.researchr.org/home/issta-2017">ISSTA 2017 Best Too
 
 **Requires Cppcheck = 1.75:**
 
-`apt-get install cppcheck` (Ubuntu 16.04)
 
-`brew install cppcheck` (OSX)
+`https://sourceforge.net/projects/cppcheck/files/cppcheck/1.75/`
 
-`git clone git://github.com/danmar/cppcheck.git` (Ubuntu 14.04)
 
 Examples:
 =========
