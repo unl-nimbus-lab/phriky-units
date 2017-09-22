@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='phriky_units',
-    version='0.1.0a27',
+    version='0.1.0a31',
     description="Physical unit static analysis tool for C++ +",
     long_description=readme + '\n\n' + history,
     author="John-Paul Ore",
