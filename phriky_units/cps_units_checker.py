@@ -54,7 +54,7 @@ class CPSUnitsChecker:
     '''
 
     def __init__(self):
-        self.VERSION                    = 0.21
+        self.VERSION                    = 0.27
         self.debug                      = False
         self.debug_scope                = False
         self.debug_print_AST            = False
