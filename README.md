@@ -1,6 +1,8 @@
 ## Phriky Units - Physical Unit Inconsistency Detection
 
-Physical unit static analysis tool for C++, especially for <a href='http://www.ros.org'>ROS</a>
+Physical unit static analysis tool for <a href='http://www.ros.org'>ROS</a> C++.
+
+WINNER: <a href="https://conf.researchr.org/home/issta-2017">ISSTA 2017 Best Tool Demonstration</a>
 
 <a href='https://unl.box.com/shared/static/83mnbe7ez73z5az7ct5gbabo1wm9htfl.ova'>ARTIFACT -- Download Virtual Machine with phriky-units pre-installed (Ubuntu 16.04 VM 3 GB .ova).</a>
 
@@ -8,17 +10,15 @@ Physical unit static analysis tool for C++, especially for <a href='http://www.r
 
 \* Free software: MIT license .. \*Lightweight static analysis Lightweight static analysis 
 
-## Install (tested on Ubuntu 16.04 and OSX 10.11.6)
+## Install (tested on Ubuntu 16.04 and OSX 10.12.6)
 
 `pip install phriky_units`
 
-**Requires Cppcheck &gt; 1.75:**
+**Requires Cppcheck = 1.75:**
 
-`apt-get install cppcheck` (Ubuntu 16.04)
 
-`brew install cppcheck` (OSX)
+`https://sourceforge.net/projects/cppcheck/files/cppcheck/1.75/`
 
-`git clone git://github.com/danmar/cppcheck.git` (Ubuntu 14.04)
 
 Examples:
 =========
