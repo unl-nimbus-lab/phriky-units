@@ -36,6 +36,7 @@ class UnitError:
         self.is_warning = False
         self.is_unit_propagation_based_on_unknown_variable = False
         self.is_unit_propagation_based_on_constants = False
+        self.file=''
 
     def set_primary_line_number(self, linenr):
         ''' SETS LINE NUMBER FOR PRIMARY LOCATION OF ERROR
