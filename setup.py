@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     # TODO: put package requirements here
-    'networkx'
+    'networkx==1.8'
 ]
 
 test_requirements = [
@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='phriky_units',
-    version='0.1.37',
+    version='0.1.39',
     description="Physical unit static analysis tool for C++ +",
     long_description=readme + '\n\n' + history,
     author="John-Paul Ore",
